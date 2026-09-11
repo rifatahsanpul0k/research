@@ -1,15 +1,15 @@
 # Biology Fundamentals and Omics Foundations
 
-Status: all topics not started. This is a learning roadmap, not a literature review or set of established biological claims. Complete source-backed notes before advanced method development. Study questions below do not assert that the listed measurements exist in our datasets.
+Status: Phase 1A molecular biology foundations complete for DNA -> RNA -> protein. Remaining topics are not started. This is a learning roadmap, not a literature review or set of established biological claims. Complete source-backed notes before advanced method development. Study questions below do not assert that the listed measurements exist in our datasets.
 
-For every topic, document **biology → measurement → numerical representation → computational relevance**, with primary/authoritative references, uncertainties, and a short explanation in the learner's own words.
+For every topic, document **biology -> measurement -> numerical representation -> computational relevance**, with primary/authoritative references, uncertainties, and a short explanation in the learner's own words.
 
 | Order | Topic | Biology to understand | Measurement to investigate | Numerical representation to inspect | Computational question |
 |---|---|---|---|---|---|
-| 1 | DNA and genes | Sequence, loci, gene definitions | Sequencing and reference annotation | Sequences, genomic intervals, gene identifiers | What is a feature and how is it mapped across references? |
-| 2 | Transcription | RNA production and regulation | Assay capture of transcription-related signals | Gene/transcript count tables | What biological process does an observed count support? |
-| 3 | RNA | RNA classes, isoforms, processing | RNA sequencing and capture protocols | Gene/transcript-by-observation matrices | How do capture and aggregation affect meaning? |
-| 4 | Proteins | Abundance, function, modification | ADT and other protein assays | Protein-feature matrices | How do reagent specificity and background affect features? |
+| 1 | DNA and genes | Sequence, loci, gene definitions | Sequencing and reference annotation | Sequences, genomic intervals, gene identifiers | Phase 1A complete; see `01_biology/01_molecular_biology/01_DNA.md` and `03_GENES.md`. |
+| 2 | Transcription | RNA production and regulation | Assay capture of transcription-related signals | Gene/transcript count tables | Phase 1A complete; see `01_biology/01_molecular_biology/05_TRANSCRIPTION.md`. |
+| 3 | RNA | RNA classes, isoforms, processing | RNA sequencing and capture protocols | Gene/transcript-by-observation matrices | Phase 1A complete; see `01_biology/01_molecular_biology/06_RNA.md`. |
+| 4 | Proteins | Abundance, function, modification | ADT and other protein assays | Protein-feature matrices | Phase 1A complete; see `01_biology/01_molecular_biology/09_PROTEINS.md`. |
 | 5 | Gene regulation | Regulatory relationships and context | Perturbation and paired assay designs | Regulatory annotations and paired matrices | What separates association from causal evidence? |
 | 6 | Promoters and enhancers | Regulatory elements and genomic context | Regulatory annotations and accessibility assays | Interval and region-to-gene tables | Which mappings are measured versus inferred? |
 | 7 | Transcription factors | Binding, motifs, regulatory activity | Binding and motif-related evidence | Motif, target, and activity tables | What assumptions enter inferred activity scores? |
@@ -40,4 +40,11 @@ For every topic, document **biology → measurement → numerical representation
 - Comprehension check: explain the full chain; distinguish measured quantities from derived quantities and inferred labels.
 - Open questions and evidence needed to resolve them.
 
-Begin with topics 1–4, then regulation/chromatin (5–9), cells/tissues/pathways (10–14), variants/disease (15–18), and assay integration (19–21). Revisit earlier notes when verified dataset technologies become known. No reading list or completion claim is populated yet.
+Begin with topics 1-4, then regulation/chromatin (5-9), cells/tissues/pathways (10-14), variants/disease (15-18), and assay integration (19-21). Revisit earlier notes when verified dataset technologies become known.
+
+## Phase 1A completion record
+
+- **Scope completed:** DNA; chromosomes and genome organization; genes; coding vs non-coding regions; transcription; RNA and major RNA types; gene expression; translation; proteins; DNA -> RNA -> protein integration.
+- **Artifacts:** `01_biology/01_molecular_biology/01_DNA.md` through `10_CENTRAL_DOGMA_INTEGRATION.md`, plus `CONCEPT_MAP.md` and `BIOLOGY_TO_DATA.md`.
+- **Boundary:** Did not start epigenetics, chromatin accessibility, scRNA-seq methods, CITE-seq, spatial transcriptomics methods, machine learning, representation comparison, graph construction, experiments, or novelty analysis.
+- **Readiness note:** Ready for Phase 1B only as foundational biology learning. Dataset-specific claims remain unknown until dataset access and provenance are verified.
