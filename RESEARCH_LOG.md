@@ -196,3 +196,11 @@ Chronological decision record. Dates use Asia/Dhaka unless another timezone is e
 - **Numerical teaching artifact:** The fixed synthetic matrix is used to show raw, standardized, PCA, distances, similarity, KNN, adjacency, kernel, prototype and membership representations. `verify_toy.py` passes 47 checks. The toy adjacency is not a biological graph and no project data enter the checker.
 - **Open questions:** Spatial coordinate units/registration, donor/section hierarchy, complete assay pairing, cross-modal feature maps, annotation releases/evidence filters, suitable metrics/costs/likelihoods and biological interpretation remain unresolved. These are prerequisites for any later fitting or comparison.
 - **Outcome:** Phase 2B is complete and ready for review. Phase 2C is not authorized or started. Changes remain local and uncommitted.
+
+
+## 2026-09-11 - 21: Phase 2C deep learned representations
+
+- **Scope:** Added 62 deep/generative/contrastive/graph/foundation notes and six support artifacts. No fitting, benchmarking, tuning, ranking, novelty analysis, disease association, or Phase 3A work.
+- **Evidence:** Primary/authoritative sources are indexed for DCA, scVI, totalVI, MultiVI, Cobolt, BABEL, scGLUE, SpatialGlue, SpaMI, graph/attention foundations, scGPT and Geneformer. Garfield, SCIGMA and ARISE remain qualified where direct verification is incomplete.
+- **Governance:** Architecture, objective, prior, downstream task and evaluation remain separate; similarity != equivalence, correlation != causation, graph quality matters, and latent != measured biology. Raw data were not modified. Phase 2B checkpoint 498ff0d is on origin/main; Phase 2C remains local/uncommitted.
+- **Validation:** 62 numbered notes and six support artifacts are present; source anchors resolve; CSV registries parse with unique identifiers (papers 170, methods 69, representations 48, codebases 30); `git diff --check` passed. Final Repomix exited 0 with 406 files and 423,744 tokens and no suspicious files. Final code-only Graphify exited 0 with 44 nodes, 67 edges and 7 communities (16 re-extracted, 23 cached). These are repository-context checks, not experiments.

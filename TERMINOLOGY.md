@@ -186,3 +186,17 @@ Mathematical notation and the representation-neutral inventory are defined in [B
 | Pathway / regulon score | Method-dependent aggregate over a gene set or regulator-target program | A prior-derived score is not measured activity or biological truth. |
 | Pseudotime | Inferred scalar or branch position in a computational trajectory | It is not clock time, embryonic day or ancestry without independent evidence. |
 | Studied-not-fitted | Family/method reviewed with sources and assumptions recorded | It does not mean an instance was trained, benchmarked or applied to project data. |
+
+
+## Phase 2C terms
+
+|Term|Definition/caution|
+|---|---|
+|Encoder/decoder|Maps input to representation / reconstructs or predicts output; neither is a measurement.|
+|VAE/contrastive|Probabilistic latent model / relative-agreement objective with declared pairs.|
+|Attention|Query-key-value weighting; not causality.|
+|Graph/hypergraph|Pairwise relation / group relation via incidence.|
+|Heterogeneous/multiplex|Typed entities/relations / multiple relation layers over shared nodes.|
+|Shared/private latent|Intended cross-view/view-specific factors; not proven compartments.|
+|Collapse/oversmoothing/oversquashing|Constant embeddings / homogenized neighborhoods / bottlenecked long-range messages.|
+|Foundation model|Pretrained reusable model; no guarantee of biological understanding.|
