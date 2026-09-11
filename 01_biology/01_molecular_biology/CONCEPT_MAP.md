@@ -6,6 +6,8 @@ Status: Phase 1A concept map complete.
 
 DNA -> regulatory regions -> gene -> transcription -> RNA -> translation -> protein -> cellular function
 
+This is a concept-dependency map, not conversion of DNA into a regulatory region and then into a gene. Regulatory regions are DNA elements acting on gene readout; distal elements need not be part of a gene's annotated boundary. Functional RNAs can affect cellular function without translation. Protein feedback regulates transcription without reversing sequence-information transfer [Gerstein et al. 2007](https://pubmed.ncbi.nlm.nih.gov/17567988/); [Crick 1970](https://www.nature.com/articles/227561a0).
+
 ## Mechanistic links
 
 | step | biological link | measurement form | computational form |
@@ -34,4 +36,3 @@ Example:
 - Oudelaar and Higgs, 2021, *Nature Reviews Genetics*.
 - Mattick et al., 2023, *Nature Reviews Molecular Cell Biology*.
 - Baysoy et al., 2023, *Nature Reviews Molecular Cell Biology*.
-

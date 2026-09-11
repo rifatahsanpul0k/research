@@ -1,6 +1,6 @@
 # Biology Fundamentals and Omics Foundations
 
-Status: Phase 1A molecular biology foundations complete for DNA -> RNA -> protein. Remaining topics are not started. This is a learning roadmap, not a literature review or set of established biological claims. Complete source-backed notes before advanced method development. Study questions below do not assert that the listed measurements exist in our datasets.
+Status: Phase 1A molecular biology foundations complete, with documented Phase 1B corrections. Phase 1B gene regulation, epigenetics and chromatin foundations are complete at the verified-notes level. Phase 1C and later assay/method phases are not started. This roadmap links source-backed learning notes; study questions do not assert that the listed measurements exist in our datasets.
 
 For every topic, document **biology -> measurement -> numerical representation -> computational relevance**, with primary/authoritative references, uncertainties, and a short explanation in the learner's own words.
 
@@ -10,11 +10,11 @@ For every topic, document **biology -> measurement -> numerical representation -
 | 2 | Transcription | RNA production and regulation | Assay capture of transcription-related signals | Gene/transcript count tables | Phase 1A complete; see `01_biology/01_molecular_biology/05_TRANSCRIPTION.md`. |
 | 3 | RNA | RNA classes, isoforms, processing | RNA sequencing and capture protocols | Gene/transcript-by-observation matrices | Phase 1A complete; see `01_biology/01_molecular_biology/06_RNA.md`. |
 | 4 | Proteins | Abundance, function, modification | ADT and other protein assays | Protein-feature matrices | Phase 1A complete; see `01_biology/01_molecular_biology/09_PROTEINS.md`. |
-| 5 | Gene regulation | Regulatory relationships and context | Perturbation and paired assay designs | Regulatory annotations and paired matrices | What separates association from causal evidence? |
-| 6 | Promoters and enhancers | Regulatory elements and genomic context | Regulatory annotations and accessibility assays | Interval and region-to-gene tables | Which mappings are measured versus inferred? |
-| 7 | Transcription factors | Binding, motifs, regulatory activity | Binding and motif-related evidence | Motif, target, and activity tables | What assumptions enter inferred activity scores? |
-| 8 | Epigenetics | Mechanisms and persistence of regulation | Methylation and chromatin assays | Site/region-level measurements | Which mechanisms are observed by each assay? |
-| 9 | Chromatin accessibility | Accessible regions and interpretation | ATAC assay generation and peak calling | Fragment, peak, or accessibility matrices | How do peak definitions and sparsity affect comparisons? |
+| 5 | Gene regulation | Regulatory relationships and context | Perturbation evidence, at principle level | Regulatory annotations and relation matrices | Phase 1B notes: 01, 11-13; distinguish association, directness and causal support. |
+| 6 | Promoters and enhancers | Regulatory elements and genomic context | Regulatory annotation, contact and functional evidence | Interval and region-to-gene tables | Phase 1B notes: 02-04 and 11; mappings retain evidence and uncertainty. |
+| 7 | Transcription factors | Binding, motifs, regulatory activity | Binding and motif-related evidence | Motif, target, and activity tables | Phase 1B note 05; TF expression is not TF activity. |
+| 8 | Epigenetics | Mechanisms and persistence of regulation | Methylation and histone assay principles | Site/region-level measurements with coverage | Phase 1B notes 08-10; snapshot versus memory and context-dependent marks. |
+| 9 | Chromatin accessibility | Accessible regions and interpretation | Probe-based measurement principles; protocols and peak calling deferred | Fragment, peak, or accessibility matrices | Phase 1B notes 06-07; zeros, units and feature definitions. |
 | 10 | Cell types | Identity and classification conventions | Marker and reference annotation workflows | Cell labels and uncertainty records | What evidence supports a cell-type label? |
 | 11 | Cell states | Context-dependent cellular programs | Expression and other state measurements | Scores, covariates, or latent variables | How can state be distinguished from identity and technical effects? |
 | 12 | Tissue organization | Compartments and spatial relationships | Spatial sampling and coordinate assignment | Coordinates and compartment annotations | What spatial scale and observation unit are represented? |
@@ -48,3 +48,17 @@ Begin with topics 1-4, then regulation/chromatin (5-9), cells/tissues/pathways (
 - **Artifacts:** `01_biology/01_molecular_biology/01_DNA.md` through `10_CENTRAL_DOGMA_INTEGRATION.md`, plus `CONCEPT_MAP.md` and `BIOLOGY_TO_DATA.md`.
 - **Boundary:** Did not start epigenetics, chromatin accessibility, scRNA-seq methods, CITE-seq, spatial transcriptomics methods, machine learning, representation comparison, graph construction, experiments, or novelty analysis.
 - **Readiness note:** Ready for Phase 1B only as foundational biology learning. Dataset-specific claims remain unknown until dataset access and provenance are verified.
+
+## Phase 1B study record
+
+- **Status:** verified_notes; Phase 1B complete after conceptual review and structural checks on 2026-09-11. See [validation and readiness](01_biology/02_gene_regulation/VALIDATION.md).
+- **Topics, in order:** gene regulation; promoters; enhancers; silencers/insulators/other regulatory elements; transcription factors; chromatin; accessibility; epigenetics; DNA methylation; histone modifications; enhancer-promoter interactions; gene regulatory networks; cell identity/regulatory state; developmental regulation bridge.
+- **Notes:** [Phase 1B concept map](01_biology/02_gene_regulation/CONCEPT_MAP.md) links all 14 A-H topic notes in order.
+- **Computational bridge:** [Biology to data](01_biology/02_gene_regulation/BIOLOGY_TO_DATA.md): RNA n x p, accessibility n x q, region-gene q x p, metadata, units, evidence and missingness.
+- **Evidence:** [Source register and access limits](01_biology/02_gene_regulation/SOURCES.md); individual biological source records under 03_papers; papers.csv includes only references actually used.
+- **Phase 1A cross-check:** corrected the Gerstein reference and gene-boundary explanation; clarified sequence transfer versus regulatory feedback, conceptual arrows versus molecular conversions, and protein abundance versus localization/activity. See RESEARCH_LOG.md.
+- **Curriculum coverage:** foundational portions of rows 5-9; introductory bridges for cell identity/state and development. This does not complete the broader cells/tissues/pathways curriculum or any assay-method curriculum.
+- **Unresolved:** dataset assays, observation units, pairing, stages, anatomy and annotations remain user-provided or unknown. No data were accessed.
+- **Boundary:** no scRNA-seq/scATAC-seq methodology phase, CITE-seq, spatial transcriptomics, multi-omics integration, model implementation, representation comparison, research graph construction, experiment, disease association or novelty analysis.
+- **Next authorized phase:** none. Phase 1C: Cellular Biology and Tissue Organization is the next proposed learning phase and has not begun.
+- **Readiness:** Ready to begin Phase 1C when requested. Foundational molecular/regulatory reasoning is sufficient; cell/tissue organization and dataset-specific assay interpretation remain future work.

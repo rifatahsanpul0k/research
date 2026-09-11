@@ -63,8 +63,8 @@ For later representation learning, every similarity claim needs supporting evide
 ## Sources
 
 - Luecken and Theis, 2019, *Molecular Systems Biology*, single-cell RNA-seq analysis and count interpretation.
-- Amezquita et al., 2020, *Genome Biology*, sparsity and single-cell data science challenges.
-- Svensson, 2020, *Genome Biology*, zero inflation and count interpretation.
+- Laehnemann D et al. (2020), [Eleven grand challenges in single-cell data science](https://link.springer.com/article/10.1186/s13059-020-1926-6), *Genome Biology* 21:31. DOI: 10.1186/s13059-020-1926-6.
+- Svensson V. (2020), [Droplet scRNA-seq is not zero-inflated](https://www.nature.com/articles/s41587-019-0379-5), *Nature Biotechnology* 38:147-150. DOI: 10.1038/s41587-019-0379-5.
 - Zeira et al., 2022, *Nature Methods*, spatial transcriptomics as expression measurements with spatial coordinates.
 - Argelaguet et al., 2021, *Nature Biotechnology*, single-cell multimodal integration.
 - Baysoy et al., 2023, *Nature Reviews Molecular Cell Biology*, single-cell multi-omics technologies.

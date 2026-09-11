@@ -8,7 +8,7 @@ Gene expression is the production of a functional gene product from genetic info
 
 ## B. Biological mechanism
 
-Expression level depends on transcription initiation and elongation, RNA processing, RNA export, RNA stability, translation efficiency, protein folding, protein modification, and protein degradation. Cells regulate these steps to control molecular programs in different cell types and states [Alberts 2002, Ch. 6](https://www.ncbi.nlm.nih.gov/books/NBK26829/); [Shine et al. 2024](https://pubmed.ncbi.nlm.nih.gov/38509203/).
+RNA-level expression reflects RNA synthesis, processing and removal; protein-level expression additionally reflects translation and protein removal. Protein localization and modification can change function without an abundance change. These levels should not be conflated under a single unspecified expression value. Cells regulate these steps to control molecular programs in different cell types and states [Alberts 2002, Ch. 6](https://www.ncbi.nlm.nih.gov/books/NBK26829/); [Shine et al. 2024](https://pubmed.ncbi.nlm.nih.gov/38509203/).
 
 ## C. Relationships
 
@@ -16,7 +16,7 @@ Expression integrates DNA, genes, transcription, RNA, translation, and proteins.
 
 ## D. Experimental measurement
 
-Expression can be measured at RNA level by RNA-seq or in situ methods and at protein level by antibody, mass spectrometry, reporter, or other protein assays. Single-cell RNA-seq produces noisy, sparse molecular count data in which zeros can have biological or technical causes [Luecken and Theis 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6582955/); [Amezquita et al. 2020](https://link.springer.com/article/10.1186/s13059-020-1926-6).
+Expression can be measured at RNA level by RNA-seq or in situ methods and at protein level by antibody, mass spectrometry, reporter, or other protein assays. Single-cell RNA-seq produces noisy, sparse molecular count data in which zeros can have biological or technical causes [Luecken and Theis 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6582955/); [Laehnemann et al. 2020](https://link.springer.com/article/10.1186/s13059-020-1926-6).
 
 ## E. Numerical/computational representation
 
@@ -44,5 +44,5 @@ Expression is central to single-cell and spatial omics because it can reflect ce
 
 - Alberts et al., *Molecular Biology of the Cell*, Chapter 6.
 - Luecken and Theis, 2019, *Molecular Systems Biology*, single-cell RNA-seq best practices.
-- Amezquita et al., 2020, *Genome Biology*, single-cell data challenges.
+- Laehnemann D et al. (2020), [Eleven grand challenges in single-cell data science](https://link.springer.com/article/10.1186/s13059-020-1926-6), *Genome Biology* 21:31. DOI: 10.1186/s13059-020-1926-6.
 

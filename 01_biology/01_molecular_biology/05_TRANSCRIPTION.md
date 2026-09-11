@@ -43,5 +43,5 @@ Single-cell transcriptomic data is often interpreted as gene expression, but the
 
 - Alberts et al., *Molecular Biology of the Cell*, Chapter 6, From DNA to RNA.
 - Shine et al., 2024, *Nature Reviews Molecular Cell Biology*, co-transcriptional gene regulation.
-- Amezquita et al., 2020, *Genome Biology*, single-cell data sparsity and zero interpretation.
+- Laehnemann D et al. (2020), [Eleven grand challenges in single-cell data science](https://link.springer.com/article/10.1186/s13059-020-1926-6), *Genome Biology* 21:31. DOI: 10.1186/s13059-020-1926-6.
 

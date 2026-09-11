@@ -8,7 +8,7 @@ Proteins are polymers of amino acids that fold into structures able to catalyze 
 
 ## B. Biological mechanism
 
-After translation, a polypeptide folds into a functional conformation, may join complexes, localize to specific compartments, and undergo chemical modifications. Protein abundance depends on translation, folding, trafficking, modification, and degradation, not only mRNA abundance [Alberts 2002, Ch. 6](https://www.ncbi.nlm.nih.gov/books/NBK26829/).
+After translation, a polypeptide can fold, join complexes, localize to specific compartments, and undergo chemical modifications. Total protein abundance reflects synthesis and removal; folding and modification can affect those rates. Trafficking can change compartment-specific abundance without changing the total, and a modification can change activity without changing abundance. These quantities must be distinguished, especially for transcription factors [Alberts 2002, From RNA to Protein](https://www.ncbi.nlm.nih.gov/books/NBK26829/); [Alberts 2002, Protein Function](https://www.ncbi.nlm.nih.gov/books/NBK26911/).
 
 ## C. Relationships
 
@@ -43,4 +43,3 @@ Single-cell multi-omics may combine RNA and protein features from the same or ma
 
 - Alberts et al., *Molecular Biology of the Cell*, Chapter 6.
 - Baysoy et al., 2023, *Nature Reviews Molecular Cell Biology*, single-cell multi-omics and proteome modalities.
-

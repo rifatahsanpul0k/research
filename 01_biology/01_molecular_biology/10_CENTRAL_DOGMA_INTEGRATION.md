@@ -8,6 +8,8 @@ The DNA -> RNA -> protein relationship describes the core flow of genetic inform
 
 ## B. Biological mechanism
 
+The central dogma specifically concerns transfer of residue-by-residue sequence information, rather than every causal influence within a cell. Protein-mediated feedback on transcription does not copy protein sequence into nucleic acid. RNA-to-DNA sequence transfer is compatible with this distinction; describing all departures from a simple DNA -> RNA -> protein diagram as exceptions to the dogma is misleading [Crick 1970](https://www.nature.com/articles/227561a0).
+
 For a protein-coding gene, regulatory DNA helps determine transcription; RNA polymerase produces a transcript; eukaryotic RNA processing can alter transcript structure; ribosomes translate coding sequence; the protein folds and may be modified. For non-coding RNA genes, the RNA product can function without translation [Alberts 2002, Ch. 6](https://www.ncbi.nlm.nih.gov/books/NBK26887/); [Mattick et al. 2023](https://www.nature.com/articles/s41580-022-00566-8).
 
 ## C. Relationships
@@ -16,7 +18,7 @@ The complete Phase 1A chain is:
 
 DNA -> chromosome/genome organization -> gene and regulatory context -> transcription -> RNA -> gene expression -> translation -> protein -> cellular function.
 
-Each step transforms, regulates, or interprets molecular information. Later measurements can capture different points in this chain, and those points are not interchangeable.
+This is a study sequence, not a literal sequence of molecular conversions: chromosome organization is a property of DNA, and gene expression encompasses multiple processes rather than an extra reaction between RNA and translation. Later measurements can capture different points in this system, and those points are not interchangeable.
 
 ## D. Experimental measurement
 
@@ -50,8 +52,9 @@ Single-cell and spatial multi-omics data turn parts of this biological chain int
 
 ## H. Evidence
 
+- Crick F. (1970), [Central Dogma of Molecular Biology](https://www.nature.com/articles/227561a0), *Nature* 227:561-563. DOI: 10.1038/227561a0.
+
 - Alberts et al., *Molecular Biology of the Cell*, Chapter 6.
 - Mattick et al., 2023, *Nature Reviews Molecular Cell Biology*.
 - Argelaguet et al., 2021, *Nature Biotechnology*.
 - Baysoy et al., 2023, *Nature Reviews Molecular Cell Biology*.
-

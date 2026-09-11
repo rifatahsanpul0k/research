@@ -4,7 +4,7 @@ Status: Phase 1A notes complete; source-backed teaching scaffold.
 
 ## A. Biological meaning
 
-A gene is a genomic region whose regulated transcription produces a functional product, either a protein through an RNA intermediate or a functional non-coding RNA. Modern gene definitions are operational because eukaryotic genes can have promoters, enhancers, exons, introns, alternative transcripts, overlapping loci, and non-coding final products [Gerstein et al. 2007](https://doi.org/10.1016/j.gene.2008.03.010); [GENCODE/ENCODE 2012](https://www.nature.com/articles/nature11247).
+A gene can be operationally identified through genomic sequence encoding a functional RNA or protein product; alternative and overlapping products complicate its boundaries. Gerstein and colleagues group sequences through their products and explicitly separate regulation from their proposed gene definition. Promoters and enhancers regulate genes, but all associated distal regulatory DNA should not automatically be included inside a gene's annotated boundary [Gerstein et al. 2007](https://pubmed.ncbi.nlm.nih.gov/17567988/); [ENCODE Project Consortium 2012](https://www.nature.com/articles/nature11247).
 
 ## B. Biological mechanism
 
@@ -41,7 +41,6 @@ Single-cell data often uses genes as matrix features. Spatial omics can associat
 
 ## H. Evidence
 
-- Gerstein et al., 2007/2008, *Gene*, updated operational definition of a gene.
+- Gerstein MB et al. (2007), [What is a gene, post-ENCODE? History and updated definition](https://pubmed.ncbi.nlm.nih.gov/17567988/), *Genome Research* 17:669-681. DOI: 10.1101/gr.6339607.
 - Alberts et al., *Molecular Biology of the Cell*, Chapter 6.
 - ENCODE Project Consortium, 2012, *Nature*, genome annotation and DNA elements.
-
