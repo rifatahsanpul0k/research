@@ -1,0 +1,5 @@
+# ATAC quality-control concepts
+
+scATAC-seq uses transposase insertion to sample accessible chromatin. Common QC quantities include fragments per observation, transcription-start-site (TSS) enrichment, nucleosome-pattern signal, fraction of reads in peaks (FRiP), blacklist overlap, mitochondrial fraction, mapping quality, duplicate rate and suspected doublets [S08,S09]. They are assay signals, not universal cutoffs. TSS enrichment asks whether insertions concentrate near annotated TSSs; nucleosome periodicity reflects fragment-length structure; FRiP depends on the peak set.
+
+Our ATAC H5ADs contain observation QC columns such as `atac_fragments`, `atac_TSS_fragments`, and `atac_peak_region_fragments` in the paired files, while X is a sparse peak matrix. We report fields and distributions without filtering. In spatial or developmental data, low accessibility may be a real state or stage effect. Evidence: Buenrostro et al. [S08,S09], Cusanovich et al. [S44], and 10x format documentation [S20].

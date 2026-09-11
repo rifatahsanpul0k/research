@@ -1,0 +1,2658 @@
+[
+  {
+    "path": "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad",
+    "filename": "adata_ADT.h5ad",
+    "sha256": "396aaf1466f522bfbe8dd14308aeb6033990252b77749e48977d3127c0c23af5",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          3484,
+          31
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 105474,
+        "logical_nonzero_entries": 105474,
+        "logical_zero_fraction": 0.02342505833117292,
+        "stored_value_min": 35.0,
+        "stored_value_max": 1110000.0,
+        "row_total": {
+          "min": 0.0,
+          "max": 2450000.0,
+          "mean": 470332.8455797933,
+          "median": 449112.5,
+          "variance_population": 20662227721.43023
+        },
+        "row_detected_features": {
+          "min": 0.0,
+          "max": 31.0,
+          "mean": 30.27382319173364,
+          "median": 31.0,
+          "variance_population": 2.2235283223553695
+        },
+        "total_stored_value_sum": 1638639634.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "_index": {
+        "length": 3484,
+        "missing": 0,
+        "n_unique": 3484,
+        "values": null
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 30,
+        "values": {
+          "ACTA2": 1,
+          "BCL2": 1,
+          "CCR7": 1,
+          "CD14": 1,
+          "CD163": 1,
+          "CD19": 1,
+          "CD27": 1,
+          "CD274": 1,
+          "CD3E": 1,
+          "CD4": 1,
+          "CD40": 1,
+          "CD68": 1,
+          "CD8A": 1,
+          "CEACAM8": 1,
+          "CR2": 1,
+          "CXCR5": 1,
+          "EPCAM": 1,
+          "FCGR3A": 1,
+          "HLA-DRA": 1,
+          "ITGAM": 1,
+          "ITGAX": 1,
+          "KRT5": 1,
+          "MS4A1": 1,
+          "PAX5": 1,
+          "PCNA": 1,
+          "PDCD1": 1,
+          "PECAM1": 1,
+          "PTPRC": 2,
+          "SDC1": 1,
+          "VIM": 1
+        }
+      },
+      "feature_types": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Antibody Capture": 31
+        }
+      },
+      "gene_ids": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 31,
+        "values": {
+          "ACTA2": 1,
+          "BCL2": 1,
+          "CCR7": 1,
+          "CD14": 1,
+          "CD163": 1,
+          "CD19": 1,
+          "CD27": 1,
+          "CD274": 1,
+          "CD3E": 1,
+          "CD4": 1,
+          "CD40": 1,
+          "CD68": 1,
+          "CD8A": 1,
+          "CEACAM8": 1,
+          "CR2": 1,
+          "CXCR5": 1,
+          "EPCAM": 1,
+          "FCGR3A": 1,
+          "HLA-DRA": 1,
+          "ITGAM": 1,
+          "ITGAX": 1,
+          "KRT5": 1,
+          "MS4A1": 1,
+          "PAX5": 1,
+          "PCNA": 1,
+          "PDCD1": 1,
+          "PECAM1": 1,
+          "PTPRC_1": 1,
+          "PTPRC_2": 1,
+          "SDC1": 1,
+          "VIM": 1
+        }
+      },
+      "genome": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "": 31
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          3484,
+          2
+        ],
+        "dtype": "int64",
+        "min": 0.0,
+        "max": 127.0,
+        "examples": [
+          [
+            47,
+            71
+          ],
+          [
+            49,
+            43
+          ],
+          [
+            28,
+            86
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad",
+    "filename": "adata_RNA.h5ad",
+    "sha256": "d9eab0cdf8cdefe6ed60943e178bf38ce43b0b09dade6e5da268be2db0308360",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          3484,
+          18085
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 6824486,
+        "logical_nonzero_entries": 6824486,
+        "logical_zero_fraction": 0.8916888198889857,
+        "stored_value_min": 1.0,
+        "stored_value_max": 1377.0,
+        "row_total": {
+          "min": 11.0,
+          "max": 21414.0,
+          "mean": 2874.4661308840414,
+          "median": 2551.0,
+          "variance_population": 3265098.8550526532
+        },
+        "row_detected_features": {
+          "min": 8.0,
+          "max": 7886.0,
+          "mean": 1958.8076923076924,
+          "median": 1825.5,
+          "variance_population": 906962.4905722864
+        },
+        "total_stored_value_sum": 10014640.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "_index": {
+        "length": 3484,
+        "missing": 0,
+        "n_unique": 3484,
+        "values": null
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 18082,
+        "values": null
+      },
+      "feature_types": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Gene Expression": 18085
+        }
+      },
+      "gene_ids": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 18085,
+        "values": null
+      },
+      "genome": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "GRCh38": 18085
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          3484,
+          2
+        ],
+        "dtype": "int64",
+        "min": 0.0,
+        "max": 127.0,
+        "examples": [
+          [
+            47,
+            71
+          ],
+          [
+            49,
+            43
+          ],
+          [
+            28,
+            86
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad",
+    "filename": "adata_ATAC.h5ad",
+    "sha256": "ec8fca6f398852acdfdc83e43a8bcddd89468cbc2c5620c51ee1986da7b57eda",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          1949,
+          141420
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 22838440,
+        "logical_nonzero_entries": 22838440,
+        "logical_zero_fraction": 0.917140222324631,
+        "stored_value_min": 1.0,
+        "stored_value_max": 2815.0,
+        "row_total": {
+          "min": 1080.0,
+          "max": 284879.0,
+          "mean": 38873.537711647,
+          "median": 29986.0,
+          "variance_population": 1131290392.3327234
+        },
+        "row_detected_features": {
+          "min": 532.0,
+          "max": 50381.0,
+          "mean": 11718.029758850693,
+          "median": 10715.0,
+          "variance_population": 46916246.23410671
+        },
+        "total_stored_value_sum": 75764525.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1892,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1949,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 253,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1826,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1928,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1762,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1483,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1921,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1907,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1936,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1541,
+        "values": null
+      },
+      "barcode": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1949,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 1940,
+          "1": 3,
+          "2": 6
+        }
+      },
+      "gex_barcode": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1949,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1364,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1824,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1867,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1857,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1746,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1723,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1829,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1895,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1882,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1853,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1605,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1634,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1762,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1921,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1924,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1815,
+        "values": null
+      },
+      "is_cell": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 334,
+          "1": 1615
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 141420,
+        "missing": 0,
+        "n_unique": 141420,
+        "values": null
+      },
+      "feature_types": {
+        "length": 141420,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Peaks": 141420
+        }
+      },
+      "gene_ids": {
+        "length": 141420,
+        "missing": 0,
+        "n_unique": 141420,
+        "values": null
+      },
+      "genome": {
+        "length": 141420,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 141420
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          1949,
+          2
+        ],
+        "dtype": "int64",
+        "min": 1.0,
+        "max": 50.0,
+        "examples": [
+          [
+            32,
+            16
+          ],
+          [
+            20,
+            17
+          ],
+          [
+            21,
+            33
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad",
+    "filename": "adata_RNA.h5ad",
+    "sha256": "5c9dcf021f2aa5485ea7033c90f126a99e4c7997ea8d6201207e72268a61e3bc",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          1949,
+          32285
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 6624445,
+        "logical_nonzero_entries": 6624445,
+        "logical_zero_fraction": 0.8947221835288314,
+        "stored_value_min": 1.0,
+        "stored_value_max": 887.0,
+        "row_total": {
+          "min": 218.0,
+          "max": 47399.0,
+          "mean": 7098.87326834274,
+          "median": 6024.0,
+          "variance_population": 27616115.685837496
+        },
+        "row_detected_features": {
+          "min": 202.0,
+          "max": 9930.0,
+          "mean": 3398.894304771678,
+          "median": 3302.0,
+          "variance_population": 2253213.31668896
+        },
+        "total_stored_value_sum": 13835704.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1892,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1949,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 253,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1826,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1928,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1762,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1483,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1921,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1907,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1936,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1541,
+        "values": null
+      },
+      "barcode": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1949,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 1940,
+          "1": 3,
+          "2": 6
+        }
+      },
+      "gex_barcode": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1949,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1364,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1824,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1867,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1857,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1746,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1723,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1829,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1895,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1882,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1853,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1605,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1634,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1762,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1921,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1924,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 1815,
+        "values": null
+      },
+      "is_cell": {
+        "length": 1949,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 334,
+          "1": 1615
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32245,
+        "values": null
+      },
+      "feature_types": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Gene Expression": 32285
+        }
+      },
+      "gene_ids": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32285,
+        "values": null
+      },
+      "genome": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 32285
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          1949,
+          2
+        ],
+        "dtype": "int64",
+        "min": 1.0,
+        "max": 50.0,
+        "examples": [
+          [
+            32,
+            16
+          ],
+          [
+            20,
+            17
+          ],
+          [
+            21,
+            33
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad",
+    "filename": "adata_ATAC.h5ad",
+    "sha256": "494ccc7fe4a4c24c3854d25abc3eec3c87fcc15f529db23d363ce4e91f0fb482",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          1263,
+          69370
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 5687134,
+        "logical_nonzero_entries": 5687134,
+        "logical_zero_fraction": 0.9350889826102609,
+        "stored_value_min": 1.0,
+        "stored_value_max": 281.0,
+        "row_total": {
+          "min": 6.0,
+          "max": 49452.0,
+          "mean": 10628.950118764846,
+          "median": 8517.0,
+          "variance_population": 66119678.23108272
+        },
+        "row_detected_features": {
+          "min": 3.0,
+          "max": 15009.0,
+          "mean": 4502.877276326208,
+          "median": 4005.0,
+          "variance_population": 8503645.301645154
+        },
+        "total_stored_value_sum": 13424364.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1203,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1263,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 259,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1237,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1252,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1207,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1085,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1220,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1197,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1258,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1036,
+        "values": null
+      },
+      "barcode": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1263,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 951,
+          "1": 7,
+          "2": 305
+        }
+      },
+      "gex_barcode": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1263,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 844,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1250,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1247,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1253,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1169,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1033,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1213,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1232,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1224,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1245,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1132,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1093,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1049,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1255,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1253,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1198,
+        "values": null
+      },
+      "is_cell": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 424,
+          "1": 839
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 69370,
+        "missing": 0,
+        "n_unique": 69370,
+        "values": null
+      },
+      "feature_types": {
+        "length": 69370,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Peaks": 69370
+        }
+      },
+      "gene_ids": {
+        "length": 69370,
+        "missing": 0,
+        "n_unique": 69370,
+        "values": null
+      },
+      "genome": {
+        "length": 69370,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 69370
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          1263,
+          2
+        ],
+        "dtype": "int64",
+        "min": 2.0,
+        "max": 50.0,
+        "examples": [
+          [
+            27,
+            22
+          ],
+          [
+            46,
+            21
+          ],
+          [
+            37,
+            21
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad",
+    "filename": "adata_RNA.h5ad",
+    "sha256": "cd98c0c563e529a0c6d1fb9c7067f7ace7b85138221023d9215421777a92bd6b",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          1263,
+          32285
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 3049741,
+        "logical_nonzero_entries": 3049741,
+        "logical_zero_fraction": 0.9252073679206287,
+        "stored_value_min": 1.0,
+        "stored_value_max": 897.0,
+        "row_total": {
+          "min": 13.0,
+          "max": 15928.0,
+          "mean": 4297.711005542359,
+          "median": 3735.0,
+          "variance_population": 8600486.043956473
+        },
+        "row_detected_features": {
+          "min": 13.0,
+          "max": 6025.0,
+          "mean": 2414.680126682502,
+          "median": 2351.0,
+          "variance_population": 1609133.674403151
+        },
+        "total_stored_value_sum": 5428009.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1203,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1263,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 259,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1237,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1252,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1207,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1085,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1220,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1197,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1258,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1036,
+        "values": null
+      },
+      "barcode": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1263,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 951,
+          "1": 7,
+          "2": 305
+        }
+      },
+      "gex_barcode": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1263,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 844,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1250,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1247,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1253,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1169,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1033,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1213,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1232,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1224,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1245,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1132,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1093,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1049,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1255,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1253,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 1198,
+        "values": null
+      },
+      "is_cell": {
+        "length": 1263,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 424,
+          "1": 839
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32245,
+        "values": null
+      },
+      "feature_types": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Gene Expression": 32285
+        }
+      },
+      "gene_ids": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32285,
+        "values": null
+      },
+      "genome": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 32285
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          1263,
+          2
+        ],
+        "dtype": "int64",
+        "min": 2.0,
+        "max": 50.0,
+        "examples": [
+          [
+            27,
+            22
+          ],
+          [
+            46,
+            21
+          ],
+          [
+            37,
+            21
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad",
+    "filename": "adata_ATAC.h5ad",
+    "sha256": "6c3781f7446afdfaa231505817d5cc03875f9f4718e81182636c7aa7542d32ae",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          1777,
+          123840
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 12584608,
+        "logical_nonzero_entries": 12584608,
+        "logical_zero_fraction": 0.9428137891722977,
+        "stored_value_min": 1.0,
+        "stored_value_max": 701.0,
+        "row_total": {
+          "min": 473.0,
+          "max": 99416.0,
+          "mean": 17326.843556555992,
+          "median": 12351.0,
+          "variance_population": 226605660.22538474
+        },
+        "row_detected_features": {
+          "min": 244.0,
+          "max": 29574.0,
+          "mean": 7081.9403489026445,
+          "median": 5653.0,
+          "variance_population": 26067665.77134327
+        },
+        "total_stored_value_sum": 30789801.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1659,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1777,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 245,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1730,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1746,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1644,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1361,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1717,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1702,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1762,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1156,
+        "values": null
+      },
+      "barcode": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1777,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 1480,
+          "1": 23,
+          "2": 274
+        }
+      },
+      "gex_barcode": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1777,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1169,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1649,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1677,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1694,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1521,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1471,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1663,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1720,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1713,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1686,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1418,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1478,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1533,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1753,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1755,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1605,
+        "values": null
+      },
+      "is_cell": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 483,
+          "1": 1294
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 123840,
+        "missing": 0,
+        "n_unique": 123840,
+        "values": null
+      },
+      "feature_types": {
+        "length": 123840,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Peaks": 123840
+        }
+      },
+      "gene_ids": {
+        "length": 123840,
+        "missing": 0,
+        "n_unique": 123840,
+        "values": null
+      },
+      "genome": {
+        "length": 123840,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 123840
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          1777,
+          2
+        ],
+        "dtype": "int64",
+        "min": 1.0,
+        "max": 50.0,
+        "examples": [
+          [
+            9,
+            29
+          ],
+          [
+            13,
+            37
+          ],
+          [
+            33,
+            37
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad",
+    "filename": "adata_RNA.h5ad",
+    "sha256": "b916aeea457b901712ac9799645f6e5ce54046d7475ea0602d9de0145dcbb8b3",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          1777,
+          32285
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 5128882,
+        "logical_nonzero_entries": 5128882,
+        "logical_zero_fraction": 0.9106006237183623,
+        "stored_value_min": 1.0,
+        "stored_value_max": 620.0,
+        "row_total": {
+          "min": 321.0,
+          "max": 35839.0,
+          "mean": 5249.059088351154,
+          "median": 3797.0,
+          "variance_population": 20156790.80855133
+        },
+        "row_detected_features": {
+          "min": 297.0,
+          "max": 9175.0,
+          "mean": 2886.258863252673,
+          "median": 2517.0,
+          "variance_population": 2469440.2492531817
+        },
+        "total_stored_value_sum": 9327578.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1659,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1777,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 245,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1730,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1746,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1644,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1361,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1717,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1702,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1762,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1156,
+        "values": null
+      },
+      "barcode": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1777,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 1480,
+          "1": 23,
+          "2": 274
+        }
+      },
+      "gex_barcode": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1777,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1169,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1649,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1677,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1694,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1521,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1471,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1663,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1720,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1713,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1686,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1418,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1478,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1533,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1753,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1755,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 1605,
+        "values": null
+      },
+      "is_cell": {
+        "length": 1777,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 483,
+          "1": 1294
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32245,
+        "values": null
+      },
+      "feature_types": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Gene Expression": 32285
+        }
+      },
+      "gene_ids": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32285,
+        "values": null
+      },
+      "genome": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 32285
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          1777,
+          2
+        ],
+        "dtype": "int64",
+        "min": 1.0,
+        "max": 50.0,
+        "examples": [
+          [
+            9,
+            29
+          ],
+          [
+            13,
+            37
+          ],
+          [
+            33,
+            37
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad",
+    "filename": "adata_ADT.h5ad",
+    "sha256": "be02c9812c903232c3c8bfc0eb24c9e393497d03c64b6b4a5ee6fb66ab3b9bc7",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          3359,
+          31
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 101959,
+        "logical_nonzero_entries": 101959,
+        "logical_zero_fraction": 0.020839535576064327,
+        "stored_value_min": 23.0,
+        "stored_value_max": 640000.0,
+        "row_total": {
+          "min": 30000.0,
+          "max": 2390000.0,
+          "mean": 428022.30544805,
+          "median": 403382.0,
+          "variance_population": 17027314711.400003
+        },
+        "row_detected_features": {
+          "min": 3.0,
+          "max": 31.0,
+          "mean": 30.353974397142007,
+          "median": 31.0,
+          "variance_population": 2.0298078123840884
+        },
+        "total_stored_value_sum": 1437726924.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "_index": {
+        "length": 3359,
+        "missing": 0,
+        "n_unique": 3359,
+        "values": null
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 30,
+        "values": {
+          "ACTA2": 1,
+          "BCL2": 1,
+          "CCR7": 1,
+          "CD14": 1,
+          "CD163": 1,
+          "CD19": 1,
+          "CD27": 1,
+          "CD274": 1,
+          "CD3E": 1,
+          "CD4": 1,
+          "CD40": 1,
+          "CD68": 1,
+          "CD8A": 1,
+          "CEACAM8": 1,
+          "CR2": 1,
+          "CXCR5": 1,
+          "EPCAM": 1,
+          "FCGR3A": 1,
+          "HLA-DRA": 1,
+          "ITGAM": 1,
+          "ITGAX": 1,
+          "KRT5": 1,
+          "MS4A1": 1,
+          "PAX5": 1,
+          "PCNA": 1,
+          "PDCD1": 1,
+          "PECAM1": 1,
+          "PTPRC": 2,
+          "SDC1": 1,
+          "VIM": 1
+        }
+      },
+      "feature_types": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Antibody Capture": 31
+        }
+      },
+      "gene_ids": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 31,
+        "values": {
+          "ACTA2": 1,
+          "BCL2": 1,
+          "CCR7": 1,
+          "CD14": 1,
+          "CD163": 1,
+          "CD19": 1,
+          "CD27": 1,
+          "CD274": 1,
+          "CD3E": 1,
+          "CD4": 1,
+          "CD40": 1,
+          "CD68": 1,
+          "CD8A": 1,
+          "CEACAM8": 1,
+          "CR2": 1,
+          "CXCR5": 1,
+          "EPCAM": 1,
+          "FCGR3A": 1,
+          "HLA-DRA": 1,
+          "ITGAM": 1,
+          "ITGAX": 1,
+          "KRT5": 1,
+          "MS4A1": 1,
+          "PAX5": 1,
+          "PCNA": 1,
+          "PDCD1": 1,
+          "PECAM1": 1,
+          "PTPRC_1": 1,
+          "PTPRC_2": 1,
+          "SDC1": 1,
+          "VIM": 1
+        }
+      },
+      "genome": {
+        "length": 31,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "": 31
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          3359,
+          2
+        ],
+        "dtype": "int64",
+        "min": 0.0,
+        "max": 119.0,
+        "examples": [
+          [
+            47,
+            71
+          ],
+          [
+            49,
+            43
+          ],
+          [
+            28,
+            86
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad",
+    "filename": "adata_RNA.h5ad",
+    "sha256": "e827f5cdbbd968f8c8d22567a9246cae02c3562af066c81dd6a0cac02513dd5d",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          3359,
+          18085
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 3704999,
+        "logical_nonzero_entries": 3704999,
+        "logical_zero_fraction": 0.9390098673172063,
+        "stored_value_min": 1.0,
+        "stored_value_max": 704.0,
+        "row_total": {
+          "min": 10.0,
+          "max": 7690.0,
+          "mean": 1449.4105388508485,
+          "median": 1343.0,
+          "variance_population": 616482.8511065568
+        },
+        "row_detected_features": {
+          "min": 10.0,
+          "max": 4107.0,
+          "mean": 1103.0065495683239,
+          "median": 1052.0,
+          "variance_population": 275508.2536040219
+        },
+        "total_stored_value_sum": 4868570.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "_index": {
+        "length": 3359,
+        "missing": 0,
+        "n_unique": 3359,
+        "values": null
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 18082,
+        "values": null
+      },
+      "feature_types": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Gene Expression": 18085
+        }
+      },
+      "gene_ids": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 18085,
+        "values": null
+      },
+      "genome": {
+        "length": 18085,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "GRCh38": 18085
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          3359,
+          2
+        ],
+        "dtype": "int64",
+        "min": 0.0,
+        "max": 119.0,
+        "examples": [
+          [
+            47,
+            71
+          ],
+          [
+            49,
+            43
+          ],
+          [
+            28,
+            86
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E18_S1/raw/adata_RNA.h5ad",
+    "filename": "adata_RNA.h5ad",
+    "sha256": "9f916055d76b373a7663663489e4e51a1933ec2f4890ac8a9c41831cc2fb8321",
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "matrices": {
+      "X": {
+        "shape": [
+          2129,
+          32285
+        ],
+        "encoding": "csr_matrix",
+        "dtype": "float32",
+        "stored_entries": 4513269,
+        "logical_nonzero_entries": 4513269,
+        "logical_zero_fraction": 0.9343379001877725,
+        "stored_value_min": 1.0,
+        "stored_value_max": 1307.0,
+        "row_total": {
+          "min": 31.0,
+          "max": 17232.0,
+          "mean": 3424.691874119305,
+          "median": 3158.0,
+          "variance_population": 4097478.1314558117
+        },
+        "row_detected_features": {
+          "min": 28.0,
+          "max": 6710.0,
+          "mean": 2119.900892437764,
+          "median": 2089.0,
+          "variance_population": 997968.4096234402
+        },
+        "total_stored_value_sum": 7291169.0,
+        "explicit_zero_entries": 0
+      }
+    },
+    "obs_columns": {
+      "atac_TSS_fragments": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1998,
+        "values": null
+      },
+      "atac_barcode": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2129,
+        "values": null
+      },
+      "atac_chimeric_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 163,
+        "values": null
+      },
+      "atac_dup_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1835,
+        "values": null
+      },
+      "atac_fragments": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2091,
+        "values": null
+      },
+      "atac_lowmapq": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1816,
+        "values": null
+      },
+      "atac_mitochondrial_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1378,
+        "values": null
+      },
+      "atac_peak_region_cutsites": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2075,
+        "values": null
+      },
+      "atac_peak_region_fragments": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2036,
+        "values": null
+      },
+      "atac_raw_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2104,
+        "values": null
+      },
+      "atac_unmapped_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1706,
+        "values": null
+      },
+      "barcode": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2129,
+        "values": null
+      },
+      "excluded_reason": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 3,
+        "values": {
+          "0": 2072,
+          "1": 3,
+          "2": 54
+        }
+      },
+      "gex_barcode": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2129,
+        "values": null
+      },
+      "gex_conf_exonic_antisense_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 776,
+        "values": null
+      },
+      "gex_conf_exonic_dup_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1806,
+        "values": null
+      },
+      "gex_conf_exonic_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1951,
+        "values": null
+      },
+      "gex_conf_exonic_unique_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1947,
+        "values": null
+      },
+      "gex_conf_intergenic_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2020,
+        "values": null
+      },
+      "gex_conf_intronic_antisense_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1318,
+        "values": null
+      },
+      "gex_conf_intronic_dup_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1599,
+        "values": null
+      },
+      "gex_conf_intronic_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1917,
+        "values": null
+      },
+      "gex_conf_intronic_unique_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1884,
+        "values": null
+      },
+      "gex_conf_txomic_unique_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1944,
+        "values": null
+      },
+      "gex_exonic_umis": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1617,
+        "values": null
+      },
+      "gex_genes_count": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1609,
+        "values": null
+      },
+      "gex_intronic_umis": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1572,
+        "values": null
+      },
+      "gex_mapped_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2082,
+        "values": null
+      },
+      "gex_raw_reads": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2097,
+        "values": null
+      },
+      "gex_umis_count": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 1832,
+        "values": null
+      },
+      "is_cell": {
+        "length": 2129,
+        "missing": 0,
+        "n_unique": 2,
+        "values": {
+          "0": 362,
+          "1": 1767
+        }
+      }
+    },
+    "var_columns": {
+      "_index": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32245,
+        "values": null
+      },
+      "feature_types": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "Gene Expression": 32285
+        }
+      },
+      "gene_ids": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 32285,
+        "values": null
+      },
+      "genome": {
+        "length": 32285,
+        "missing": 0,
+        "n_unique": 1,
+        "values": {
+          "mm10": 32285
+        }
+      }
+    },
+    "obsm": {
+      "spatial": {
+        "shape": [
+          2129,
+          2
+        ],
+        "dtype": "int64",
+        "min": 1.0,
+        "max": 50.0,
+        "examples": [
+          [
+            42,
+            22
+          ],
+          [
+            46,
+            48
+          ],
+          [
+            28,
+            20
+          ]
+        ]
+      }
+    },
+    "input_unchanged": true
+  }
+]

@@ -1,0 +1,5 @@
+# Highly variable genes
+
+HVG selection ranks genes whose observed variability exceeds an abundance-dependent technical expectation. A mean–variance trend is estimated across genes, then residual or normalized variance is used to select a declared number or percentile [S36,S42]. HVGs reduce feature dimension for exploratory summaries and can emphasize biological programs, but they are not a list of biologically important genes: rare markers, housekeeping genes, and batch-specific artifacts can be selected or excluded.
+
+Batch-aware selection asks whether variability is reproducible across batches or samples; pooled selection can favor the largest batch. Selection changes which gene relationships and neighborhoods remain. For a spatial assay, region-specific genes may be meaningful even when globally rare. For multi-omics, “HVG” is RNA-specific and must not be used as an ADT or ATAC rule. The phase records the concept only and performs no selection. Evidence: Brennecke et al. [S36], scran [S41], sctransform [S37].

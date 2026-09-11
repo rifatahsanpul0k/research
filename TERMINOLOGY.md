@@ -134,4 +134,18 @@ Definitions below use the cited mechanisms, exceptions and evidence in the linke
 | Spatial coordinate; array coordinate; pixel coordinate | Observation-linked position whose units, origin, scale and orientation are assay-specific | [Coordinates](02_omics/01_measurement_and_data_generation/16_SPATIAL_COORDINATES.md) |
 | AnnData `X`, `obs`, `var`, `layers`, `obsm`, `uns` | Matrix, observation annotations, feature annotations, alternate matrices, observation-aligned arrays, unstructured metadata | [Data formats](02_omics/01_measurement_and_data_generation/19_DATA_FORMATS.md) |
 
+## Phase 1E preprocessing and statistical terms
+
+| Term(s) | Meaning and qualification | Source-backed topic |
+|---|---|---|
+| Library size (L_i); detected features (G_i) | Row sum and number of positive features; assay-dependent QC quantities, not universal filters | [RNA QC](02_omics/02_preprocessing_qc_statistics/02_RNA_QC.md) |
+| Normalized; log1p; CLR; z-score | Declared scale transformations with different assumptions and units | [Normalization](02_omics/02_preprocessing_qc_statistics/04_RNA_NORMALIZATION.md) |
+| HVG | Gene with abundance-adjusted variability, not a synonym for biological importance | [HVG](02_omics/02_preprocessing_qc_statistics/07_HIGHLY_VARIABLE_GENES.md) |
+| Peak matrix; binary accessibility; TF-IDF; LSI | ATAC feature/count representations and a TF-IDF→SVD lineage | [ATAC representations](02_omics/02_preprocessing_qc_statistics/12_ATAC_FEATURE_REPRESENTATION.md) |
+| Structural/technical/value missingness; mask | Modality absent by design, failed acquisition, or recorded zero; mask records availability | [Missing modalities](02_omics/02_preprocessing_qc_statistics/16_MISSING_MODALITIES.md) |
+| Doublet; ambient contamination; outlier | Mixed capture; free-floating background; extreme observation, each requiring evidence | [Artifacts](02_omics/02_preprocessing_qc_statistics/20_DOUBLETS.md) |
+| Logical sparsity; stored entries | Nonzero fraction of matrix versus CSR data slots, which may include explicit zeros | [Sparsity](02_omics/02_preprocessing_qc_statistics/23_SPARSITY.md) |
+| Feature/observation alignment | Same identifiers and order, reported without automatic harmonization | [Alignment](02_omics/02_preprocessing_qc_statistics/15_PEAK_FEATURE_ALIGNMENT.md) |
+| Preprocessing lineage; leakage | Auditable input→operation→parameters→output record; held-out information must not fit transforms | [Lineage](02_omics/02_preprocessing_qc_statistics/27_PREPROCESSING_LINEAGE.md) |
+
 Mathematical notation and the representation-neutral inventory are defined in [BIOLOGY_TO_DATA](01_biology/03_cellular_tissue_biology/BIOLOGY_TO_DATA.md). No biological definition here selects a future model or representation.

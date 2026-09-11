@@ -1,0 +1,26 @@
+{
+  "group": "var",
+  "files": [
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad",
+    "04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad"
+  ],
+  "counts": {
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad": 18085,
+    "04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad": 18085
+  },
+  "same_ids": true,
+  "same_order": true,
+  "overlap_all": 18082,
+  "union": 18082,
+  "duplicates": {
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad": 3,
+    "04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad": 3
+  },
+  "pairwise": {
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad :: 04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad": {
+      "overlap": 18082,
+      "union": 18082,
+      "same_order": true
+    }
+  }
+}

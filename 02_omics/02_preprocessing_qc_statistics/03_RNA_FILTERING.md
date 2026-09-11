@@ -1,0 +1,5 @@
+# RNA observation and feature filtering
+
+Observation filtering removes rows using stated QC evidence; feature filtering removes columns using prevalence, annotation or assay criteria. These operations are distinct from normalization. A gene detected in two observations may be unhelpful for a particular statistical estimate yet biologically decisive for a rare population. Conversely, retaining all features increases noise and memory. Filtering can change class balance, rare populations, differential signal and spatial boundaries [S16,S36].
+
+For a matrix (X), a feature prevalence is (P_j=\sum_i1(X_{ij}>0)); an observation rule might be (L_i>t_L) and (G_i>t_G), but (t) is study- and assay-specific. Record input, rule, excluded IDs, and rationale in a lineage table. Never use labels or future test data to choose a predictive filter. The project files are untouched; this phase computes (P_j,L_i,G_i) descriptively only. A rare marker is not an error by rarity alone, and filtering a whole spatial region can manufacture a boundary. Evidence: Brennecke et al. [S36], OSCA [S38], and the EmptyDrops distinction between empty droplets and low-RNA cells [S18].

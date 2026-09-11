@@ -1,0 +1,26 @@
+{
+  "group": "var",
+  "files": [
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad",
+    "04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad"
+  ],
+  "counts": {
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad": 31,
+    "04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad": 31
+  },
+  "same_ids": true,
+  "same_order": true,
+  "overlap_all": 30,
+  "union": 30,
+  "duplicates": {
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad": 1,
+    "04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad": 1
+  },
+  "pairwise": {
+    "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad :: 04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad": {
+      "overlap": 30,
+      "union": 30,
+      "same_order": true
+    }
+  }
+}

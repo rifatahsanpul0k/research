@@ -2,25 +2,61 @@
   "communities": {
     "0": [
       "code_data_inspection_inspect_h5ad",
+      "code_data_inspection_inspect_h5ad_column_values",
+      "code_data_inspection_inspect_h5ad_dataframe",
       "code_data_inspection_inspect_h5ad_inspect",
       "code_data_inspection_inspect_h5ad_main",
       "code_data_inspection_inspect_h5ad_matrix_summary",
+      "code_data_inspection_inspect_h5ad_plain",
       "code_data_inspection_inspect_h5ad_rationale_1",
       "code_data_inspection_inspect_h5ad_sha256"
     ],
     "1": [
-      "code_data_inspection_inspect_h5ad_column_values",
-      "code_data_inspection_inspect_h5ad_dataframe",
-      "code_data_inspection_inspect_h5ad_plain"
+      "code_data_inspection_summarize_matrices",
+      "code_data_inspection_summarize_matrices_column_values",
+      "code_data_inspection_summarize_matrices_decode",
+      "code_data_inspection_summarize_matrices_inspect",
+      "code_data_inspection_summarize_matrices_main",
+      "code_data_inspection_summarize_matrices_rationale_1",
+      "code_data_inspection_summarize_matrices_sha",
+      "code_data_inspection_summarize_matrices_stats",
+      "code_data_inspection_summarize_matrices_values"
+    ],
+    "2": [
+      "code_data_inspection_compare_features",
+      "code_data_inspection_compare_features_compare",
+      "code_data_inspection_compare_features_decode",
+      "code_data_inspection_compare_features_ids",
+      "code_data_inspection_compare_features_main",
+      "code_data_inspection_compare_features_rationale_1"
+    ],
+    "3": [
+      "code_data_inspection_summarize_annotations",
+      "code_data_inspection_summarize_annotations_main",
+      "code_data_inspection_summarize_annotations_rationale_1",
+      "code_data_inspection_summarize_annotations_summarize"
+    ],
+    "4": [
+      "code_data_inspection_inspect_coordinates",
+      "code_data_inspection_inspect_coordinates_main",
+      "code_data_inspection_inspect_coordinates_rationale_1"
     ]
   },
   "cohesion": {
-    "0": 0.5333333333333333,
-    "1": 1.0
+    "0": 0.4722222222222222,
+    "1": 0.4444444444444444,
+    "2": 0.5333333333333333,
+    "3": 0.6666666666666666,
+    "4": 0.6666666666666666
   },
   "gods": [
     {
       "id": "code_data_inspection_inspect_h5ad_inspect",
+      "label": "inspect()",
+      "degree": 6
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices_inspect",
       "label": "inspect()",
       "degree": 6
     },
@@ -35,9 +71,9 @@
       "degree": 4
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_matrix_summary",
-      "label": "matrix_summary()",
-      "degree": 3
+      "id": "code_data_inspection_summarize_matrices_decode",
+      "label": "decode()",
+      "degree": 4
     },
     {
       "id": "code_data_inspection_inspect_h5ad_column_values",
@@ -45,34 +81,27 @@
       "degree": 3
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_main",
-      "label": "main()",
-      "degree": 2
+      "id": "code_data_inspection_inspect_h5ad_matrix_summary",
+      "label": "matrix_summary()",
+      "degree": 3
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_sha256",
-      "label": "sha256()",
-      "degree": 2
+      "id": "code_data_inspection_summarize_matrices_column_values",
+      "label": "column_values()",
+      "degree": 3
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_rationale_1",
-      "label": "Read H5AD structure and descriptive values without modifying input or\u2026",
-      "degree": 1
-    }
-  ],
-  "surprises": [
+      "id": "code_data_inspection_summarize_matrices_stats",
+      "label": "stats()",
+      "degree": 3
+    },
     {
-      "source": "inspect()",
-      "target": "dataframe()",
-      "source_files": [
-        "code/data_inspection/inspect_h5ad.py",
-        "code/data_inspection/inspect_h5ad.py"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "calls",
-      "note": "Bridges community 0 \u2192 community 1"
+      "id": "code_data_inspection_summarize_matrices_values",
+      "label": "values()",
+      "degree": 3
     }
   ],
+  "surprises": [],
   "tokens": {
     "input": 0,
     "output": 0

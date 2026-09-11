@@ -4,6 +4,28 @@
   "graph": {},
   "nodes": [
     {
+      "id": "code_data_inspection_inspect_h5ad_column_values",
+      "label": "column_values()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "column_values()",
+      "source_file": "code/data_inspection/inspect_h5ad.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_dataframe",
+      "label": "dataframe()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "dataframe()",
+      "source_file": "code/data_inspection/inspect_h5ad.py",
+      "source_location": "L41"
+    },
+    {
       "id": "code_data_inspection_inspect_h5ad_inspect",
       "label": "inspect()",
       "_callable": true,
@@ -37,6 +59,17 @@
       "source_location": "L57"
     },
     {
+      "id": "code_data_inspection_inspect_h5ad_plain",
+      "label": "plain()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "plain()",
+      "source_file": "code/data_inspection/inspect_h5ad.py",
+      "source_location": "L15"
+    },
+    {
       "id": "code_data_inspection_inspect_h5ad_sha256",
       "label": "sha256()",
       "_callable": true,
@@ -48,37 +81,158 @@
       "source_location": "L27"
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_column_values",
+      "id": "code_data_inspection_summarize_matrices_column_values",
       "label": "column_values()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "file_type": "code",
       "norm_label": "column_values()",
-      "source_file": "code/data_inspection/inspect_h5ad.py",
-      "source_location": "L32"
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L79"
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_dataframe",
-      "label": "dataframe()",
+      "id": "code_data_inspection_summarize_matrices_decode",
+      "label": "decode()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "file_type": "code",
-      "norm_label": "dataframe()",
-      "source_file": "code/data_inspection/inspect_h5ad.py",
-      "source_location": "L41"
+      "norm_label": "decode()",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L13"
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_plain",
-      "label": "plain()",
+      "id": "code_data_inspection_summarize_matrices_inspect",
+      "label": "inspect()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "file_type": "code",
-      "norm_label": "plain()",
-      "source_file": "code/data_inspection/inspect_h5ad.py",
+      "norm_label": "inspect()",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L86"
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L113"
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices_sha",
+      "label": "sha()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "sha()",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices_stats",
+      "label": "stats()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "stats()",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L33"
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices_values",
+      "label": "values()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "values()",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "code_data_inspection_compare_features_compare",
+      "label": "compare()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "compare()",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L11"
+    },
+    {
+      "id": "code_data_inspection_compare_features_decode",
+      "label": "decode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "decode()",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "code_data_inspection_compare_features_ids",
+      "label": "ids()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "ids()",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "code_data_inspection_compare_features_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "code_data_inspection_summarize_annotations_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "code/data_inspection/summarize_annotations.py",
       "source_location": "L15"
+    },
+    {
+      "id": "code_data_inspection_summarize_annotations_summarize",
+      "label": "summarize()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "summarize()",
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "code_data_inspection_inspect_coordinates_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "code/data_inspection/inspect_coordinates.py",
+      "source_location": "L5"
     },
     {
       "id": "code_data_inspection_inspect_h5ad",
@@ -99,9 +253,125 @@
       "norm_label": "read h5ad structure and descriptive values without modifying input or...",
       "source_file": "code/data_inspection/inspect_h5ad.py",
       "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices",
+      "label": "summarize_matrices.py",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "summarize_matrices.py",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_summarize_matrices_rationale_1",
+      "label": "Read-only, sparse-safe H5AD matrix summaries for Phase 1E. The utility never\u2026",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "rationale",
+      "norm_label": "read-only, sparse-safe h5ad matrix summaries for phase 1e. the utility never...",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_compare_features",
+      "label": "compare_features.py",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "compare_features.py",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_compare_features_rationale_1",
+      "label": "Read-only comparison of AnnData obs/var identifiers; no harmonisation.",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "rationale",
+      "norm_label": "read-only comparison of anndata obs/var identifiers; no harmonisation.",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_summarize_annotations",
+      "label": "summarize_annotations.py",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "summarize_annotations.py",
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_summarize_annotations_rationale_1",
+      "label": "Read-only CSV annotation summary; no label normalization or relabeling.",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "rationale",
+      "norm_label": "read-only csv annotation summary; no label normalization or relabeling.",
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_inspect_coordinates",
+      "label": "inspect_coordinates.py",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "inspect_coordinates.py",
+      "source_file": "code/data_inspection/inspect_coordinates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_data_inspection_inspect_coordinates_rationale_1",
+      "label": "Read-only summary of AnnData obsm coordinate arrays.",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "rationale",
+      "norm_label": "read-only summary of anndata obsm coordinate arrays.",
+      "source_file": "code/data_inspection/inspect_coordinates.py",
+      "source_location": "L1"
     }
   ],
   "links": [
+    {
+      "source": "code_data_inspection_compare_features_compare",
+      "target": "code_data_inspection_compare_features_ids",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features_ids",
+      "target": "code_data_inspection_compare_features_decode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features_main",
+      "target": "code_data_inspection_compare_features_compare",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
     {
       "source": "code_data_inspection_inspect_h5ad_column_values",
       "target": "code_data_inspection_inspect_h5ad_plain",
@@ -211,6 +481,169 @@
       "weight": 1.0
     },
     {
+      "source": "code_data_inspection_summarize_annotations_main",
+      "target": "code_data_inspection_summarize_annotations_summarize",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_column_values",
+      "target": "code_data_inspection_summarize_matrices_decode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_inspect",
+      "target": "code_data_inspection_summarize_matrices_decode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_inspect",
+      "target": "code_data_inspection_summarize_matrices_sha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_inspect",
+      "target": "code_data_inspection_summarize_matrices_stats",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_inspect",
+      "target": "code_data_inspection_summarize_matrices_column_values",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_main",
+      "target": "code_data_inspection_summarize_matrices_inspect",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_stats",
+      "target": "code_data_inspection_summarize_matrices_values",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_values",
+      "target": "code_data_inspection_summarize_matrices_decode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features",
+      "target": "code_data_inspection_compare_features_compare",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features",
+      "target": "code_data_inspection_compare_features_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features",
+      "target": "code_data_inspection_compare_features_decode",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features",
+      "target": "code_data_inspection_compare_features_ids",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_inspect_coordinates",
+      "target": "code_data_inspection_inspect_coordinates_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/inspect_coordinates.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "code_data_inspection_inspect_h5ad",
       "target": "code_data_inspection_inspect_h5ad_main",
       "relation": "contains",
@@ -288,6 +721,127 @@
       "weight": 1.0
     },
     {
+      "source": "code_data_inspection_summarize_annotations",
+      "target": "code_data_inspection_summarize_annotations_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_annotations",
+      "target": "code_data_inspection_summarize_annotations_summarize",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_decode",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_sha",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_values",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_stats",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_column_values",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices",
+      "target": "code_data_inspection_summarize_matrices_inspect",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_compare_features_rationale_1",
+      "target": "code_data_inspection_compare_features",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/compare_features.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_inspect_coordinates_rationale_1",
+      "target": "code_data_inspection_inspect_coordinates",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/inspect_coordinates.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "code_data_inspection_inspect_h5ad_rationale_1",
       "target": "code_data_inspection_inspect_h5ad",
       "relation": "rationale_for",
@@ -297,8 +851,30 @@
       "source_file": "code/data_inspection/inspect_h5ad.py",
       "source_location": "L1",
       "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_annotations_rationale_1",
+      "target": "code_data_inspection_summarize_annotations",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_annotations.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "code_data_inspection_summarize_matrices_rationale_1",
+      "target": "code_data_inspection_summarize_matrices",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "code/data_inspection/summarize_matrices.py",
+      "source_location": "L1",
+      "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1028d68e5a121d485300d512ce01fc98b2816f8d"
+  "built_at_commit": "a124400b91a5915994f3ec155dbd8515e84c4b78"
 }

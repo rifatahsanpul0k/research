@@ -1,0 +1,288 @@
+[
+  {
+    "path": "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad",
+    "present": true,
+    "shape": [
+      3484,
+      2
+    ],
+    "dtype": "int64",
+    "min": 0.0,
+    "max": 127.0,
+    "unique_rows": 3484,
+    "examples": [
+      [
+        47,
+        71
+      ],
+      [
+        49,
+        43
+      ],
+      [
+        28,
+        86
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad",
+    "present": true,
+    "shape": [
+      3484,
+      2
+    ],
+    "dtype": "int64",
+    "min": 0.0,
+    "max": 127.0,
+    "unique_rows": 3484,
+    "examples": [
+      [
+        47,
+        71
+      ],
+      [
+        49,
+        43
+      ],
+      [
+        28,
+        86
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad",
+    "present": true,
+    "shape": [
+      1949,
+      2
+    ],
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 50.0,
+    "unique_rows": 1949,
+    "examples": [
+      [
+        32,
+        16
+      ],
+      [
+        20,
+        17
+      ],
+      [
+        21,
+        33
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad",
+    "present": true,
+    "shape": [
+      1949,
+      2
+    ],
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 50.0,
+    "unique_rows": 1949,
+    "examples": [
+      [
+        32,
+        16
+      ],
+      [
+        20,
+        17
+      ],
+      [
+        21,
+        33
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad",
+    "present": true,
+    "shape": [
+      1263,
+      2
+    ],
+    "dtype": "int64",
+    "min": 2.0,
+    "max": 50.0,
+    "unique_rows": 1263,
+    "examples": [
+      [
+        27,
+        22
+      ],
+      [
+        46,
+        21
+      ],
+      [
+        37,
+        21
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad",
+    "present": true,
+    "shape": [
+      1263,
+      2
+    ],
+    "dtype": "int64",
+    "min": 2.0,
+    "max": 50.0,
+    "unique_rows": 1263,
+    "examples": [
+      [
+        27,
+        22
+      ],
+      [
+        46,
+        21
+      ],
+      [
+        37,
+        21
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad",
+    "present": true,
+    "shape": [
+      1777,
+      2
+    ],
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 50.0,
+    "unique_rows": 1777,
+    "examples": [
+      [
+        9,
+        29
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        33,
+        37
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad",
+    "present": true,
+    "shape": [
+      1777,
+      2
+    ],
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 50.0,
+    "unique_rows": 1777,
+    "examples": [
+      [
+        9,
+        29
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        33,
+        37
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad",
+    "present": true,
+    "shape": [
+      3359,
+      2
+    ],
+    "dtype": "int64",
+    "min": 0.0,
+    "max": 119.0,
+    "unique_rows": 3359,
+    "examples": [
+      [
+        47,
+        71
+      ],
+      [
+        49,
+        43
+      ],
+      [
+        28,
+        86
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad",
+    "present": true,
+    "shape": [
+      3359,
+      2
+    ],
+    "dtype": "int64",
+    "min": 0.0,
+    "max": 119.0,
+    "unique_rows": 3359,
+    "examples": [
+      [
+        47,
+        71
+      ],
+      [
+        49,
+        43
+      ],
+      [
+        28,
+        86
+      ]
+    ]
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E18_S1/raw/adata_RNA.h5ad",
+    "present": true,
+    "shape": [
+      2129,
+      2
+    ],
+    "dtype": "int64",
+    "min": 1.0,
+    "max": 50.0,
+    "unique_rows": 2129,
+    "examples": [
+      [
+        42,
+        22
+      ],
+      [
+        46,
+        48
+      ],
+      [
+        28,
+        20
+      ]
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "group": "var",
+  "files": [
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad",
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad",
+    "04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad"
+  ],
+  "counts": {
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad": 32285,
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad": 32285,
+    "04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad": 32285
+  },
+  "same_ids": true,
+  "same_order": true,
+  "overlap_all": 32245,
+  "union": 32245,
+  "duplicates": {
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad": 40,
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad": 40,
+    "04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad": 40
+  },
+  "pairwise": {
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad :: 04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad": {
+      "overlap": 32245,
+      "union": 32245,
+      "same_order": true
+    },
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad :: 04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad": {
+      "overlap": 32245,
+      "union": 32245,
+      "same_order": true
+    },
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad :: 04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad": {
+      "overlap": 32245,
+      "union": 32245,
+      "same_order": true
+    }
+  }
+}

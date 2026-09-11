@@ -1,0 +1,235 @@
+[
+  {
+    "path": "04_datasets/10x_human_lymph_node_A1/raw/annotation.csv",
+    "rows": 3484,
+    "columns": {
+      "Barcode": {
+        "missing": 0,
+        "n_unique": 3484
+      },
+      "manual-anno": {
+        "missing": 0,
+        "n_unique": 10,
+        "counts": {
+          "medulla cords": 1188,
+          "medulla sinuses": 797,
+          "cortex": 753,
+          "pericapsular adipose tissue": 320,
+          "capsule": 204,
+          "subcapsular sinus": 74,
+          "follicle": 60,
+          "medulla vessels": 57,
+          "hilum": 23,
+          "trabeculae": 8
+        }
+      }
+    }
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E15_S1/raw/anno.csv",
+    "rows": 1949,
+    "columns": {
+      "barcode": {
+        "missing": 0,
+        "n_unique": 1949
+      },
+      "0": {
+        "missing": 0,
+        "n_unique": 12,
+        "counts": {
+          "C13": 602,
+          "C7": 336,
+          "C6": 267,
+          "C8": 199,
+          "C11": 126,
+          "C14": 120,
+          "C16": 75,
+          "C3": 69,
+          "C5": 66,
+          "C10": 55,
+          "C1": 32,
+          "C2": 2
+        }
+      },
+      "cluster": {
+        "missing": 0,
+        "n_unique": 12,
+        "counts": {
+          "Diencephalonand hindbrain": 602,
+          "Cartilage-3": 336,
+          "Cartilage-2": 267,
+          "Mesenchyme": 199,
+          "DPallm": 126,
+          "Midbrain": 120,
+          "Subpallium-2": 75,
+          "DPallv": 69,
+          "Muscle": 66,
+          "Thalamus": 55,
+          "Basal plateof hindbrain": 32,
+          "Primary brain-1": 2
+        }
+      }
+    }
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E11_S1/raw/anno.csv",
+    "rows": 1263,
+    "columns": {
+      "barcode": {
+        "missing": 0,
+        "n_unique": 1263
+      },
+      "0": {
+        "missing": 0,
+        "n_unique": 8,
+        "counts": {
+          "C8": 451,
+          "C6": 428,
+          "C2": 183,
+          "C12": 138,
+          "C5": 38,
+          "C13": 21,
+          "C11": 2,
+          "C14": 2
+        }
+      },
+      "cluster": {
+        "missing": 0,
+        "n_unique": 8,
+        "counts": {
+          "Mesenchyme": 451,
+          "Cartilage-2": 428,
+          "Primary brain-1": 183,
+          "Primary brain-2": 138,
+          "Muscle": 38,
+          "Diencephalonand hindbrain": 21,
+          "DPallm": 2,
+          "Midbrain": 2
+        }
+      }
+    }
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E13_S1/raw/anno.csv",
+    "rows": 1777,
+    "columns": {
+      "barcode": {
+        "missing": 0,
+        "n_unique": 1777
+      },
+      "0": {
+        "missing": 0,
+        "n_unique": 12,
+        "counts": {
+          "C6": 674,
+          "C8": 504,
+          "C13": 253,
+          "C14": 92,
+          "C11": 87,
+          "C5": 74,
+          "C1": 49,
+          "C7": 22,
+          "C3": 13,
+          "C2": 6,
+          "C9": 2,
+          "C4": 1
+        }
+      },
+      "cluster": {
+        "missing": 0,
+        "n_unique": 12,
+        "counts": {
+          "Cartilage-2": 674,
+          "Mesenchyme": 504,
+          "Diencephalonand hindbrain": 253,
+          "Midbrain": 92,
+          "DPallm": 87,
+          "Muscle": 74,
+          "Basal plateof hindbrain": 49,
+          "Cartilage-3": 22,
+          "DPallv": 13,
+          "Primary brain-1": 6,
+          "Cartilage-4": 2,
+          "Cartilage-1": 1
+        }
+      }
+    }
+  },
+  {
+    "path": "04_datasets/10x_human_lymph_node_D1/raw/annotation.csv",
+    "rows": 3359,
+    "columns": {
+      "barcode": {
+        "missing": 0,
+        "n_unique": 3359
+      },
+      "manual-anno": {
+        "missing": 0,
+        "n_unique": 11,
+        "counts": {
+          "Medullary Chords": 1451,
+          "Medullary Sinus": 655,
+          "Paracortex": 484,
+          "Adipose Tlssue": 295,
+          "Capsule": 133,
+          "Cortex": 133,
+          "Marginal Sinus": 118,
+          "Endothelial": 33,
+          "B cell Follicle": 32,
+          "Connective Tissue": 15,
+          "Exclude": 10
+        }
+      }
+    }
+  },
+  {
+    "path": "04_datasets/Mouse_Brain_E18_S1/raw/anno.csv",
+    "rows": 2129,
+    "columns": {
+      "barcode": {
+        "missing": 0,
+        "n_unique": 2129
+      },
+      "0": {
+        "missing": 0,
+        "n_unique": 14,
+        "counts": {
+          "C13": 673,
+          "C8": 274,
+          "C11": 239,
+          "C6": 236,
+          "C7": 178,
+          "C15": 154,
+          "C9": 121,
+          "C3": 107,
+          "C4": 65,
+          "C10": 30,
+          "C14": 21,
+          "C5": 19,
+          "C16": 10,
+          "C1": 2
+        }
+      },
+      "cluster": {
+        "missing": 0,
+        "n_unique": 14,
+        "counts": {
+          "Diencephalonand hindbrain": 673,
+          "Mesenchyme": 274,
+          "DPallm": 239,
+          "Cartilage-2": 236,
+          "Cartilage-3": 178,
+          "Subpallium-1": 154,
+          "Cartilage-4": 121,
+          "DPallv": 107,
+          "Cartilage-1": 65,
+          "Thalamus": 30,
+          "Midbrain": 21,
+          "Muscle": 19,
+          "Subpallium-2": 10,
+          "Basal plateof hindbrain": 2
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,5 @@
+# RNA and ADT scale mismatch
+
+RNA and ADT are paired observations in the lymph-node files, but they measure different molecular layers and have different feature counts (RNA 18,085; ADT 31). RNA values are gene-assigned signal; ADT values are antibody-tag signal with background and affinity effects. Equal row counts do not imply equal units, reliability or biological coverage [S06,S07,S20].
+
+Concatenating matrices raises unresolved choices: normalization within modality, feature weighting, missingness, and whether a protein and its encoding transcript should be treated as redundant or complementary. A 31-feature ADT block can be numerically dominated by or dominate an 18,085-feature RNA block depending on scaling. Similarity after concatenation therefore reflects preprocessing choices. This phase documents the mismatch and does not choose weights, integrate modalities, or train a representation. Evidence: Stoeckius et al. CITE-seq [S06], Mulè et al. background study [S07], Stuart et al. [S43].

@@ -22,5 +22,107 @@
     "seen": 1789126127.893323,
     "ast_hash": "fef28c788e373a5cb9a550407aeeb184",
     "semantic_hash": "fef28c788e373a5cb9a550407aeeb184"
+  },
+  "02_omics/02_preprocessing_qc_statistics/SOURCE_INDEX.json": {
+    "mtime": 1789134879.4205055,
+    "seen": 1789134963.824073,
+    "ast_hash": "879850a564c01f22b688bfd969139c3f",
+    "semantic_hash": "879850a564c01f22b688bfd969139c3f"
+  },
+  "02_omics/02_preprocessing_qc_statistics/annotation_summary.json": {
+    "mtime": 1789134944.4113517,
+    "seen": 1789134963.824074,
+    "ast_hash": "1e648981241d34e5a48435ab30c4bbae",
+    "semantic_hash": "1e648981241d34e5a48435ab30c4bbae"
+  },
+  "02_omics/02_preprocessing_qc_statistics/coordinate_summary.json": {
+    "mtime": 1789134557.4229345,
+    "seen": 1789134963.824075,
+    "ast_hash": "9f4882c4665365b8cb6edbfc1eea43ec",
+    "semantic_hash": "9f4882c4665365b8cb6edbfc1eea43ec"
+  },
+  "02_omics/02_preprocessing_qc_statistics/features_A1_D1_ADT.json": {
+    "mtime": 1789134943.8237286,
+    "seen": 1789134963.824076,
+    "ast_hash": "97d9ee5c299aa6a9c81552310ddc7310",
+    "semantic_hash": "97d9ee5c299aa6a9c81552310ddc7310"
+  },
+  "02_omics/02_preprocessing_qc_statistics/features_A1_D1_RNA.json": {
+    "mtime": 1789134943.6765273,
+    "seen": 1789134963.8240771,
+    "ast_hash": "57248c8a873b0c133a36943c3f464191",
+    "semantic_hash": "57248c8a873b0c133a36943c3f464191"
+  },
+  "02_omics/02_preprocessing_qc_statistics/features_mouse_ATAC.json": {
+    "mtime": 1789134944.3524952,
+    "seen": 1789134963.824078,
+    "ast_hash": "d8dc4abd44bac967f0c4d757334efbe3",
+    "semantic_hash": "d8dc4abd44bac967f0c4d757334efbe3"
+  },
+  "02_omics/02_preprocessing_qc_statistics/features_mouse_RNA.json": {
+    "mtime": 1789134944.0155196,
+    "seen": 1789134963.824079,
+    "ast_hash": "7ed6f2a50682b58a37068e61b9ef4e0d",
+    "semantic_hash": "7ed6f2a50682b58a37068e61b9ef4e0d"
+  },
+  "02_omics/02_preprocessing_qc_statistics/matrix_statistics.json": {
+    "mtime": 1789134092.8710377,
+    "seen": 1789134963.82408,
+    "ast_hash": "ed8f6f5f9f15614ecfda3aa16921ee1b",
+    "semantic_hash": "ed8f6f5f9f15614ecfda3aa16921ee1b"
+  },
+  "02_omics/02_preprocessing_qc_statistics/obs_A1_RNA_ADT.json": {
+    "mtime": 1789134954.9361887,
+    "seen": 1789134963.82408,
+    "ast_hash": "69aacd3b085ff89a20d717a4559b4084",
+    "semantic_hash": "69aacd3b085ff89a20d717a4559b4084"
+  },
+  "02_omics/02_preprocessing_qc_statistics/obs_D1_RNA_ADT.json": {
+    "mtime": 1789134955.0660985,
+    "seen": 1789134963.824081,
+    "ast_hash": "49d35e7fd82a6c9ab18eeb669a1d3584",
+    "semantic_hash": "49d35e7fd82a6c9ab18eeb669a1d3584"
+  },
+  "02_omics/02_preprocessing_qc_statistics/obs_E11_RNA_ATAC.json": {
+    "mtime": 1789134955.182265,
+    "seen": 1789134963.824082,
+    "ast_hash": "4f8168d177aa737fb805aaac6aae9c21",
+    "semantic_hash": "4f8168d177aa737fb805aaac6aae9c21"
+  },
+  "02_omics/02_preprocessing_qc_statistics/obs_E13_RNA_ATAC.json": {
+    "mtime": 1789134955.2984962,
+    "seen": 1789134963.8240829,
+    "ast_hash": "302e5fe770db8de046668b2c00eca6ae",
+    "semantic_hash": "302e5fe770db8de046668b2c00eca6ae"
+  },
+  "02_omics/02_preprocessing_qc_statistics/obs_E15_RNA_ATAC.json": {
+    "mtime": 1789134955.4122403,
+    "seen": 1789134963.8240829,
+    "ast_hash": "dbd6b89cee24cb3a5c6eac6750d3684d",
+    "semantic_hash": "dbd6b89cee24cb3a5c6eac6750d3684d"
+  },
+  "code/data_inspection/compare_features.py": {
+    "mtime": 1789134933.2249303,
+    "seen": 1789134963.824084,
+    "ast_hash": "12a503830794c663929d832320ab332b",
+    "semantic_hash": "12a503830794c663929d832320ab332b"
+  },
+  "code/data_inspection/inspect_coordinates.py": {
+    "mtime": 1789134550.6301773,
+    "seen": 1789134963.824085,
+    "ast_hash": "1e4f1a14010d26cbe7dc293b7750c1df",
+    "semantic_hash": "1e4f1a14010d26cbe7dc293b7750c1df"
+  },
+  "code/data_inspection/summarize_annotations.py": {
+    "mtime": 1789134933.312719,
+    "seen": 1789134963.8241332,
+    "ast_hash": "878650024bf5ed88e43e9fdbb5c2de53",
+    "semantic_hash": "878650024bf5ed88e43e9fdbb5c2de53"
+  },
+  "code/data_inspection/summarize_matrices.py": {
+    "mtime": 1789134074.1215672,
+    "seen": 1789134963.8241332,
+    "ast_hash": "ff7e607c5d2889c01a1044dc7912421d",
+    "semantic_hash": "ff7e607c5d2889c01a1044dc7912421d"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "group": "var",
+  "files": [
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad",
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad",
+    "04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad"
+  ],
+  "counts": {
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad": 69370,
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad": 123840,
+    "04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad": 141420
+  },
+  "same_ids": false,
+  "same_order": false,
+  "overlap_all": 0,
+  "union": 334607,
+  "duplicates": {
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad": 0,
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad": 0,
+    "04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad": 0
+  },
+  "pairwise": {
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad :: 04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad": {
+      "overlap": 3,
+      "union": 193207,
+      "same_order": false
+    },
+    "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad :: 04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad": {
+      "overlap": 4,
+      "union": 210786,
+      "same_order": false
+    },
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad :: 04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad": {
+      "overlap": 16,
+      "union": 265244,
+      "same_order": false
+    }
+  }
+}

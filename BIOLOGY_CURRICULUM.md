@@ -87,3 +87,11 @@ Next: reconcile the rest of the brief; develop all required artifacts and biolog
 - **Conceptual checks:** type/state; similarity/proximity/communication/ancestry; temporal versus lineage information; individual versus mixed observations; marker uncertainty; annotation hierarchy and anatomy provenance. Synthetic mixture and changing-composition examples are arithmetic demonstrations, not experiments.
 - **Unresolved:** actual dataset assays, units, pairing, stages, regions, conditions and annotations remain unverified. Deeper biological study is listed in validation.
 - **Readiness:** ready to begin Phase 1D: Omics Measurement Technologies and Data Generation when requested. No later phase has begun. Changes are local and uncommitted.
+
+## Phase 1E study record — 2026-09-11
+
+- **Status:** verified_notes; preprocessing, QC and statistical data-property foundations completed. See [validation](02_omics/02_preprocessing_qc_statistics/VALIDATION.md).
+- **Topics:** observed versus biological quantities; RNA QC/filtering/normalization/log/count distributions/HVGs/scaling; ADT background and CLR; modality scale mismatch; ATAC QC/peaks/TF-IDF/LSI; feature/observation alignment; missing modalities; spatial frames; batch/confounders; doublets; ambient contamination; outliers; sparsity/distributions; modality comparison; dataset QC; lineage and leakage.
+- **Dataset evidence:** Eleven complete CSR float32 X matrices were summarized read-only. E18 RNA is present; E18 ATAC remains unavailable and was excluded. Exact stats and alignment are in `02_omics/02_preprocessing_qc_statistics/`.
+- **Boundary:** No filtering, normalization, scaling, TF-IDF, SVD/LSI, graph construction, integration model, representation comparison, experiment, or novelty analysis was run.
+- **Next authorized phase:** Phase 2A only when explicitly requested.

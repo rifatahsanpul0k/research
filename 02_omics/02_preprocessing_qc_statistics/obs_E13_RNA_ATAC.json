@@ -1,0 +1,26 @@
+{
+  "group": "obs",
+  "files": [
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad",
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad"
+  ],
+  "counts": {
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad": 1777,
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad": 1777
+  },
+  "same_ids": true,
+  "same_order": true,
+  "overlap_all": 1777,
+  "union": 1777,
+  "duplicates": {
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad": 0,
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad": 0
+  },
+  "pairwise": {
+    "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad :: 04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad": {
+      "overlap": 1777,
+      "union": 1777,
+      "same_order": true
+    }
+  }
+}

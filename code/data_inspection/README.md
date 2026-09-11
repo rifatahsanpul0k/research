@@ -7,3 +7,12 @@ Requires Python 3.11+, h5py and numpy. The temporary inspection environment used
 Scope limits: standard AnnData dense and CSR/CSC encodings only; no full AnnData validation. Sparse statistics describe stored entries, including explicit zeros; the script deliberately does not call this logical sparsity without checking duplicate coordinates. No biological count status is inferred from integer values or a filename. Large observation/feature metadata columns are read in memory; large matrices are not densified. JSON fails on unsupported/nonfinite metadata rather than silently fabricating a value.
 
 Format reference: [AnnData on-disk specification](https://anndata.readthedocs.io/en/stable/fileformat-prose.html). Input dataset provenance belongs in each dossier's MANIFEST.md.
+
+## Phase 1E utilities
+
+- `summarize_matrices.py INPUT... --output OUT.json` computes CSR-safe logical sparsity, row totals/detections, value extrema and distribution summaries. It never densifies or changes input.
+- `compare_features.py var|obs INPUT... --output OUT.json` compares identifier counts, duplicate counts, set overlap, union, order and pairwise overlap without harmonizing.
+- `summarize_annotations.py CSV... --output OUT.json` records column missingness, cardinality and category counts for small categorical columns; identifier columns are cardinality-only.
+- `inspect_coordinates.py INPUT... --output OUT.json` summarizes an `obsm` coordinate key (default `spatial`) without assigning physical units.
+
+These utilities are descriptive and representation-neutral. Their outputs under `02_omics/02_preprocessing_qc_statistics/` are derived reports, not replacements for source H5AD files.
