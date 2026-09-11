@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: baseline_py311
+compute_classification: LOCAL_LIGHT
+compute_selection_basis: transparent coordinate diagnostic and lightweight common clustering
 inputs: H5AD obsm/spatial n-by-2 matrix and observation IDs
 preprocessing: coordinate validation and column population z-score; units remain UNKNOWN
 command: "python -m code.benchmarks.run_phase3c --remaining"

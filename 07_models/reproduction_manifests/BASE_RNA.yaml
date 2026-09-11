@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: baseline_py311
+compute_classification: LOCAL_LIGHT
+compute_selection_basis: transparent baseline and lightweight common clustering
 inputs: source-provided RNA X plus H5AD observation and feature IDs
 preprocessing: log1p without library renormalization; stable top-2000 variance features; population z-score
 command: "python -m code.benchmarks.run_phase3c --first-only|--remaining"

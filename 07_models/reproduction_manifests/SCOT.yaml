@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: MIT
 retrieval_date: 2026-09-12
 environment: scot_isolated
+compute_classification: COLAB_HIGH_MEMORY
+compute_selection_basis: optimal-transport matrices may be memory intensive
 inputs: two modality matrices with IDs and declared pairing for evaluation
 preprocessing: method-native distances and normalization
 command: "python repository entrypoint with resolved config"

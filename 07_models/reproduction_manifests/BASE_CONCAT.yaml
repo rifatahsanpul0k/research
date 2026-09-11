@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: baseline_py311
+compute_classification: LOCAL_LIGHT
+compute_selection_basis: transparent baseline and lightweight common clustering
 inputs: paired within-dataset RNA+ADT or RNA+ATAC matrices with exact ordered shared IDs
 preprocessing: frozen per-view representations; equal-Frobenius block scaling; column concatenation
 command: "python -m code.benchmarks.run_phase3c --remaining"

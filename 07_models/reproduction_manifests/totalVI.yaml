@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: scvi_isolated
+compute_classification: COLAB_GPU
+compute_selection_basis: VAE training benefits from GPU execution
 inputs: paired RNA and ADT counts with batch and IDs
 preprocessing: scvi-tools setup using verified count layers
 command: "python adapter run --config CONFIG"

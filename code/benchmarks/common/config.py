@@ -8,6 +8,13 @@ from typing import Any
 
 VALID_DATASETS = {"LN_A1", "LN_D1", "MB_E11", "MB_E13", "MB_E15", "MB_E18"}
 VALID_STATUSES = {"PLANNED", "PREPARING", "RUNNING", "SUCCEEDED", "FAILED", "INVALID", "BLOCKED"}
+VALID_COMPUTE_CLASSIFICATIONS = {
+    "LOCAL_LIGHT",
+    "COLAB_CPU",
+    "COLAB_GPU",
+    "COLAB_HIGH_MEMORY",
+    "UNRESOLVED",
+}
 
 
 @dataclass(frozen=True)
@@ -42,6 +49,7 @@ class RunConfig:
     method_parameters: dict[str, Any]
     clustering: dict[str, Any]
     output_directory: str
+    compute_classification: str = "UNRESOLVED"
     status: str = "PLANNED"
     example_only: bool = False
 
@@ -54,6 +62,10 @@ class RunConfig:
             raise ValueError("at least one input is required")
         if self.status not in VALID_STATUSES:
             raise ValueError(f"unknown run status: {self.status}")
+        if self.compute_classification not in VALID_COMPUTE_CLASSIFICATIONS:
+            raise ValueError(f"unknown compute classification: {self.compute_classification}")
+        if self.compute_classification == "UNRESOLVED" and self.status in {"RUNNING", "SUCCEEDED"}:
+            raise ValueError("compute classification must be resolved before scientific execution")
         for item in self.inputs:
             item.validate()
             if item.dataset_id != self.dataset:

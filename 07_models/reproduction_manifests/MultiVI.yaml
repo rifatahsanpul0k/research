@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: scvi_isolated
+compute_classification: COLAB_GPU
+compute_selection_basis: multimodal VAE training benefits from GPU execution
 inputs: RNA and ATAC counts with availability masks and IDs
 preprocessing: verified peak strategy and scvi-tools setup
 command: "python adapter run --config CONFIG"

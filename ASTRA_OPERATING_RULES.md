@@ -101,7 +101,49 @@ Record corrections to prior phases in [RESEARCH_LOG.md](RESEARCH_LOG.md): origin
 
 Fix substantive errors or governance inconsistencies. Do not recreate correct notes merely to make their style uniform.
 
-## 8. Validation, completion and Git policy
+## 8. Compute environment selection
+
+The detailed execution contract is [07_models/01_reproduction_environment/46_COMPUTE_ENVIRONMENT_POLICY.md](07_models/01_reproduction_environment/46_COMPUTE_ENVIRONMENT_POLICY.md).
+
+Before executing a scientific workload, record exactly one compute classification in its reproduction manifest or frozen experiment configuration:
+
+- `LOCAL_LIGHT`: repository work, Git, Repomix, Graphify, literature and documentation, dataset inspection, checksums, metadata parsing, small preprocessing checks, synthetic/unit tests, configuration and provenance generation, lightweight classical algorithms, smoke tests and debugging that does not require substantial memory or GPU resources;
+- `COLAB_CPU`: compute-heavy work that benefits from a managed remote CPU runtime but does not require a GPU;
+- `COLAB_GPU`: neural networks, VAEs, scVI, totalVI, MultiVI, GNNs, SpatialGlue, SpaMI, Garfield, SCIGMA or another workload for which GPU execution is beneficial;
+- `COLAB_HIGH_MEMORY`: large matrix factorization, large optimal-transport computation or another memory-intensive workload;
+- `UNRESOLVED`: the required resource class cannot yet be justified. Resolve it before the run enters `RUNNING`.
+
+Use the local machine for light work and do not place a heavy scientific workload there merely because local execution is convenient. Google Colab, accessed through the user's local Colab extensions, is the preferred available environment when GPU, larger RAM or substantial compute is beneficial. Do not use paid or external compute beyond the user's available Colab environment without explicit authorization.
+
+Use this Colab execution chain:
+
+~~~text
+GitHub research repository
+        ↓
+Colab runtime
+        ↓
+checkout exact repository commit
+        ↓
+install exact environment
+        ↓
+mount/access dataset
+        ↓
+load frozen experiment config
+        ↓
+execute repository code
+        ↓
+save artifacts
+        ↓
+sync small reproducibility artifacts/results
+        ↓
+review locally
+~~~
+
+A notebook may bootstrap, control or debug a runtime, but scientific logic should remain in repository Python modules or scripts and be invoked from a frozen configuration without manual cell edits. Every Colab scientific run records experiment ID, runtime type, Python version, GPU model and CUDA version where relevant, package versions, external repository commit, configuration, seeds, source checksums, preprocessing, runtime, outputs and logs.
+
+Do not commit large biological datasets, checkpoints, large embeddings, temporary matrices or caches. Access data through the approved storage mechanism; preserve source files, checksums, observation IDs, feature IDs and modality alignment; never overwrite a source dataset. Sync only the compact configurations, provenance, metrics, summaries, selected small outputs, logs, environment manifests and checksums required for reproducibility.
+
+## 9. Validation, completion and Git policy
 
 Before phase completion, check the authorized artifact inventory, conceptual chain, notation and dimensions where applicable, worked calculations, scientific distinctions, source relevance, registry integrity and local links. Run appropriate meaningful checks; file existence alone is not completion.
 
@@ -114,4 +156,3 @@ git diff --check
 Then refresh Repomix and code-only Graphify as above, and record both statuses. Inspect the changed-file scope for unintended edits and raw-data changes. Report unresolved scientific questions and any blocking validation honestly.
 
 Leave phase changes local and uncommitted unless the user explicitly instructs otherwise. Do not automatically stage, commit, push, publish or begin the next phase. Report the completed phase, actual validation, limitations and readiness for the next phase without treating readiness as permission.
-

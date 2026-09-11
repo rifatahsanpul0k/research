@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: garfield_isolated
+compute_classification: COLAB_GPU
+compute_selection_basis: PyTorch/PyG graph training benefits from GPU execution
 inputs: single-cell or spatial modalities graph inputs and IDs
 preprocessing: repository-native preprocessing and graph construction
 command: "python repository workflow with resolved config"

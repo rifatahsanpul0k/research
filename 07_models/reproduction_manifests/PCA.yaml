@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: baseline_py311
+compute_classification: LOCAL_LIGHT
+compute_selection_basis: lightweight classical baseline at current dataset sizes
 inputs: frozen Phase 3C RNA representation and observation IDs
 preprocessing: RNA log1p top-2000 variance features and z-score; PCA centers input; no whitening
 command: "python -m code.benchmarks.run_phase3c --first-only|--remaining"

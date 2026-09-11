@@ -1,6 +1,7 @@
 experiment_id: EXP-LN-A1-TOTALVI-0001
 dataset: LN_A1
 method: totalVI
+compute_classification: COLAB_GPU
 seed: 7
 inputs:
   - dataset_id: LN_A1

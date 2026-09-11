@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: baseline_py311
+compute_classification: LOCAL_LIGHT
+compute_selection_basis: transparent baseline and lightweight common clustering
 inputs: A1/D1 ADT or E11/E13/E15 ATAC source X with explicit IDs
 preprocessing: frozen per-observation ADT CLR or TF-IDF plus 31-component LSI dropping component 1
 command: "python -m code.benchmarks.run_phase3c --remaining"

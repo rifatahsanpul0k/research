@@ -1,12 +1,12 @@
-method_id,method,preferred_isolation,python,pytorch,cuda,r,special_dependency,local_hardware_class,difficulty,sharing_group,blocking_issue
-BASE_RNA,RNA separate,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOW,baseline_py311,R3 project baseline verified
-BASE_SECOND,Second modality separate,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOW,baseline_py311,R3 ADT and ATAC project baselines verified with QC flags retained
-BASE_CONCAT,Scaled concatenation,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOW,baseline_py311,R3 within-dataset fusion verified with QC flags retained
-BASE_SPACE,Coordinates only,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOW,baseline_py311,R3 coordinate diagnostic verified; units unknown
-PCA_CLASSICAL,PCA,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOW,baseline_py311,R3 30-dimensional RNA PCA verified
-MOFA_MOFA2,MOFA+,r_environment_or_docker,to_verify,optional,optional,required_for_MOFA2,MOFA2;mofapy2;BLAS,LOCAL_CPU,MODERATE,mofa_isolated,R unavailable locally
-SCOT_ALIGNMENT,SCOT,repository_venv,repository_pinned,not_applicable,not_applicable,not_applicable,POT;repository requirements,LOCAL_CPU,MODERATE,scot_isolated,dependency solve not tested
-TOTALVI_NEURAL,totalVI,scvi_tools_venv,supported_release,required,unavailable,not_applicable,scvi-tools;anndata;scanpy,LOCAL_CPU_or_UNKNOWN,MODERATE,scvi_isolated,MPS support and runtime unverified
-MULTIVI_NEURAL,MultiVI,scvi_tools_venv,supported_release,required,unavailable,not_applicable,scvi-tools;anndata;scanpy,LOCAL_CPU_or_UNKNOWN,MODERATE,scvi_isolated,MPS support and runtime unverified
-SPATIALGLUE_NEURAL,SpatialGlue,legacy_docker,3.8,required,unavailable,4.0.3,PyG;rpy2;MClust,UNKNOWN,HIGH,spatialglue_isolated,R and legacy mixed stack unavailable
-GARFIELD_NEURAL,Garfield,dedicated_venv_or_container,repository_defined,required,unavailable,not_applicable,PyTorch;PyG;graph stack,UNKNOWN,HIGH,garfield_isolated,CUDA-oriented configuration and MPS support unverified
+method_id,method,preferred_isolation,python,pytorch,cuda,r,special_dependency,local_hardware_class,compute_classification,difficulty,sharing_group,blocking_issue
+BASE_RNA,RNA separate,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOCAL_LIGHT,LOW,baseline_py311,R3 project baseline verified
+BASE_SECOND,Second modality separate,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOCAL_LIGHT,LOW,baseline_py311,R3 ADT and ATAC project baselines verified with QC flags retained
+BASE_CONCAT,Scaled concatenation,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOCAL_LIGHT,LOW,baseline_py311,R3 within-dataset fusion verified with QC flags retained
+BASE_SPACE,Coordinates only,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOCAL_LIGHT,LOW,baseline_py311,R3 coordinate diagnostic verified; units unknown
+PCA_CLASSICAL,PCA,uv_venv,3.11.8,not_applicable,not_applicable,not_applicable,numpy==2.4.4;scipy==1.17.1;scikit-learn==1.9.1;h5py==3.16.0,LOCAL_CPU,LOCAL_LIGHT,LOW,baseline_py311,R3 30-dimensional RNA PCA verified
+MOFA_MOFA2,MOFA+,r_environment_or_docker,to_verify,optional,optional,required_for_MOFA2,MOFA2;mofapy2;BLAS,LOCAL_CPU,COLAB_CPU,MODERATE,mofa_isolated,R unavailable locally
+SCOT_ALIGNMENT,SCOT,repository_venv,repository_pinned,not_applicable,not_applicable,not_applicable,POT;repository requirements,LOCAL_CPU,COLAB_HIGH_MEMORY,MODERATE,scot_isolated,dependency solve not tested
+TOTALVI_NEURAL,totalVI,scvi_tools_venv,supported_release,required,unavailable,not_applicable,scvi-tools;anndata;scanpy,LOCAL_CPU_or_UNKNOWN,COLAB_GPU,MODERATE,scvi_isolated,MPS support and runtime unverified
+MULTIVI_NEURAL,MultiVI,scvi_tools_venv,supported_release,required,unavailable,not_applicable,scvi-tools;anndata;scanpy,LOCAL_CPU_or_UNKNOWN,COLAB_GPU,MODERATE,scvi_isolated,MPS support and runtime unverified
+SPATIALGLUE_NEURAL,SpatialGlue,legacy_docker,3.8,required,unavailable,4.0.3,PyG;rpy2;MClust,UNKNOWN,COLAB_GPU,HIGH,spatialglue_isolated,R and legacy mixed stack unavailable
+GARFIELD_NEURAL,Garfield,dedicated_venv_or_container,repository_defined,required,unavailable,not_applicable,PyTorch;PyG;graph stack,UNKNOWN,COLAB_GPU,HIGH,garfield_isolated,CUDA-oriented configuration and MPS support unverified

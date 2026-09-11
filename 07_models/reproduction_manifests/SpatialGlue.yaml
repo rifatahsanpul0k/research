@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: AGPL-3.0
 retrieval_date: 2026-09-12
 environment: spatialglue_isolated
+compute_classification: COLAB_GPU
+compute_selection_basis: graph neural training benefits from GPU execution
 inputs: paired spatial modalities coordinates and IDs
 preprocessing: repository-native PCA or LSI and graph construction
 command: "python repository workflow with resolved config"

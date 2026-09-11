@@ -8,6 +8,8 @@ tag: UNKNOWN
 license: LGPL-3.0
 retrieval_date: 2026-09-12
 environment: mofa_isolated
+compute_classification: COLAB_CPU
+compute_selection_basis: factor-model execution benefits from a managed remote CPU environment
 inputs: aligned multi-view matrices with IDs and masks
 preprocessing: method-native view scaling and feature selection
 command: "Rscript or mofapy2 command from resolved config"

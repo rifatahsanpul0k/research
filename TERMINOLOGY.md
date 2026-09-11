@@ -238,3 +238,14 @@ Mathematical notation and the representation-neutral inventory are defined in [B
 | QC flag | Retained diagnostic concern, such as a singleton or dominant cluster, that does not automatically invalidate a run or a rare biological group. |
 | Runtime scope | Exact operations included in a recorded duration. Phase 3C per-run time excludes the shared representation build and therefore cannot support broad efficiency claims. |
 | Exact repeatability audit | Same frozen data, software, representation seed and clustering seed recomputed to test artifact equality; it is validation, not a new tuned experiment. |
+
+## Compute-environment terms — 2026-09-12
+
+| Term | Working definition and caution |
+|---|---|
+| `LOCAL_LIGHT` | Local repository, validation, inspection, test or lightweight classical work that does not require substantial memory or GPU resources. |
+| `COLAB_CPU` | Scientific execution assigned to a Google Colab CPU runtime because substantial managed compute is beneficial. |
+| `COLAB_GPU` | Scientific execution assigned to a Google Colab GPU runtime; the actual GPU and CUDA versions must be captured rather than inferred. |
+| `COLAB_HIGH_MEMORY` | Scientific execution assigned to a Google Colab runtime because memory demand is material; availability must be verified before execution. |
+| `UNRESOLVED` | Compute needs cannot yet be justified. The workload cannot enter `RUNNING` until a concrete class is recorded. |
+| Notebook controller | A thin Colab bootstrap/execution interface that invokes repository code with a frozen configuration; it is not the canonical home of scientific method logic. |

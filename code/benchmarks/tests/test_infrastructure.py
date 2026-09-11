@@ -12,10 +12,39 @@ from code.benchmarks.common.validation import validate_embedding, validate_row_m
 class InfrastructureTests(unittest.TestCase):
     def test_config_and_dataset_identity(self):
         item = DatasetInput("LN_A1", "RNA", "matrix", "obs", "var", "processed")
-        run = RunConfig("EXP-LN-A1-PCA-0001", "LN_A1", "PCA", 7, (item,), {}, {}, {}, "08_experiments/EXP-LN-A1-PCA-0001")
+        run = RunConfig(
+            "EXP-LN-A1-PCA-0001",
+            "LN_A1",
+            "PCA",
+            7,
+            (item,),
+            {},
+            {},
+            {},
+            "08_experiments/EXP-LN-A1-PCA-0001",
+            compute_classification="LOCAL_LIGHT",
+        )
         self.assertEqual(run.to_dict()["dataset"], "LN_A1")
+        self.assertEqual(run.to_dict()["compute_classification"], "LOCAL_LIGHT")
         with self.assertRaises(ValueError):
             RunConfig("EXP-LN-A1-PCA-0002", "LN_A1", "PCA", 7, (item,), {}, {}, {}, "08_experiments/EXP-LN-A1-PCA-0002", status="DONE").validate()
+
+    def test_compute_classification_gate(self):
+        item = DatasetInput("LN_A1", "RNA", "matrix", "obs", "var", "processed")
+        with self.assertRaises(ValueError):
+            RunConfig(
+                "EXP-LN-A1-PCA-0003",
+                "LN_A1",
+                "PCA",
+                7,
+                (item,),
+                {},
+                {},
+                {},
+                "08_experiments/EXP-LN-A1-PCA-0003",
+                compute_classification="UNRESOLVED",
+                status="RUNNING",
+            ).validate()
 
     def test_row_identity_and_embedding(self):
         validate_row_mapping(["a", "b"], ["a", "b"])
@@ -35,8 +64,16 @@ class InfrastructureTests(unittest.TestCase):
 
     def test_provenance_gate(self):
         record = {key: "recorded" for key in REQUIRED_PROVENANCE}
+        record["compute_classification"] = "LOCAL_LIGHT"
         validate_provenance(record)
         record.pop("seed")
+        with self.assertRaises(ValueError):
+            validate_provenance(record)
+
+    def test_unresolved_provenance_cannot_run(self):
+        record = {key: "recorded" for key in REQUIRED_PROVENANCE}
+        record["compute_classification"] = "UNRESOLVED"
+        record["exit_status"] = "RUNNING"
         with self.assertRaises(ValueError):
             validate_provenance(record)
 

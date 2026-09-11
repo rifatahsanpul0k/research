@@ -10,10 +10,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-REQUIRED_PROVENANCE = {
+REQUIRED_PROVENANCE_V1 = {
     "experiment_id", "timestamp_utc", "dataset", "method", "code_commit",
     "environment", "preprocessing", "seed", "parameters", "hardware",
     "input_checksums", "output_paths", "runtime_seconds", "exit_status",
+}
+REQUIRED_PROVENANCE = REQUIRED_PROVENANCE_V1 | {"compute_classification"}
+VALID_COMPUTE_CLASSIFICATIONS = {
+    "LOCAL_LIGHT", "COLAB_CPU", "COLAB_GPU", "COLAB_HIGH_MEMORY", "UNRESOLVED",
 }
 
 
@@ -37,12 +41,21 @@ def git_head(repo: str | Path = ".") -> str:
     return subprocess.check_output(["git", "-C", str(repo), "rev-parse", "HEAD"], text=True).strip()
 
 
-def validate_provenance(record: dict[str, Any]) -> None:
-    missing = sorted(REQUIRED_PROVENANCE - record.keys())
+def validate_provenance(record: dict[str, Any], schema_version: int = 2) -> None:
+    if schema_version not in {1, 2}:
+        raise ValueError(f"unsupported provenance schema version: {schema_version}")
+    required = REQUIRED_PROVENANCE if schema_version == 2 else REQUIRED_PROVENANCE_V1
+    missing = sorted(required - record.keys())
     if missing:
         raise ValueError(f"missing provenance fields: {', '.join(missing)}")
+    if schema_version == 2:
+        classification = record["compute_classification"]
+        if classification not in VALID_COMPUTE_CLASSIFICATIONS:
+            raise ValueError(f"unknown compute classification: {classification}")
+        if classification == "UNRESOLVED" and record["exit_status"] in {"RUNNING", "SUCCEEDED"}:
+            raise ValueError("compute classification must be resolved before scientific execution")
 
 
-def write_json(record: dict[str, Any], path: str | Path) -> None:
-    validate_provenance(record)
+def write_json(record: dict[str, Any], path: str | Path, schema_version: int = 2) -> None:
+    validate_provenance(record, schema_version=schema_version)
     Path(path).write_text(json.dumps(record, indent=2, sort_keys=True) + "\n")
