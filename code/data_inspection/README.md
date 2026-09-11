@@ -16,3 +16,7 @@ Format reference: [AnnData on-disk specification](https://anndata.readthedocs.io
 - `inspect_coordinates.py INPUT... --output OUT.json` summarizes an `obsm` coordinate key (default `spatial`) without assigning physical units.
 
 These utilities are descriptive and representation-neutral. Their outputs under `02_omics/02_preprocessing_qc_statistics/` are derived reports, not replacements for source H5AD files.
+
+## Phase 2A synthetic arithmetic checks
+
+`python3 code/data_inspection/check_phase2a_toys.py` runs from the repository root using NumPy. It checks the fixed examples in `05_methods/01_mathematical_foundations/TOY_CALCULATIONS.md` and emits a JSON report to stdout. All inputs are tiny synthetic arrays, probabilities or labels defined in the script. It reads no biological files, fits no research model, and constructs no neighborhood graph. The 59 checks cover arithmetic and selected edge cases; they do not validate biological interpretations or constitute a reusable benchmarking pipeline.

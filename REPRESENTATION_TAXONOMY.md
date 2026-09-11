@@ -4,6 +4,10 @@ Status: unranked planning scaffold. No relevant papers have been collected or ve
 
 Notation: n = observations; p = features; d = latent dimensions; m indexes a view where applicable. Shapes, units, constraints, and observation identities must be restated in each actual method record. Families overlap and may appear at different pipeline stages.
 
+Phase 2A mathematical clarification: stored rows are x_i^T with x_i a p-dimensional column vector. A map W of shape d×p acts as z_i=Wx_i, while the full observation matrix maps as Z=XW^T. If a family below writes Z=XW instead, its W has shape p×d. For X≈UV^T, factors have shapes n×d and p×d; factors are not generally identifiable without constraints. Full SVD factors have shapes n×n, n×p and p×p; thin SVD uses h=min(n,p). A positive-semidefinite kernel must satisfy its Gram-matrix condition; an arbitrary similarity need not qualify. These clarifications do not select, rank or begin a family review. See [mathematical foundations](05_methods/01_mathematical_foundations/CONCEPT_MAP.md).
+
+Permanent evaluation principle: numerical compactness, reconstruction, label agreement and biological validity are separate questions. All future family assessments must report computational, statistical and biological evidence, with label provenance and sampling units. [Evaluation distinction](05_methods/01_mathematical_foundations/36_BIOLOGICAL_VS_COMPUTATIONAL_EVALUATION.md).
+
 ## RF01. Raw feature spaces
 
 - **What is represented:** Measured observation-feature entries.

@@ -149,3 +149,26 @@ Definitions below use the cited mechanisms, exceptions and evidence in the linke
 | Preprocessing lineage; leakage | Auditable input→operation→parameters→output record; held-out information must not fit transforms | [Lineage](02_omics/02_preprocessing_qc_statistics/27_PREPROCESSING_LINEAGE.md) |
 
 Mathematical notation and the representation-neutral inventory are defined in [BIOLOGY_TO_DATA](01_biology/03_cellular_tissue_biology/BIOLOGY_TO_DATA.md). No biological definition here selects a future model or representation.
+
+## Phase 2A mathematical and statistical terms
+
+| Term | Definition or distinction | Learning note |
+|---|---|---|
+| Scalar; vector; matrix; tensor | One value; ordered coordinates; two-axis array; array with explicitly defined axes | [Objects and shapes](05_methods/01_mathematical_foundations/02_VECTORS_MATRICES_TENSORS.md) |
+| Norm; metric; similarity | Vector size; separation satisfying metric axioms; specified agreement function | [Distance](05_methods/01_mathematical_foundations/04_DISTANCE.md) |
+| Cosine; Pearson; Spearman | Direction agreement; centered linear association; rank association | [Correlation](05_methods/01_mathematical_foundations/07_CORRELATION.md) |
+| Sample variance; covariance | Centered squared variation or co-variation; n−1 versus n denominator must be explicit | [Moments](05_methods/01_mathematical_foundations/06_MEAN_VARIANCE_COVARIANCE.md) |
+| Joint; marginal; conditional; independence | Full distribution; sum/integral over variables; conditioning; joint factorization | [Probability](05_methods/01_mathematical_foundations/08_PROBABILITY_FOUNDATIONS.md) |
+| Likelihood; prior; posterior | Fixed-data parameter function; pre-data parameter distribution; conditional updated distribution | [Bayes](05_methods/01_mathematical_foundations/11_BAYESIAN_FOUNDATIONS.md) |
+| Linear; affine; projection; basis | Structure-preserving map; linear map plus offset; stated subspace map; independent spanning set | [Maps](05_methods/01_mathematical_foundations/12_LINEAR_TRANSFORMATIONS.md) |
+| Rank; eigenvalue; singular value | Dimension of column space; scaling of an eigendirection; nonnegative SVD scale | [SVD](05_methods/01_mathematical_foundations/15_SVD.md) |
+| Objective; gradient; learning rate | Optimized function; local partial-derivative vector; step magnitude | [Gradient descent](05_methods/01_mathematical_foundations/19_GRADIENT_DESCENT.md) |
+| L1/L2 regularization | Absolute/squared coefficient penalties with different shrinkage behavior | [Regularization](05_methods/01_mathematical_foundations/20_REGULARIZATION.md) |
+| Concentration; local/global geometry | Distribution-dependent high-dimensional effects; nearby/broad-scale structure | [Geometry](05_methods/01_mathematical_foundations/22_HIGH_DIMENSIONAL_GEOMETRY.md) |
+| Kernel; Gram matrix; bandwidth | Specified pair function; n×n pair table; RBF distance scale | [Kernels](05_methods/01_mathematical_foundations/25_KERNELS.md) |
+| Entropy; cross-entropy; KL; MI | Distribution uncertainty; log loss; directed divergence; statistical dependence | [Information](05_methods/01_mathematical_foundations/26_INFORMATION_THEORY.md) |
+| Reconstruction; latent coordinate | Return map to features; constructed/inferred value, not measured mechanism | [Latent variables](05_methods/01_mathematical_foundations/28_LATENT_VARIABLES.md) |
+| Mask; observed zero | Availability record; actual recorded zero with assay-specific meaning | [Missingness](05_methods/01_mathematical_foundations/30_MISSING_DATA.md) |
+| p-value; confidence interval; effect size; FDR | Null-tail probability; repeated-sampling interval; magnitude; expected false-discovery proportion | [Testing](05_methods/01_mathematical_foundations/31_STATISTICAL_TESTING.md) |
+| Accuracy; precision; recall; specificity; F1 | Different summaries of a reference-based confusion table | [Evaluation](05_methods/01_mathematical_foundations/32_EVALUATION_FOUNDATIONS.md) |
+| ARI; NMI; silhouette | Chance-adjusted pair agreement; normalized information agreement; metric-dependent cluster separation | [Evaluation limits](05_methods/01_mathematical_foundations/36_BIOLOGICAL_VS_COMPUTATIONAL_EVALUATION.md) |

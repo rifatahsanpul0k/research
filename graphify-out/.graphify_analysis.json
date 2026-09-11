@@ -1,6 +1,18 @@
 {
   "communities": {
     "0": [
+      "code_data_inspection_check_phase2a_toys",
+      "code_data_inspection_check_phase2a_toys_ari",
+      "code_data_inspection_check_phase2a_toys_check",
+      "code_data_inspection_check_phase2a_toys_choose2",
+      "code_data_inspection_check_phase2a_toys_contingency",
+      "code_data_inspection_check_phase2a_toys_entropy",
+      "code_data_inspection_check_phase2a_toys_information",
+      "code_data_inspection_check_phase2a_toys_main",
+      "code_data_inspection_check_phase2a_toys_rationale_1",
+      "code_data_inspection_check_phase2a_toys_silhouette"
+    ],
+    "1": [
       "code_data_inspection_inspect_h5ad",
       "code_data_inspection_inspect_h5ad_column_values",
       "code_data_inspection_inspect_h5ad_dataframe",
@@ -11,7 +23,7 @@
       "code_data_inspection_inspect_h5ad_rationale_1",
       "code_data_inspection_inspect_h5ad_sha256"
     ],
-    "1": [
+    "2": [
       "code_data_inspection_summarize_matrices",
       "code_data_inspection_summarize_matrices_column_values",
       "code_data_inspection_summarize_matrices_decode",
@@ -22,7 +34,7 @@
       "code_data_inspection_summarize_matrices_stats",
       "code_data_inspection_summarize_matrices_values"
     ],
-    "2": [
+    "3": [
       "code_data_inspection_compare_features",
       "code_data_inspection_compare_features_compare",
       "code_data_inspection_compare_features_decode",
@@ -30,26 +42,32 @@
       "code_data_inspection_compare_features_main",
       "code_data_inspection_compare_features_rationale_1"
     ],
-    "3": [
+    "4": [
       "code_data_inspection_summarize_annotations",
       "code_data_inspection_summarize_annotations_main",
       "code_data_inspection_summarize_annotations_rationale_1",
       "code_data_inspection_summarize_annotations_summarize"
     ],
-    "4": [
+    "5": [
       "code_data_inspection_inspect_coordinates",
       "code_data_inspection_inspect_coordinates_main",
       "code_data_inspection_inspect_coordinates_rationale_1"
     ]
   },
   "cohesion": {
-    "0": 0.4722222222222222,
-    "1": 0.4444444444444444,
-    "2": 0.5333333333333333,
-    "3": 0.6666666666666666,
-    "4": 0.6666666666666666
+    "0": 0.4,
+    "1": 0.4722222222222222,
+    "2": 0.4444444444444444,
+    "3": 0.5333333333333333,
+    "4": 0.6666666666666666,
+    "5": 0.6666666666666666
   },
   "gods": [
+    {
+      "id": "code_data_inspection_check_phase2a_toys_main",
+      "label": "main()",
+      "degree": 6
+    },
     {
       "id": "code_data_inspection_inspect_h5ad_inspect",
       "label": "inspect()",
@@ -66,6 +84,16 @@
       "degree": 5
     },
     {
+      "id": "code_data_inspection_check_phase2a_toys_ari",
+      "label": "ari()",
+      "degree": 4
+    },
+    {
+      "id": "code_data_inspection_check_phase2a_toys_information",
+      "label": "information()",
+      "degree": 4
+    },
+    {
       "id": "code_data_inspection_inspect_h5ad_dataframe",
       "label": "dataframe()",
       "degree": 4
@@ -76,28 +104,13 @@
       "degree": 4
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_column_values",
-      "label": "column_values()",
+      "id": "code_data_inspection_check_phase2a_toys_contingency",
+      "label": "contingency()",
       "degree": 3
     },
     {
-      "id": "code_data_inspection_inspect_h5ad_matrix_summary",
-      "label": "matrix_summary()",
-      "degree": 3
-    },
-    {
-      "id": "code_data_inspection_summarize_matrices_column_values",
-      "label": "column_values()",
-      "degree": 3
-    },
-    {
-      "id": "code_data_inspection_summarize_matrices_stats",
-      "label": "stats()",
-      "degree": 3
-    },
-    {
-      "id": "code_data_inspection_summarize_matrices_values",
-      "label": "values()",
+      "id": "code_data_inspection_check_phase2a_toys_entropy",
+      "label": "entropy()",
       "degree": 3
     }
   ],
