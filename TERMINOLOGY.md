@@ -227,3 +227,14 @@ Mathematical notation and the representation-neutral inventory are defined in [B
 | Canonical observation ID | Project-stable identifier carried through every transformation; row position alone is insufficient identity. |
 | Native/common pipeline | Upstream method-specific execution / shared downstream evaluation. Results must retain which pipeline produced them. |
 | E18 ATAC gate | Explicit availability-and-validation gate that remains false while the E18 ATAC file is incomplete locally. |
+
+## Phase 3C experiment terms — 2026-09-12
+
+| Term | Working definition and caution |
+|---|---|
+| Scientific baseline run | Frozen transparent pipeline executed on a project biological dataset with saved identity, provenance and results. It differs from a synthetic engineering smoke test. |
+| Agreement with reference annotation | ARI/NMI comparison to the supplied annotation. It is not absolute biological accuracy. |
+| Reference-count K | Cluster number set from the number of annotation categories; privileged label information that must be disclosed. |
+| QC flag | Retained diagnostic concern, such as a singleton or dominant cluster, that does not automatically invalidate a run or a rare biological group. |
+| Runtime scope | Exact operations included in a recorded duration. Phase 3C per-run time excludes the shared representation build and therefore cannot support broad efficiency claims. |
+| Exact repeatability audit | Same frozen data, software, representation seed and clustering seed recomputed to test artifact equality; it is validation, not a new tuned experiment. |

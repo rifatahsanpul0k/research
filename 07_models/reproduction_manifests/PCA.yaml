@@ -8,13 +8,13 @@ tag: UNKNOWN
 license: BSD-3-Clause
 retrieval_date: 2026-09-12
 environment: baseline_py311
-inputs: one declared feature matrix and IDs
-preprocessing: centering scaling and feature selection declared
-command: "python -m benchmark_runner --config CONFIG"
-outputs: scores loadings and IDs
-embedding_location: 08_experiments/EXP-ID/embedding
+inputs: frozen Phase 3C RNA representation and observation IDs
+preprocessing: RNA log1p top-2000 variance features and z-score; PCA centers input; no whitening
+command: "python -m code.benchmarks.run_phase3c --first-only|--remaining"
+outputs: 30-dimensional embedding.npz identity_map.csv clusters.csv metrics.json validation.json and provenance
+embedding_location: 08_experiments/EXP-*/embedding.npz
 native_clustering: common KMeans or Leiden
-seed_controls: Python NumPy scikit and clustering seeds
-known_issues: sparse versus centered implementation must be fixed before project-data execution
-reproduction_level: R1
-status: ENVIRONMENT_VERIFIED
+seed_controls: randomized PCA seed 0; KMeans seeds 1729 2718 31415; metric subsample seed 0
+known_issues: source X semantics unresolved; Phase 3C used explicitly frozen dense randomized PCA after RNA preprocessing
+reproduction_level: R3
+status: PROJECT_BASELINE_VERIFIED

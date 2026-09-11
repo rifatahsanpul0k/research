@@ -1,0 +1,112 @@
+{
+  "all_match": true,
+  "checked_at": "2026-09-11T19:26:54.308144+00:00",
+  "e18_atac_status": "NOT_APPLICABLE_E18_ATAC_UNVERIFIED",
+  "e18_atac_verified": false,
+  "files": [
+    {
+      "expected_sha256": "396aaf1466f522bfbe8dd14308aeb6033990252b77749e48977d3127c0c23af5",
+      "match": true,
+      "observed_sha256": "396aaf1466f522bfbe8dd14308aeb6033990252b77749e48977d3127c0c23af5",
+      "path": "04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad"
+    },
+    {
+      "expected_sha256": "d9eab0cdf8cdefe6ed60943e178bf38ce43b0b09dade6e5da268be2db0308360",
+      "match": true,
+      "observed_sha256": "d9eab0cdf8cdefe6ed60943e178bf38ce43b0b09dade6e5da268be2db0308360",
+      "path": "04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad"
+    },
+    {
+      "expected_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+      "match": true,
+      "observed_sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f",
+      "path": "04_datasets/10x_human_lymph_node_A1/raw/annotation.csv"
+    },
+    {
+      "expected_sha256": "be02c9812c903232c3c8bfc0eb24c9e393497d03c64b6b4a5ee6fb66ab3b9bc7",
+      "match": true,
+      "observed_sha256": "be02c9812c903232c3c8bfc0eb24c9e393497d03c64b6b4a5ee6fb66ab3b9bc7",
+      "path": "04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad"
+    },
+    {
+      "expected_sha256": "e827f5cdbbd968f8c8d22567a9246cae02c3562af066c81dd6a0cac02513dd5d",
+      "match": true,
+      "observed_sha256": "e827f5cdbbd968f8c8d22567a9246cae02c3562af066c81dd6a0cac02513dd5d",
+      "path": "04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad"
+    },
+    {
+      "expected_sha256": "8924979bd3bf00231c8f55a55efb2230c49e8464f140691e13f423db2e0a3707",
+      "match": true,
+      "observed_sha256": "8924979bd3bf00231c8f55a55efb2230c49e8464f140691e13f423db2e0a3707",
+      "path": "04_datasets/10x_human_lymph_node_D1/raw/annotation.csv"
+    },
+    {
+      "expected_sha256": "494ccc7fe4a4c24c3854d25abc3eec3c87fcc15f529db23d363ce4e91f0fb482",
+      "match": true,
+      "observed_sha256": "494ccc7fe4a4c24c3854d25abc3eec3c87fcc15f529db23d363ce4e91f0fb482",
+      "path": "04_datasets/Mouse_Brain_E11_S1/raw/adata_ATAC.h5ad"
+    },
+    {
+      "expected_sha256": "cd98c0c563e529a0c6d1fb9c7067f7ace7b85138221023d9215421777a92bd6b",
+      "match": true,
+      "observed_sha256": "cd98c0c563e529a0c6d1fb9c7067f7ace7b85138221023d9215421777a92bd6b",
+      "path": "04_datasets/Mouse_Brain_E11_S1/raw/adata_RNA.h5ad"
+    },
+    {
+      "expected_sha256": "077dc1e1b3aff315f103e80c340724cd6c94dee51cd202add8a943d3e000abca",
+      "match": true,
+      "observed_sha256": "077dc1e1b3aff315f103e80c340724cd6c94dee51cd202add8a943d3e000abca",
+      "path": "04_datasets/Mouse_Brain_E11_S1/raw/anno.csv"
+    },
+    {
+      "expected_sha256": "6c3781f7446afdfaa231505817d5cc03875f9f4718e81182636c7aa7542d32ae",
+      "match": true,
+      "observed_sha256": "6c3781f7446afdfaa231505817d5cc03875f9f4718e81182636c7aa7542d32ae",
+      "path": "04_datasets/Mouse_Brain_E13_S1/raw/adata_ATAC.h5ad"
+    },
+    {
+      "expected_sha256": "b916aeea457b901712ac9799645f6e5ce54046d7475ea0602d9de0145dcbb8b3",
+      "match": true,
+      "observed_sha256": "b916aeea457b901712ac9799645f6e5ce54046d7475ea0602d9de0145dcbb8b3",
+      "path": "04_datasets/Mouse_Brain_E13_S1/raw/adata_RNA.h5ad"
+    },
+    {
+      "expected_sha256": "d5510bc009a3904cadf98dc661b73e1c0a60ea636dbc6b5d259efc30bb564951",
+      "match": true,
+      "observed_sha256": "d5510bc009a3904cadf98dc661b73e1c0a60ea636dbc6b5d259efc30bb564951",
+      "path": "04_datasets/Mouse_Brain_E13_S1/raw/anno.csv"
+    },
+    {
+      "expected_sha256": "ec8fca6f398852acdfdc83e43a8bcddd89468cbc2c5620c51ee1986da7b57eda",
+      "match": true,
+      "observed_sha256": "ec8fca6f398852acdfdc83e43a8bcddd89468cbc2c5620c51ee1986da7b57eda",
+      "path": "04_datasets/Mouse_Brain_E15_S1/raw/adata_ATAC.h5ad"
+    },
+    {
+      "expected_sha256": "5c9dcf021f2aa5485ea7033c90f126a99e4c7997ea8d6201207e72268a61e3bc",
+      "match": true,
+      "observed_sha256": "5c9dcf021f2aa5485ea7033c90f126a99e4c7997ea8d6201207e72268a61e3bc",
+      "path": "04_datasets/Mouse_Brain_E15_S1/raw/adata_RNA.h5ad"
+    },
+    {
+      "expected_sha256": "0340cb46a7686d6a8f4f6b7b4ac49a69a122a98820cc3817a2f0304d3d56bc5e",
+      "match": true,
+      "observed_sha256": "0340cb46a7686d6a8f4f6b7b4ac49a69a122a98820cc3817a2f0304d3d56bc5e",
+      "path": "04_datasets/Mouse_Brain_E15_S1/raw/anno.csv"
+    },
+    {
+      "expected_sha256": "9f916055d76b373a7663663489e4e51a1933ec2f4890ac8a9c41831cc2fb8321",
+      "match": true,
+      "observed_sha256": "9f916055d76b373a7663663489e4e51a1933ec2f4890ac8a9c41831cc2fb8321",
+      "path": "04_datasets/Mouse_Brain_E18_S1/raw/adata_RNA.h5ad"
+    },
+    {
+      "expected_sha256": "7da73ebea49ac996c4e01d8fc57983e4ca54903122edd9884fcfda25544f72fb",
+      "match": true,
+      "observed_sha256": "7da73ebea49ac996c4e01d8fc57983e4ca54903122edd9884fcfda25544f72fb",
+      "path": "04_datasets/Mouse_Brain_E18_S1/raw/anno.csv"
+    }
+  ],
+  "manifest": "02_omics/01_measurement_and_data_generation/DOWNLOAD_MANIFEST.json",
+  "stage": "after_remaining_series"
+}

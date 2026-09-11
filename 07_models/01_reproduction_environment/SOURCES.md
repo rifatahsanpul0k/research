@@ -15,4 +15,4 @@ The selected commits are current remote heads, not verified paper-release commit
 
 ## Installed baseline packages
 
-The isolated baseline environment was resolved from the official Python package index on 2026-09-12. It pins [NumPy 2.4.4](https://pypi.org/project/numpy/2.4.4/), [SciPy 1.17.1](https://pypi.org/project/scipy/1.17.1/) and [scikit-learn 1.9.1](https://pypi.org/project/scikit-learn/1.9.1/). The installed versions imported successfully. A synthetic PCA calculation verified executable linkage only; it provides no scientific result.
+The isolated baseline environment was resolved from the official Python package index on 2026-09-12. It pins [NumPy 2.4.4](https://pypi.org/project/numpy/2.4.4/), [SciPy 1.17.1](https://pypi.org/project/scipy/1.17.1/), [scikit-learn 1.9.1](https://pypi.org/project/scikit-learn/1.9.1/) and [h5py 3.16.0](https://pypi.org/project/h5py/3.16.0/). The installed versions imported successfully. A synthetic PCA calculation verified executable linkage only; Phase 3C scientific runs are separately registered and reported.

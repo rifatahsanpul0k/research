@@ -208,5 +208,107 @@
     "seen": 1789153232.583005,
     "ast_hash": "82d0a6c3bbc99ea9a69587b63f45343c",
     "semantic_hash": "82d0a6c3bbc99ea9a69587b63f45343c"
+  },
+  "08_experiments/PHASE_3C_FIRST_GATE_POSTCHECK.json": {
+    "mtime": 1789154600.5382671,
+    "seen": 1789155359.875786,
+    "ast_hash": "9edf1599605bf855fa87c3f9209e45f5",
+    "semantic_hash": "9edf1599605bf855fa87c3f9209e45f5"
+  },
+  "08_experiments/PHASE_3C_INPUT_PREFLIGHT.json": {
+    "mtime": 1789154599.4495451,
+    "seen": 1789155359.875787,
+    "ast_hash": "d4f902c47965499f7e3ca1c0c24021cf",
+    "semantic_hash": "d4f902c47965499f7e3ca1c0c24021cf"
+  },
+  "08_experiments/PHASE_3C_MACHINE_VALIDATION.json": {
+    "mtime": 1789155607.0474687,
+    "seen": 1789155639.142377,
+    "ast_hash": "85758ece029f6b8eb7a06453a1a1358c",
+    "semantic_hash": "85758ece029f6b8eb7a06453a1a1358c"
+  },
+  "08_experiments/PHASE_3C_REPEATABILITY.json": {
+    "mtime": 1789155121.0581925,
+    "seen": 1789155359.875788,
+    "ast_hash": "384ca5d6c5b51faaab5ebe3ad229b631",
+    "semantic_hash": "384ca5d6c5b51faaab5ebe3ad229b631"
+  },
+  "08_experiments/PHASE_3C_SOURCE_POSTCHECK.json": {
+    "mtime": 1789154814.3084517,
+    "seen": 1789155359.87579,
+    "ast_hash": "13f2ab1056421cd76aa03d99e81eab5a",
+    "semantic_hash": "13f2ab1056421cd76aa03d99e81eab5a"
+  },
+  "code/benchmarks/annotate_phase3c_runtime.py": {
+    "mtime": 1789155021.1246488,
+    "seen": 1789155359.8758342,
+    "ast_hash": "682748ee2ffb4ec92be3f8d00f3284ad",
+    "semantic_hash": "682748ee2ffb4ec92be3f8d00f3284ad"
+  },
+  "code/benchmarks/common/evaluation.py": {
+    "mtime": 1789154360.7638526,
+    "seen": 1789155359.875882,
+    "ast_hash": "c138ecd1ed0abf51f0336cb83089d925",
+    "semantic_hash": "c138ecd1ed0abf51f0336cb83089d925"
+  },
+  "code/benchmarks/common/failures.py": {
+    "mtime": 1789154564.5753148,
+    "seen": 1789155359.875883,
+    "ast_hash": "f151d0d67171de2c419ecd81e343737c",
+    "semantic_hash": "f151d0d67171de2c419ecd81e343737c"
+  },
+  "code/benchmarks/common/h5ad.py": {
+    "mtime": 1789154360.641343,
+    "seen": 1789155359.875884,
+    "ast_hash": "d852fa703f582240d6cfdfc5530ab363",
+    "semantic_hash": "d852fa703f582240d6cfdfc5530ab363"
+  },
+  "code/benchmarks/common/preprocessing.py": {
+    "mtime": 1789154360.7051046,
+    "seen": 1789155359.8759081,
+    "ast_hash": "fde1258eaa0052ae26699d12adb6f408",
+    "semantic_hash": "fde1258eaa0052ae26699d12adb6f408"
+  },
+  "code/benchmarks/methods/__init__.py": {
+    "mtime": 1789154360.868817,
+    "seen": 1789155359.8759801,
+    "ast_hash": "5162172be9dd0c6b4a3905707b8c7c1c",
+    "semantic_hash": "5162172be9dd0c6b4a3905707b8c7c1c"
+  },
+  "code/benchmarks/methods/transparent.py": {
+    "mtime": 1789154360.9326074,
+    "seen": 1789155359.8759801,
+    "ast_hash": "d4100b3d18a4085ac01d7a207465c205",
+    "semantic_hash": "d4100b3d18a4085ac01d7a207465c205"
+  },
+  "code/benchmarks/run_phase3c.py": {
+    "mtime": 1789155021.0651295,
+    "seen": 1789155359.875981,
+    "ast_hash": "e30ab99db4816a409abc1d5fb873d944",
+    "semantic_hash": "e30ab99db4816a409abc1d5fb873d944"
+  },
+  "code/benchmarks/summarize_phase3c.py": {
+    "mtime": 1789155030.1895778,
+    "seen": 1789155359.875981,
+    "ast_hash": "72b113d043df78da9ddc1f4dc798c1bc",
+    "semantic_hash": "72b113d043df78da9ddc1f4dc798c1bc"
+  },
+  "code/benchmarks/tests/test_phase3c.py": {
+    "mtime": 1789154564.6946366,
+    "seen": 1789155359.876029,
+    "ast_hash": "a67317d5449349a4aed82fd0c232fa9a",
+    "semantic_hash": "a67317d5449349a4aed82fd0c232fa9a"
+  },
+  "code/benchmarks/validate_phase3c.py": {
+    "mtime": 1789155320.4517891,
+    "seen": 1789155359.87603,
+    "ast_hash": "a0e546c5631436465d13f57a37f5a90c",
+    "semantic_hash": "a0e546c5631436465d13f57a37f5a90c"
+  },
+  "code/benchmarks/verify_phase3c_repeatability.py": {
+    "mtime": 1789155021.1839979,
+    "seen": 1789155359.87603,
+    "ast_hash": "5b9b20ed77dd3f41dde0e504b880ae4c",
+    "semantic_hash": "5b9b20ed77dd3f41dde0e504b880ae4c"
   }
 }

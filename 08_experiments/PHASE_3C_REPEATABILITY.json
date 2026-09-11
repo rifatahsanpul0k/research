@@ -1,0 +1,429 @@
+{
+  "all_pass": true,
+  "records": [
+    {
+      "baseline": "RNA",
+      "clusters_exact_equal": true,
+      "dataset": "LN_A1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-A1-RNA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.5177254580048611
+    },
+    {
+      "baseline": "PCA",
+      "clusters_exact_equal": true,
+      "dataset": "LN_A1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-A1-PCA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.5177254580048611
+    },
+    {
+      "baseline": "SPACE",
+      "clusters_exact_equal": true,
+      "dataset": "LN_A1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-A1-SPACE-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.5177254580048611
+    },
+    {
+      "baseline": "ADT",
+      "clusters_exact_equal": true,
+      "dataset": "LN_A1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-A1-ADT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.5177254580048611
+    },
+    {
+      "baseline": "CONCAT",
+      "clusters_exact_equal": true,
+      "dataset": "LN_A1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-A1-CONCAT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.5177254580048611
+    },
+    {
+      "baseline": "RNA",
+      "clusters_exact_equal": true,
+      "dataset": "LN_D1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-D1-RNA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2830245829973137
+    },
+    {
+      "baseline": "PCA",
+      "clusters_exact_equal": true,
+      "dataset": "LN_D1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-D1-PCA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2830245829973137
+    },
+    {
+      "baseline": "SPACE",
+      "clusters_exact_equal": true,
+      "dataset": "LN_D1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-D1-SPACE-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2830245829973137
+    },
+    {
+      "baseline": "ADT",
+      "clusters_exact_equal": true,
+      "dataset": "LN_D1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-D1-ADT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2830245829973137
+    },
+    {
+      "baseline": "CONCAT",
+      "clusters_exact_equal": true,
+      "dataset": "LN_D1",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-LN-D1-CONCAT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2830245829973137
+    },
+    {
+      "baseline": "RNA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E11",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E11-RNA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 2.9913701669865986
+    },
+    {
+      "baseline": "PCA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E11",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E11-PCA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 2.9913701669865986
+    },
+    {
+      "baseline": "SPACE",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E11",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E11-SPACE-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 2.9913701669865986
+    },
+    {
+      "baseline": "ATAC",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E11",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E11-ATAC-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 2.9913701669865986
+    },
+    {
+      "baseline": "CONCAT",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E11",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E11-CONCAT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 2.9913701669865986
+    },
+    {
+      "baseline": "RNA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E13",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E13-RNA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 9.776135749998502
+    },
+    {
+      "baseline": "PCA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E13",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E13-PCA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 9.776135749998502
+    },
+    {
+      "baseline": "SPACE",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E13",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E13-SPACE-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 9.776135749998502
+    },
+    {
+      "baseline": "ATAC",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E13",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E13-ATAC-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 9.776135749998502
+    },
+    {
+      "baseline": "CONCAT",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E13",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E13-CONCAT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 9.776135749998502
+    },
+    {
+      "baseline": "RNA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E15",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E15-RNA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 17.9495448749949
+    },
+    {
+      "baseline": "PCA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E15",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E15-PCA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 17.9495448749949
+    },
+    {
+      "baseline": "SPACE",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E15",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E15-SPACE-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 17.9495448749949
+    },
+    {
+      "baseline": "ATAC",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E15",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E15-ATAC-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 17.9495448749949
+    },
+    {
+      "baseline": "CONCAT",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E15",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E15-CONCAT-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 17.9495448749949
+    },
+    {
+      "baseline": "RNA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E18",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E18-RNA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2750208749930607
+    },
+    {
+      "baseline": "PCA",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E18",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E18-PCA-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2750208749930607
+    },
+    {
+      "baseline": "SPACE",
+      "clusters_exact_equal": true,
+      "dataset": "MB_E18",
+      "embedding_exact_equal": true,
+      "embedding_max_absolute_difference": 0.0,
+      "experiment_id": "EXP-MB-E18-SPACE-KMEANS-S1729",
+      "metric_absolute_differences": {
+        "ARI": 0.0,
+        "NMI": 0.0,
+        "silhouette": 0.0
+      },
+      "pass": true,
+      "shared_dataset_representation_build_seconds": 0.2750208749930607
+    }
+  ],
+  "seed": 1729,
+  "source_files_unchanged": true,
+  "timing_note": "Shared dataset representation-build timing covers all eligible representations for that dataset and is not allocated to individual seed runs.",
+  "validation_type": "REPEATABILITY_VALIDATION_NOT_A_NEW_SCIENTIFIC_EXPERIMENT"
+}
