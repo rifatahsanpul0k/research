@@ -103,3 +103,44 @@ Chronological decision record. Dates use Asia/Dhaka unless another timezone is e
 - **Alternatives considered:** Concrete options and why they were not selected.
 - **Outcome:** Action or finding, with artifact links; do not upgrade a hypothesis to fact.
 - **Unresolved issues:** Missing evidence and next action.
+
+## 2026-09-11 - 11: Open Phase 1C and identify incomplete brief
+
+- **Repository:** Clean starting tree at eddb50b; Phase 1A and Phase 1B files and commits present. No repository AGENTS.md found.
+- **Graphify:** Ran `graphify . --code-only` before research. Zero supported code files; 69 non-code files skipped (66 docs, 3 papers); exit 1, empty graph. Expected repository result, not scientific evidence or research failure. Existing tracked graphify-out/cache/stat-index.json was refreshed.
+- **Input issue:** The 8055-byte attachment has 489 newline characters and ends literally at `* neura` in section 14. This is an incomplete input file, not output truncation. Sections 0–13 are available; final scope/artifact requirements and stopping condition are unavailable. Asked the user for the remaining text while continuing independent evidence work.
+- **Scope:** Biological preparation only; no remote datasets, assay methods, algorithms, models, representation rankings, scientific graph construction or experiments.
+
+## 2026-09-11 - 12: Preserve preliminary Phase 1C findings
+
+- **Artifact:** Created 01_biology/PHASE_1C_PREPARATION.md with ordered preliminary findings, six formal relationship distinctions, an explicitly synthetic counterexample, source access depths and an outstanding-work list. Final topic filenames await the complete request.
+- **Tracking:** Curriculum now says Phase 1C in_progress; added a preliminary terminology section. Added 14 actually used references to papers.csv (52 total), reusing the existing Wagner–Klein lineage entry without duplication. Citation details and inspected locations are in the preparation document; no irrelevant paper cards or paper downloads were created.
+- **Evidence:** NCBI textbooks and publisher/PMC/PubMed review records support the preliminary synthesis. Abstract/indexed/preview access is identified explicitly. The preparation is not a full-text systematic review or a completed set of topic notes.
+- **Conceptual constraints:** Type/state/ancestry are separate; persistent T-cell states need qualification; signaling compatibility is not proven communication; physical proximity does not imply molecular equivalence; textbook tissue anatomy is not a dataset annotation.
+- **Unresolved:** Remainder of section 14 and any subsequent requirements; deeper known-topic coverage and final conceptual assessment. Phase 1C remains incomplete and no later phase has begun.
+
+- **Preparation validation:** CSV checks passed for 52 rows and 15 fields, unique paper IDs and known DOIs, populated fields, 15 matching footnote references/definitions, and existing local links. Confirmed 12 Phase 1A and 18 Phase 1B Markdown files. `git diff --check` passed. These are preparation integrity checks, not Phase 1C conceptual completion.
+- **End-of-preparation Graphify:** Repeated `graphify . --code-only`; zero supported code, 70 non-code files skipped (67 docs, 3 papers), exit 1 with expected empty graph. Rerun at eventual phase completion. Changes remain local and uncommitted.
+
+## 2026-09-11 - 13: Resume Phase 1C from complete continuation
+
+- **Input resolved:** User supplied the remainder of section 14 and sections 15–27. Reconciled with the original brief: 18 ordered A–H topics, 22 required files, biological-only scope, final Graphify and local/uncommitted review.
+- **Preservation:** Retained the prior preparation and marked it historical with links to final artifacts. Existing local preparation changes were continued, not discarded. Prerequisite Phase 1A/1B content remains unchanged.
+- **Research:** Extended source work on somatic/metabolic variation, cell junctions/mechanics/niches, domain-specific LN migration/anatomy, embryonic neural development, staging, observation compartments and annotation hierarchy. Read measurement papers only for biological unit/evidence distinctions; no assay-method review or implementation started.
+
+## 2026-09-11 - 14: Assemble and conceptually review Phase 1C
+
+- **Artifacts:** Created all 18 requested topic files plus CONCEPT_MAP.md, BIOLOGY_TO_DATA.md, SOURCES.md and VALIDATION.md under 01_biology/03_cellular_tissue_biology/. Updated curriculum and terminology with final coverage and retained preparation history.
+- **References:** 39 sources actually cited in the completed notes; 19 additional entries this turn, 33 total added during Phase 1C, 71 total registry rows. Prior entries reused without duplicate IDs/DOIs. Institutional resource dates remain unknown where not supplied. Access limitations and supporting locations are recorded; no PDFs, code or datasets acquired.
+- **Conceptual review:** Checked the molecular-program → phenotype → signaling/differentiation → interactions/environment → tissue organization chain with feedback; distinguished type/state, proximity/communication, resemblance/ancestry, stage/cycle/maturation, regions/types and cells/nuclei/mixtures. Validated the synthetic weighted-mixture and composition-change arithmetic.
+- **Scope qualifications:** Mouse cortical examples are not whole-brain rules or project annotations. Embryonic progenitor/gliogenic processes are distinct from adult anatomy. FDCs differ from conventional DCs; microglia are not assigned neural-progenitor ancestry; S1 is not inferred to name somatosensory cortex.
+- **Prior phases:** No additional Phase 1A or Phase 1B corrections required after reviewing their identity/developmental bridge and integration principles. This finding is not a claim of exhaustive re-review of every earlier source.
+- **Remaining checks:** Final links/citations/registry/whitespace validation and requested code-only Graphify; results follow. Phase 1D remains unstarted.
+
+## 2026-09-11 - 15: Validate and stop after Phase 1C
+
+- **Conceptual completion:** All 18 ordered topics and required integration documents reviewed against the 12 biological distinctions and comprehension checks in VALIDATION.md. Completion is based on those checks, not mere file existence.
+- **Integrity:** Passed exact 22-file inventory, 18 A–H structures, matching footnotes, 318 local links/anchors, 39 cited sources, 71-row/15-column registry, unique IDs/known DOIs, populated fields and existing extraction paths. Bibliographic identity/access depth are documented separately from unrestricted full-text availability.
+- **Preservation:** datasets.csv matches HEAD byte-for-byte; no Phase 1A/1B files changed. Synthetic examples checked arithmetically. `git diff --check` passed.
+- **Final Graphify:** `graphify . --code-only` exited 1 with expected empty graph; 0 supported code files, 92 non-code files skipped (89 docs, 3 papers), 19 unclassified files skipped. Existing tracked cache refreshed. No scientific graph constructed.
+- **Outcome:** Phase 1C complete at reviewed-notes level; ready for Phase 1D when requested. Actual assays, observation units, donor/embryo relationships, anatomy and annotations remain unverified. No subsequent phase, ML work, benchmark, data analysis or experiment begun. All changes local and uncommitted for review.

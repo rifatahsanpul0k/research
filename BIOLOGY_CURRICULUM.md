@@ -1,6 +1,6 @@
 # Biology Fundamentals and Omics Foundations
 
-Status: Phase 1A molecular biology foundations complete, with documented Phase 1B corrections. Phase 1B gene regulation, epigenetics and chromatin foundations are complete at the verified-notes level. Phase 1C and later assay/method phases are not started. This roadmap links source-backed learning notes; study questions do not assert that the listed measurements exist in our datasets.
+Status: Phase 1A molecular biology foundations complete, with documented Phase 1B corrections. Phase 1B gene regulation, epigenetics and chromatin foundations are complete at the verified-notes level. Phase 1C cellular and tissue biology foundations are complete at the reviewed-notes level; see its validation record. Later assay/method phases are not started. This roadmap links source-backed learning notes; study questions do not assert that the listed measurements exist in our datasets.
 
 For every topic, document **biology -> measurement -> numerical representation -> computational relevance**, with primary/authoritative references, uncertainties, and a short explanation in the learner's own words.
 
@@ -15,11 +15,11 @@ For every topic, document **biology -> measurement -> numerical representation -
 | 7 | Transcription factors | Binding, motifs, regulatory activity | Binding and motif-related evidence | Motif, target, and activity tables | Phase 1B note 05; TF expression is not TF activity. |
 | 8 | Epigenetics | Mechanisms and persistence of regulation | Methylation and histone assay principles | Site/region-level measurements with coverage | Phase 1B notes 08-10; snapshot versus memory and context-dependent marks. |
 | 9 | Chromatin accessibility | Accessible regions and interpretation | Probe-based measurement principles; protocols and peak calling deferred | Fragment, peak, or accessibility matrices | Phase 1B notes 06-07; zeros, units and feature definitions. |
-| 10 | Cell types | Identity and classification conventions | Marker and reference annotation workflows | Cell labels and uncertainty records | What evidence supports a cell-type label? |
-| 11 | Cell states | Context-dependent cellular programs | Expression and other state measurements | Scores, covariates, or latent variables | How can state be distinguished from identity and technical effects? |
-| 12 | Tissue organization | Compartments and spatial relationships | Spatial sampling and coordinate assignment | Coordinates and compartment annotations | What spatial scale and observation unit are represented? |
-| 13 | Signaling pathways | Molecular interactions and pathways | Curated evidence and perturbations | Pathway memberships and interaction tables | What is known versus inferred about pathway activity? |
-| 14 | Immune and tissue biology | Human lymph-node and embryonic-brain foundations | Tissue-specific sampling and annotation practices | Cell/compartment annotations | Which tissue-specific distinctions must evaluation preserve? |
+| 10 | Cell types | Identity and classification conventions | Marker and reference annotation workflows | Cell labels and uncertainty records | What evidence supports a cell-type label?  Phase 1C foundation complete; see [ordered notes](01_biology/03_cellular_tissue_biology/CONCEPT_MAP.md). |
+| 11 | Cell states | Context-dependent cellular programs | Expression and other state measurements | Scores, covariates, or latent variables | How can state be distinguished from identity and technical effects?  Phase 1C foundation complete; see [ordered notes](01_biology/03_cellular_tissue_biology/CONCEPT_MAP.md). |
+| 12 | Tissue organization | Compartments and spatial relationships | Spatial sampling and coordinate assignment | Coordinates and compartment annotations | What spatial scale and observation unit are represented?  Phase 1C foundation complete; see [ordered notes](01_biology/03_cellular_tissue_biology/CONCEPT_MAP.md). |
+| 13 | Signaling pathways | Molecular interactions and pathways | Curated evidence and perturbations | Pathway memberships and interaction tables | What is known versus inferred about pathway activity?  Phase 1C foundation complete; see [ordered notes](01_biology/03_cellular_tissue_biology/CONCEPT_MAP.md). |
+| 14 | Immune and tissue biology | Human lymph-node and embryonic-brain foundations | Tissue-specific sampling and annotation practices | Cell/compartment annotations | Which tissue-specific distinctions must evaluation preserve?  Phase 1C foundation complete; see [ordered notes](01_biology/03_cellular_tissue_biology/CONCEPT_MAP.md). |
 | 15 | Mutations and genetic variants | Variant types and biological effects | Variant detection and annotation | Genotype and variant tables | How are alleles, reference builds, and uncertainty encoded? |
 | 16 | GWAS | Association study design and population structure | Genotyping and association estimation | Summary-statistic tables | What can an association establish about disease mechanisms? |
 | 17 | eQTL | Genotype-expression associations | Matched genotype/expression studies | Variant-gene association tables | Which tissue, ancestry, and confounding constraints apply? |
@@ -49,7 +49,7 @@ Begin with topics 1-4, then regulation/chromatin (5-9), cells/tissues/pathways (
 - **Boundary:** Did not start epigenetics, chromatin accessibility, scRNA-seq methods, CITE-seq, spatial transcriptomics methods, machine learning, representation comparison, graph construction, experiments, or novelty analysis.
 - **Readiness note:** Ready for Phase 1B only as foundational biology learning. Dataset-specific claims remain unknown until dataset access and provenance are verified.
 
-## Phase 1B study record
+## Phase 1B study record (status at its completion)
 
 - **Status:** verified_notes; Phase 1B complete after conceptual review and structural checks on 2026-09-11. See [validation and readiness](01_biology/02_gene_regulation/VALIDATION.md).
 - **Topics, in order:** gene regulation; promoters; enhancers; silencers/insulators/other regulatory elements; transcription factors; chromatin; accessibility; epigenetics; DNA methylation; histone modifications; enhancer-promoter interactions; gene regulatory networks; cell identity/regulatory state; developmental regulation bridge.
@@ -62,3 +62,22 @@ Begin with topics 1-4, then regulation/chromatin (5-9), cells/tissues/pathways (
 - **Boundary:** no scRNA-seq/scATAC-seq methodology phase, CITE-seq, spatial transcriptomics, multi-omics integration, model implementation, representation comparison, research graph construction, experiment, disease association or novelty analysis.
 - **Next authorized phase:** none. Phase 1C: Cellular Biology and Tissue Organization is the next proposed learning phase and has not begun.
 - **Readiness:** Ready to begin Phase 1C when requested. Foundational molecular/regulatory reasoning is sufficient; cell/tissue organization and dataset-specific assay interpretation remain future work.
+
+## Phase 1C preparation record — 2026-09-11 (historical snapshot)
+
+Status: **in_progress**, not verified_notes or complete. See [source-backed preparation](01_biology/PHASE_1C_PREPARATION.md). Both prerequisite phases are present; initial Graphify code-only extraction found no code, as expected.
+
+The received brief contains sections 0–13 and ends at `* neura` within section 14. The remaining text was requested. Preliminary evidence covers identity/state, heterogeneity, differentiation, lineage, cycle, signaling, interactions, matrix/environment, tissue organization, six distinct biological relationships, gradients, lymph-node foundations and introductory neural progenitors. This is a preparation record, not a claim that any full Phase 1C topic or all of its mechanisms have been completed.
+
+Next: reconcile the rest of the brief; develop all required artifacts and biological depth; review conceptual consistency; validate evidence and tracking; run final Graphify. Do not advance to assay methodology or computational methods.
+
+## Phase 1C completion record — 2026-09-11
+
+- **Status:** reviewed source-backed foundations complete; [validation and readiness](01_biology/03_cellular_tissue_biology/VALIDATION.md). The missing continuation was supplied and reconciled with the preparation; all 18 requested topics are covered.
+- **Topics:** identity; heterogeneity; differentiation; lineage; cycle; signaling; cell interactions; microenvironment; tissue organization; six spatial/biological relationships; boundaries/transitions; lymph-node foundations; LN spatial biology; embryonic mouse brain; developmental time; observation units; annotation; hierarchy.
+- **Artifacts:** 18 A–H notes and [concept map](01_biology/03_cellular_tissue_biology/CONCEPT_MAP.md), [biology-to-data bridge](01_biology/03_cellular_tissue_biology/BIOLOGY_TO_DATA.md), [sources](01_biology/03_cellular_tissue_biology/SOURCES.md), validation: 22 files. Historical preparation retained separately.
+- **Evidence:** 39 actually used references; 33 newly registered across both Phase 1C turns (14 preparation + 19 completion); six earlier entries reused. Registry total 71.
+- **Previous phases:** no additional corrections to Phase 1A or Phase 1B required by this review.
+- **Conceptual checks:** type/state; similarity/proximity/communication/ancestry; temporal versus lineage information; individual versus mixed observations; marker uncertainty; annotation hierarchy and anatomy provenance. Synthetic mixture and changing-composition examples are arithmetic demonstrations, not experiments.
+- **Unresolved:** actual dataset assays, units, pairing, stages, regions, conditions and annotations remain unverified. Deeper biological study is listed in validation.
+- **Readiness:** ready to begin Phase 1D: Omics Measurement Technologies and Data Generation when requested. No later phase has begun. Changes are local and uncommitted.
