@@ -53,6 +53,12 @@ Begin with topics 1-4, then regulation/chromatin (5-9), cells/tissues/pathways (
 
 - **Status:** verified_notes; Phase 1B complete after conceptual review and structural checks on 2026-09-11. See [validation and readiness](01_biology/02_gene_regulation/VALIDATION.md).
 - **Topics, in order:** gene regulation; promoters; enhancers; silencers/insulators/other regulatory elements; transcription factors; chromatin; accessibility; epigenetics; DNA methylation; histone modifications; enhancer-promoter interactions; gene regulatory networks; cell identity/regulatory state; developmental regulation bridge.
+
+## Phase 1D study record (status at its completion)
+
+- **Status:** verified_notes; measurement and data-generation foundations completed 2026-09-11. See [validation](02_omics/01_measurement_and_data_generation/VALIDATION.md).
+- **Topics, in order:** sample-to-matrix chain; sequencing; barcodes/UMIs; scRNA-seq; snRNA-seq; droplets; ADT/CITE-seq; scATAC-seq; spatial transcriptomics; spatial protein; multimodal pairing; zeros/sparsity; technical/biological variation; raw/processed levels; feature identifiers; spatial coordinates; sample hierarchy; QC foundations; data formats; primary dataset reconnaissance.
+- **Boundary:** No preprocessing algorithms, normalization benchmark, dimension reduction, graph construction, representation learning, model implementation, experiment, or novelty analysis. Phase 1E is ready only after review of the recorded E15/E18 ATAC download uncertainty.
 - **Notes:** [Phase 1B concept map](01_biology/02_gene_regulation/CONCEPT_MAP.md) links all 14 A-H topic notes in order.
 - **Computational bridge:** [Biology to data](01_biology/02_gene_regulation/BIOLOGY_TO_DATA.md): RNA n x p, accessibility n x q, region-gene q x p, metadata, units, evidence and missingness.
 - **Evidence:** [Source register and access limits](01_biology/02_gene_regulation/SOURCES.md); individual biological source records under 03_papers; papers.csv includes only references actually used.

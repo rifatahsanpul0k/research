@@ -1,0 +1,191 @@
+[
+  {
+    "dataset_id": "10x_human_lymph_node_A1",
+    "filename": "adata_ADT.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/10z1N4MwW8Y49o8GlkYGBKVx1N7fiMuyC",
+    "source_file_url": "https://drive.google.com/file/d/1p1EllZRpgEEOEP6T5zWnv3kvJmEgJXLm/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 1139080,
+    "sha256": "396aaf1466f522bfbe8dd14308aeb6033990252b77749e48977d3127c0c23af5"
+  },
+  {
+    "dataset_id": "10x_human_lymph_node_A1",
+    "filename": "adata_RNA.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/10z1N4MwW8Y49o8GlkYGBKVx1N7fiMuyC",
+    "source_file_url": "https://drive.google.com/file/d/19kW58NNMJXSPDBFCYP6RfrgSECyJhLbL/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 56563170,
+    "sha256": "d9eab0cdf8cdefe6ed60943e178bf38ce43b0b09dade6e5da268be2db0308360"
+  },
+  {
+    "dataset_id": "10x_human_lymph_node_A1",
+    "filename": "annotation.csv",
+    "source_folder": "https://drive.google.com/drive/folders/10z1N4MwW8Y49o8GlkYGBKVx1N7fiMuyC",
+    "source_file_url": "https://drive.google.com/file/d/1SlFY5iiFyamiqa6SfmDKHb-zy512ygMA/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 114473,
+    "sha256": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E15_S1",
+    "filename": "adata_ATAC.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1rHkTL5OF5qPsEERypRGMS51SjUQ69tdD",
+    "source_file_url": "https://drive.google.com/file/d/1FBAm-eRFnyB2hFQyE68MMqtCD7dz4_qx/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 199891560,
+    "sha256": "ec8fca6f398852acdfdc83e43a8bcddd89468cbc2c5620c51ee1986da7b57eda"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E15_S1",
+    "filename": "adata_ATAC.h5adlhvu5bjl.part",
+    "source_folder": "https://drive.google.com/drive/folders/1rHkTL5OF5qPsEERypRGMS51SjUQ69tdD",
+    "source_file_url": "https://drive.google.com/drive/folders/UNKNOWN",
+    "status": "incomplete_partial_excluded",
+    "downloaded_at": "2026-09-11",
+    "bytes": 171966464
+  },
+  {
+    "dataset_id": "Mouse_Brain_E15_S1",
+    "filename": "adata_RNA.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1rHkTL5OF5qPsEERypRGMS51SjUQ69tdD",
+    "source_file_url": "https://drive.google.com/file/d/1zIOqL9cg-bzC_PEUFBapSSN6w-16dNVr/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 57096330,
+    "sha256": "5c9dcf021f2aa5485ea7033c90f126a99e4c7997ea8d6201207e72268a61e3bc"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E15_S1",
+    "filename": "anno.csv",
+    "source_folder": "https://drive.google.com/drive/folders/1rHkTL5OF5qPsEERypRGMS51SjUQ69tdD",
+    "source_file_url": "https://drive.google.com/file/d/1nvTzvsn8JA0zMGRtSYglNjCXLRmdq_1X/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 74128,
+    "sha256": "0340cb46a7686d6a8f4f6b7b4ac49a69a122a98820cc3817a2f0304d3d56bc5e"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E11_S1",
+    "filename": "adata_ATAC.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1zRwDJrYnks0LRzlAVRqPU7jE_OcStgPo",
+    "source_file_url": "https://drive.google.com/file/d/1n0MhR_K6Mjj55dNXcJuWzs0NN5F304I1/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 54105964,
+    "sha256": "494ccc7fe4a4c24c3854d25abc3eec3c87fcc15f529db23d363ce4e91f0fb482"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E11_S1",
+    "filename": "adata_RNA.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1zRwDJrYnks0LRzlAVRqPU7jE_OcStgPo",
+    "source_file_url": "https://drive.google.com/file/d/1lIp2N9Gags22WKqe8yjuEoYn--mnQI1e/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 28194962,
+    "sha256": "cd98c0c563e529a0c6d1fb9c7067f7ace7b85138221023d9215421777a92bd6b"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E11_S1",
+    "filename": "anno.csv",
+    "source_folder": "https://drive.google.com/drive/folders/1zRwDJrYnks0LRzlAVRqPU7jE_OcStgPo",
+    "source_file_url": "https://drive.google.com/file/d/1Bmoh5i5iqFsBGj8lmxdrWwQmZw_OMB3w/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 45308,
+    "sha256": "077dc1e1b3aff315f103e80c340724cd6c94dee51cd202add8a943d3e000abca"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E13_S1",
+    "filename": "adata_ATAC.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1GOufwIRjjfcd9Bi2GKtebzKoPCg2jVud",
+    "source_file_url": "https://drive.google.com/file/d/1ah7AAIw7SJyH41Ng1N-eOkfDzncOVTV4/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 115767136,
+    "sha256": "6c3781f7446afdfaa231505817d5cc03875f9f4718e81182636c7aa7542d32ae"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E13_S1",
+    "filename": "adata_RNA.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1GOufwIRjjfcd9Bi2GKtebzKoPCg2jVud",
+    "source_file_url": "https://drive.google.com/file/d/1RiiqIMjCkVGPacA8tNMKE4nS9uLNwPR9/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 45057114,
+    "sha256": "b916aeea457b901712ac9799645f6e5ce54046d7475ea0602d9de0145dcbb8b3"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E13_S1",
+    "filename": "anno.csv",
+    "source_folder": "https://drive.google.com/drive/folders/1GOufwIRjjfcd9Bi2GKtebzKoPCg2jVud",
+    "source_file_url": "https://drive.google.com/file/d/1KkPVGmI6ot7vf-_QQiWhb01qDM4xYYIB/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 63372,
+    "sha256": "d5510bc009a3904cadf98dc661b73e1c0a60ea636dbc6b5d259efc30bb564951"
+  },
+  {
+    "dataset_id": "10x_human_lymph_node_D1",
+    "filename": "adata_ADT.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1-g_Ca2XMaMXF-MisuVY-wobWDX86O6zz",
+    "source_file_url": "https://drive.google.com/file/d/1jOIAO9prRXx7Lj5wpb1RQ_2ZyTAkNLSf/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 1103312,
+    "sha256": "be02c9812c903232c3c8bfc0eb24c9e393497d03c64b6b4a5ee6fb66ab3b9bc7"
+  },
+  {
+    "dataset_id": "10x_human_lymph_node_D1",
+    "filename": "adata_RNA.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1-g_Ca2XMaMXF-MisuVY-wobWDX86O6zz",
+    "source_file_url": "https://drive.google.com/file/d/1jD-ZOTBtBVFAhItzRXUl6wS-QMXzyNqp/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 31593546,
+    "sha256": "e827f5cdbbd968f8c8d22567a9246cae02c3562af066c81dd6a0cac02513dd5d"
+  },
+  {
+    "dataset_id": "10x_human_lymph_node_D1",
+    "filename": "annotation.csv",
+    "source_folder": "https://drive.google.com/drive/folders/1-g_Ca2XMaMXF-MisuVY-wobWDX86O6zz",
+    "source_file_url": "https://drive.google.com/file/d/17PFU7LHpZUWLdFjUzcN6fagdDrlamYZQ/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 117120,
+    "sha256": "8924979bd3bf00231c8f55a55efb2230c49e8464f140691e13f423db2e0a3707"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E18_S1",
+    "filename": "adata_RNA.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1Xj1LNIAY93biS6JIMKNRODn5GvtCKADB",
+    "source_file_url": "https://drive.google.com/file/d/1gfAx1sdt8vXTfEEgLhp0QbIfFeXOjN4n/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 40273370,
+    "sha256": "9f916055d76b373a7663663489e4e51a1933ec2f4890ac8a9c41831cc2fb8321"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E18_S1",
+    "filename": "anno.csv",
+    "source_folder": "https://drive.google.com/drive/folders/1Xj1LNIAY93biS6JIMKNRODn5GvtCKADB",
+    "source_file_url": "https://drive.google.com/file/d/1Ze3YSJ9DVXjTABvYjjyTHnAMMtAonaMV/view",
+    "status": "complete",
+    "downloaded_at": "2026-09-11",
+    "bytes": 80889,
+    "sha256": "7da73ebea49ac996c4e01d8fc57983e4ca54903122edd9884fcfda25544f72fb"
+  },
+  {
+    "dataset_id": "Mouse_Brain_E18_S1",
+    "filename": "adata_ATAC.h5ad",
+    "source_folder": "https://drive.google.com/drive/folders/1Xj1LNIAY93biS6JIMKNRODn5GvtCKADB",
+    "source_file_url": "https://drive.google.com/file/d/1YZ8YZu26ZM_KJgX8Nf_NZaRf16ROlgu0/view",
+    "status": "not_downloaded_incomplete_transfer",
+    "downloaded_at": "2026-09-11",
+    "bytes": null,
+    "reason": "Visible in Drive; no complete local copy after interrupted transfer; excluded from inspection."
+  }
+]

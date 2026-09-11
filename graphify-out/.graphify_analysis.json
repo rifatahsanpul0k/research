@@ -1,0 +1,80 @@
+{
+  "communities": {
+    "0": [
+      "code_data_inspection_inspect_h5ad",
+      "code_data_inspection_inspect_h5ad_inspect",
+      "code_data_inspection_inspect_h5ad_main",
+      "code_data_inspection_inspect_h5ad_matrix_summary",
+      "code_data_inspection_inspect_h5ad_rationale_1",
+      "code_data_inspection_inspect_h5ad_sha256"
+    ],
+    "1": [
+      "code_data_inspection_inspect_h5ad_column_values",
+      "code_data_inspection_inspect_h5ad_dataframe",
+      "code_data_inspection_inspect_h5ad_plain"
+    ]
+  },
+  "cohesion": {
+    "0": 0.5333333333333333,
+    "1": 1.0
+  },
+  "gods": [
+    {
+      "id": "code_data_inspection_inspect_h5ad_inspect",
+      "label": "inspect()",
+      "degree": 6
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_plain",
+      "label": "plain()",
+      "degree": 5
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_dataframe",
+      "label": "dataframe()",
+      "degree": 4
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_matrix_summary",
+      "label": "matrix_summary()",
+      "degree": 3
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_column_values",
+      "label": "column_values()",
+      "degree": 3
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_main",
+      "label": "main()",
+      "degree": 2
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_sha256",
+      "label": "sha256()",
+      "degree": 2
+    },
+    {
+      "id": "code_data_inspection_inspect_h5ad_rationale_1",
+      "label": "Read H5AD structure and descriptive values without modifying input or\u2026",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "inspect()",
+      "target": "dataframe()",
+      "source_files": [
+        "code/data_inspection/inspect_h5ad.py",
+        "code/data_inspection/inspect_h5ad.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "note": "Bridges community 0 \u2192 community 1"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "02_omics/01_measurement_and_data_generation/DOWNLOAD_MANIFEST.json": {
+    "mtime": 1789126117.5011642,
+    "seen": 1789126127.8933198,
+    "ast_hash": "97df64c1deeaf11196441eab00c66468",
+    "semantic_hash": "97df64c1deeaf11196441eab00c66468"
+  },
+  "02_omics/01_measurement_and_data_generation/REMOTE_FILES.json": {
+    "mtime": 1789124803.0726616,
+    "seen": 1789126127.893321,
+    "ast_hash": "9ddf1834b603f88932e9677dd2032a80",
+    "semantic_hash": "9ddf1834b603f88932e9677dd2032a80"
+  },
+  "02_omics/01_measurement_and_data_generation/SOURCE_INDEX.json": {
+    "mtime": 1789125136.9357066,
+    "seen": 1789126127.893322,
+    "ast_hash": "97e4815e6c06a0ac83e740f6deb08898",
+    "semantic_hash": "97e4815e6c06a0ac83e740f6deb08898"
+  },
+  "code/data_inspection/inspect_h5ad.py": {
+    "mtime": 1789124975.9237633,
+    "seen": 1789126127.893323,
+    "ast_hash": "fef28c788e373a5cb9a550407aeeb184",
+    "semantic_hash": "fef28c788e373a5cb9a550407aeeb184"
+  }
+}

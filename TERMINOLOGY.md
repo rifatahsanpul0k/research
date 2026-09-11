@@ -120,4 +120,18 @@ Definitions below use the cited mechanisms, exceptions and evidence in the linke
 | Manual/reference-based annotation | Expert interpretation/comparison to labeled reference; both require provenance and context | [Annotation](01_biology/03_cellular_tissue_biology/17_BIOLOGICAL_ANNOTATION.md) |
 | Hierarchy; is-a; part-of | Nested classification; type inclusion; anatomical containment—distinct from descent | [Hierarchy](01_biology/03_cellular_tissue_biology/18_BIOLOGICAL_HIERARCHY.md) |
 
+## Phase 1D omics measurement terms
+
+| Term(s) | Meaning and qualification | Source-backed topic |
+|---|---|---|
+| Read; molecule; fragment | Sequenced sequence observation; original captured molecule estimate; DNA fragment observed by accessibility assay | [Sequencing](02_omics/01_measurement_and_data_generation/02_SEQUENCING_FOUNDATIONS.md) |
+| Sample barcode; cell/spot barcode; UMI; feature barcode | Pooled library identity; observation identity; molecular label; measured-feature tag | [Barcodes](02_omics/01_measurement_and_data_generation/03_BARCODES_AND_UMIS.md) |
+| Spot; bin; pixel; cell; nucleus | Assay-specific observation units with different physical footprints and biological meanings | [Spatial](02_omics/01_measurement_and_data_generation/09_SPATIAL_TRANSCRIPTOMICS.md) |
+| ADT; epitope; protein activity | Antibody-derived oligo count; antibody-recognized molecular feature; functional activity, which is not abundance | [ADT/CITE-seq](02_omics/01_measurement_and_data_generation/07_ADT_AND_CITE_SEQ.md) |
+| Accessibility; peak; peak-to-gene assignment | Tn5-sampled open chromatin; called genomic region; context-dependent inferred relation | [scATAC-seq](02_omics/01_measurement_and_data_generation/08_SCATAC_SEQ.md) |
+| Paired; partially paired; unpaired; mosaic | Same observation; some missing modalities; different observations; mixed modality combinations across samples | [Multimodal assays](02_omics/01_measurement_and_data_generation/11_MULTIMODAL_ASSAYS.md) |
+| Counts; normalized; transformed; learned | Assigned assay units; rescaled values; changed-scale values; model-derived representation | [Raw versus processed](02_omics/01_measurement_and_data_generation/14_RAW_VS_PROCESSED.md) |
+| Spatial coordinate; array coordinate; pixel coordinate | Observation-linked position whose units, origin, scale and orientation are assay-specific | [Coordinates](02_omics/01_measurement_and_data_generation/16_SPATIAL_COORDINATES.md) |
+| AnnData `X`, `obs`, `var`, `layers`, `obsm`, `uns` | Matrix, observation annotations, feature annotations, alternate matrices, observation-aligned arrays, unstructured metadata | [Data formats](02_omics/01_measurement_and_data_generation/19_DATA_FORMATS.md) |
+
 Mathematical notation and the representation-neutral inventory are defined in [BIOLOGY_TO_DATA](01_biology/03_cellular_tissue_biology/BIOLOGY_TO_DATA.md). No biological definition here selects a future model or representation.
