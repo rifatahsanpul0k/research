@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ASTRA run provenance",
+  "type": "object",
+  "required": [
+    "experiment_id", "timestamp_utc", "dataset", "method", "code_commit",
+    "environment", "preprocessing", "seed", "parameters", "hardware",
+    "input_checksums", "output_paths", "runtime_seconds", "exit_status"
+  ],
+  "properties": {
+    "experiment_id": {"type": "string", "pattern": "^EXP-"},
+    "timestamp_utc": {"type": "string"},
+    "dataset": {"enum": ["LN_A1", "LN_D1", "MB_E11", "MB_E13", "MB_E15", "MB_E18"]},
+    "method": {"type": "string"},
+    "code_commit": {"type": "string"},
+    "environment": {"type": "object"},
+    "preprocessing": {"type": "object"},
+    "seed": {"type": "object"},
+    "parameters": {"type": "object"},
+    "hardware": {"type": "object"},
+    "input_checksums": {"type": "object"},
+    "output_paths": {"type": "object"},
+    "runtime_seconds": {"type": ["number", "null"]},
+    "exit_status": {"enum": ["PLANNED", "PREPARING", "RUNNING", "SUCCEEDED", "FAILED", "INVALID", "BLOCKED"]}
+  },
+  "additionalProperties": true
+}

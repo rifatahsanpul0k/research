@@ -1,0 +1,21 @@
+method_id: SPATIALGLUE_NEURAL
+method: SpatialGlue
+paper: LONG_SPATIALGLUE_2024
+official_repo: https://github.com/JinmiaoChenLab/SpatialGlue
+default_branch: main
+commit: 7c976d811d27ace51ce47ae0ad94a068a7d222fa
+tag: UNKNOWN
+license: AGPL-3.0
+retrieval_date: 2026-09-12
+environment: spatialglue_isolated
+inputs: paired spatial modalities coordinates and IDs
+preprocessing: repository-native PCA or LSI and graph construction
+command: "python repository workflow with resolved config"
+outputs: spot embedding native clusters and IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: native MClust plus common
+seed_controls: Python NumPy PyTorch R MClust method and clustering seeds
+known_issues: Python 3.8 R bridge and coordinate contract unresolved
+reproduction_level: R0
+status: PLANNED
+

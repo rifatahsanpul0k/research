@@ -1,0 +1,21 @@
+method_id: MOFA_MOFA2
+method: MOFA+
+paper: REP_MOFA_PLUS
+official_repo: https://github.com/bioFAM/MOFA2
+default_branch: master
+commit: 4a102f2b491ab600738ddf693a70f0baf032ca68
+tag: UNKNOWN
+license: LGPL-3.0
+retrieval_date: 2026-09-12
+environment: mofa_isolated
+inputs: aligned multi-view matrices with IDs and masks
+preprocessing: method-native view scaling and feature selection
+command: "Rscript or mofapy2 command from resolved config"
+outputs: factor scores weights and IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: native plus common where extractable
+seed_controls: Python R method and clustering seeds
+known_issues: R unavailable and paper-exact tag unresolved
+reproduction_level: R0
+status: PLANNED
+

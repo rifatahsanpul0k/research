@@ -1,0 +1,20 @@
+method_id: BASE_CONCAT
+method: Scaled concatenation
+paper: REP_PCA
+official_repo: https://github.com/scikit-learn/scikit-learn
+default_branch: main
+commit: 7eec52f9b21b88c02876853e10ab426db063245e
+tag: UNKNOWN
+license: BSD-3-Clause
+retrieval_date: 2026-09-12
+environment: baseline_py311
+inputs: paired modality matrices with explicit shared IDs
+preprocessing: per-view scaling then concatenation
+command: "python -m benchmark_runner --config CONFIG"
+outputs: embedding plus observation IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: common only
+seed_controls: Python NumPy scikit and clustering seeds
+known_issues: scale and feature-count dominance require declaration; scientific adapter has not run
+reproduction_level: R1
+status: ENVIRONMENT_VERIFIED

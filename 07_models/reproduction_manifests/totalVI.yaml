@@ -1,0 +1,20 @@
+method_id: TOTALVI_NEURAL
+method: totalVI
+paper: TOTALVI_2021
+official_repo: https://github.com/scverse/scvi-tools
+default_branch: main
+commit: 73b28e44223621470e582a81a102c107bb22678b
+tag: UNKNOWN
+license: BSD-3-Clause
+retrieval_date: 2026-09-12
+environment: scvi_isolated
+inputs: paired RNA and ADT counts with batch and IDs
+preprocessing: scvi-tools setup using verified count layers
+command: "python adapter run --config CONFIG"
+outputs: latent posterior decoded quantities and IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: native plus common
+seed_controls: Python NumPy PyTorch CUDA method and clustering seeds
+known_issues: count semantics MPS support and paper-version tag unresolved
+reproduction_level: R0
+status: PLANNED

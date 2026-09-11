@@ -1,0 +1,20 @@
+method_id: MULTIVI_NEURAL
+method: MultiVI
+paper: MULTIVI_2023
+official_repo: https://github.com/scverse/scvi-tools
+default_branch: main
+commit: 73b28e44223621470e582a81a102c107bb22678b
+tag: UNKNOWN
+license: BSD-3-Clause
+retrieval_date: 2026-09-12
+environment: scvi_isolated
+inputs: RNA and ATAC counts with availability masks and IDs
+preprocessing: verified peak strategy and scvi-tools setup
+command: "python adapter run --config CONFIG"
+outputs: latent posterior modality outputs and IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: native plus common
+seed_controls: Python NumPy PyTorch CUDA method and clustering seeds
+known_issues: stage peak strategy and E18 ATAC gate unresolved
+reproduction_level: R0
+status: PLANNED

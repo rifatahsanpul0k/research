@@ -1,0 +1,20 @@
+method_id: PCA_CLASSICAL
+method: PCA
+paper: REP_PCA
+official_repo: https://github.com/scikit-learn/scikit-learn
+default_branch: main
+commit: 7eec52f9b21b88c02876853e10ab426db063245e
+tag: UNKNOWN
+license: BSD-3-Clause
+retrieval_date: 2026-09-12
+environment: baseline_py311
+inputs: one declared feature matrix and IDs
+preprocessing: centering scaling and feature selection declared
+command: "python -m benchmark_runner --config CONFIG"
+outputs: scores loadings and IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: common KMeans or Leiden
+seed_controls: Python NumPy scikit and clustering seeds
+known_issues: sparse versus centered implementation must be fixed before project-data execution
+reproduction_level: R1
+status: ENVIRONMENT_VERIFIED

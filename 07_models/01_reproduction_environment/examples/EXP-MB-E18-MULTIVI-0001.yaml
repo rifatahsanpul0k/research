@@ -1,0 +1,29 @@
+experiment_id: EXP-MB-E18-MULTIVI-0001
+dataset: MB_E18
+method: MultiVI
+seed: 7
+inputs:
+  - dataset_id: MB_E18
+    modality: RNA
+    matrix_path: 04_datasets/Mouse_Brain_E18_S1/raw/adata_RNA.h5ad
+    observation_ids: "h5ad:obs_names"
+    feature_ids: "h5ad:var_names"
+    counts_or_processed: UNKNOWN_REQUIRES_COUNT_GATE
+    coordinates: "h5ad:obsm/spatial"
+  - dataset_id: MB_E18
+    modality: ATAC
+    matrix_path: BLOCKED_E18_ATAC_UNAVAILABLE
+    observation_ids: REQUIRED_AFTER_FILE_VERIFICATION
+    feature_ids: REQUIRED_AFTER_FILE_VERIFICATION
+    counts_or_processed: BLOCKED
+    coordinates: REQUIRED_AFTER_FILE_VERIFICATION
+preprocessing:
+  peak_strategy: UNSELECTED
+  pairing: BLOCKED_PENDING_E18_ATAC_VERIFICATION
+method_parameters:
+  latent_dimension: TO_BE_PREDECLARED
+clustering:
+  backend: NATIVE_AND_COMMON_RECORDED_SEPARATELY
+output_directory: 08_experiments/EXP-MB-E18-MULTIVI-0001
+status: BLOCKED
+example_only: true

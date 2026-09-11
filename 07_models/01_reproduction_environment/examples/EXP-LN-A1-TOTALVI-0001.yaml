@@ -1,0 +1,29 @@
+experiment_id: EXP-LN-A1-TOTALVI-0001
+dataset: LN_A1
+method: totalVI
+seed: 7
+inputs:
+  - dataset_id: LN_A1
+    modality: RNA
+    matrix_path: 04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad
+    observation_ids: "h5ad:obs_names"
+    feature_ids: "h5ad:var_names"
+    counts_or_processed: UNKNOWN_REQUIRES_COUNT_GATE
+    coordinates: "h5ad:obsm/spatial"
+  - dataset_id: LN_A1
+    modality: ADT
+    matrix_path: 04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad
+    observation_ids: "h5ad:obs_names"
+    feature_ids: "h5ad:var_names"
+    counts_or_processed: UNKNOWN_REQUIRES_COUNT_GATE
+    coordinates: "h5ad:obsm/spatial"
+preprocessing:
+  pairing: REQUIRE_EXACT_CANONICAL_OBSERVATION_ID_MATCH
+  setup: METHOD_NATIVE_SCVI_TOOLS
+method_parameters:
+  latent_dimension: TO_BE_PREDECLARED
+clustering:
+  backend: NATIVE_AND_COMMON_RECORDED_SEPARATELY
+output_directory: 08_experiments/EXP-LN-A1-TOTALVI-0001
+status: PLANNED
+example_only: true

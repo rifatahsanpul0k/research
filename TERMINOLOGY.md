@@ -213,3 +213,17 @@ Mathematical notation and the representation-neutral inventory are defined in [B
 | Literature-reported result | Number reported by an external paper under its own data and pipeline; never a project result. |
 | Ground-truth limitation | Annotation or label incompleteness, hierarchy, mixture or derivation that constrains interpretation. |
 | Compatibility status | Explicit input-contract judgment with a reason; not evidence that a method has run successfully. |
+
+## Phase 3B reproduction-engineering terms — 2026-09-12
+
+| Term | Working definition and caution |
+|---|---|
+| Reproduction level R0 | Source, commit and intended environment are recorded; executable installation is not yet established. |
+| Reproduction level R1 | Dependencies import and a minimal synthetic engineering smoke test passes; no project-data or scientific result is implied. |
+| Engineering smoke test | Tiny synthetic execution used to detect import, linkage, shape or finite-value failures. It is not a benchmark. |
+| Selected commit | Immutable repository snapshot chosen for engineering work. It is not paper-exact unless separately verified. |
+| Input contract | Declared modalities, observation IDs, feature IDs, pairing, coordinates and preprocessing assumptions required by an adapter. |
+| Output contract | Required representation, identifiers, metadata, logs and provenance needed for later common evaluation. |
+| Canonical observation ID | Project-stable identifier carried through every transformation; row position alone is insufficient identity. |
+| Native/common pipeline | Upstream method-specific execution / shared downstream evaluation. Results must retain which pipeline produced them. |
+| E18 ATAC gate | Explicit availability-and-validation gate that remains false while the E18 ATAC file is incomplete locally. |

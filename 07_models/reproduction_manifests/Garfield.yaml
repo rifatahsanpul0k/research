@@ -1,0 +1,21 @@
+method_id: GARFIELD_NEURAL
+method: Garfield
+paper: GARFIELD_2026
+official_repo: https://github.com/zhou-1314/Garfield
+default_branch: main
+commit: 2c315b26d5454feb1ee9218482dbbc0dbcfbedd8
+tag: UNKNOWN
+license: BSD-3-Clause
+retrieval_date: 2026-09-12
+environment: garfield_isolated
+inputs: single-cell or spatial modalities graph inputs and IDs
+preprocessing: repository-native preprocessing and graph construction
+command: "python repository workflow with resolved config"
+outputs: graph latent embedding and IDs
+embedding_location: 08_experiments/EXP-ID/embedding
+native_clustering: native plus common
+seed_controls: Python NumPy PyTorch CUDA method and clustering seeds
+known_issues: paper-linked commit hardware and MPS support unresolved
+reproduction_level: R0
+status: PLANNED
+

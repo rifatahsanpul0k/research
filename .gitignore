@@ -2,3 +2,12 @@
 # Phase 1D: unchanged downloaded source data
 04_datasets/*/raw/
 repomix-output.xml
+
+# Phase 3B: external source checkouts and local environments
+external/
+07_models/01_reproduction_environment/.venv*/
+08_experiments/*/
+
+# Python build/test artifacts
+__pycache__/
+*.py[cod]

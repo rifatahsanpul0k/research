@@ -1,0 +1,12 @@
+order,method_id,method,stage,reason,entry_gate,exit_gate
+1,BASE_RNA,RNA separate,infrastructure,validate loading and identity without integration,synthetic infrastructure tests pass,canonical input and output provenance recorded
+2,BASE_SECOND,Second modality separate,infrastructure,validate modality-specific preprocessing,modality semantics verified,ordered embedding produced
+3,BASE_CONCAT,Scaled concatenation,deterministic_baseline,validate fusion and scaling contract,aligned observations and declared scales,embedding and mapping validated
+4,BASE_SPACE,Coordinates only,spatial_control,validate coordinate pathway,coordinate frame recorded,spatial representation emitted
+5,PCA_CLASSICAL,PCA,classical_deterministic,validate common clustering/evaluator interface,baseline environment R1,synthetic or authorized dataset run succeeds
+6,MOFA_MOFA2,MOFA+,factor_integration,first isolated factor model,R environment and inputs verified,R1 then official R2 example
+7,SCOT_ALIGNMENT,SCOT,alignment,validate coupling output and retrieval interface,SCOT version selected,R1 then official R2 example
+8,TOTALVI_NEURAL,totalVI,generative_suite_L,validate RNA+ADT generative adapter,counts semantics and environment verified,R1 before project input
+9,MULTIVI_NEURAL,MultiVI,generative_suite_B,validate RNA+ATAC missing-view adapter,ATAC feature strategy and environment verified,R1 before project input
+10,SPATIALGLUE_NEURAL,SpatialGlue,spatial_graph,validate mixed-language native pipeline,container and MClust bridge verified,R1/R2 before project input
+11,GARFIELD_NEURAL,Garfield,recent_graph,highest engineering uncertainty,hardware and official configuration verified,R1/R2 before project input
