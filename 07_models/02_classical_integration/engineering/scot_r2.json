@@ -1,0 +1,19 @@
+{
+  "source": "external/SCOT/src/scotv1.py",
+  "variant": "SCOT_v1",
+  "aligned_X_shape": [
+    12,
+    5
+  ],
+  "aligned_Y_shape": [
+    12,
+    5
+  ],
+  "coupling_shape": [
+    12,
+    12
+  ],
+  "flag": true,
+  "gwdist": 0.007783163607881654,
+  "status": "R2_OFFICIAL_API_EXAMPLE_PASS"
+}

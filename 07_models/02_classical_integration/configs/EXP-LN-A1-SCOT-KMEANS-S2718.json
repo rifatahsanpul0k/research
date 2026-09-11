@@ -1,0 +1,32 @@
+{
+  "annotation": "annotation.csv",
+  "compute_classification": "COLAB_HIGH_MEMORY",
+  "dataset": "LN_A1",
+  "epsilon": 0.001,
+  "evaluation": "PHASE_3C_KMEANS_ARI_NMI_SILHOUETTE",
+  "experiment_id": "EXP-LN-A1-SCOT-KMEANS-S2718",
+  "folder": "10x_human_lymph_node_A1",
+  "k": 50,
+  "label_column": "manual-anno",
+  "method": "SCOT",
+  "mofa_atac_features": 2000,
+  "official_commit": "14649be6e14017dcfe7ba619091b33d1df55f6a9",
+  "output_directory": "08_experiments/EXP-LN-A1-SCOT-KMEANS-S2718",
+  "preprocessing": "RNA_LOG1P_TOP2000_ZSCORE;ADT_PHASE3C_CLR_ZSCORE;MOFA_ATAC_LOG1P_TOP2000_ZSCORE;SCOT_ATAC_PHASE3C_LSI30",
+  "projection": "SECOND_ONTO_RNA",
+  "rna_features": 2000,
+  "second_modality": "ADT",
+  "seed": 2718,
+  "self_tune": false,
+  "series": "PHASE_3D_S1",
+  "solver_defaults": {
+    "max_iter": 1000,
+    "sinkhorn_numItermax": 1000,
+    "sinkhorn_stopThr": 1e-09,
+    "solver": "PGD",
+    "tol": 1e-09
+  },
+  "source_semantics": "SOURCE_PROVIDED_PROCESSED_X_COUNTS_UNKNOWN",
+  "start_commit": "951a61ca15239a7f644b60ec56dd1a463cd5570f",
+  "timeout_seconds": 3600
+}

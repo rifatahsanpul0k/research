@@ -1,0 +1,50 @@
+{
+  "annotation": "anno.csv",
+  "compute_classification": "COLAB_CPU",
+  "data_options": {
+    "center_groups": true,
+    "scale_groups": false,
+    "scale_views": true,
+    "use_float32": false
+  },
+  "dataset": "MB_E11",
+  "evaluation": "PHASE_3C_KMEANS_ARI_NMI_SILHOUETTE",
+  "experiment_id": "EXP-MB-E11-MOFAPLUS-KMEANS-S1729",
+  "folder": "Mouse_Brain_E11_S1",
+  "label_column": "cluster",
+  "method": "MOFAPLUS",
+  "model_options": {
+    "ard_factors": false,
+    "ard_weights": true,
+    "factors": 10,
+    "spikeslab_factors": false,
+    "spikeslab_weights": true
+  },
+  "mofa_atac_features": 2000,
+  "official_commit": "90418e5021b3ae735ebf1fea5d7e07cae71c8bb7",
+  "output_directory": "08_experiments/EXP-MB-E11-MOFAPLUS-KMEANS-S1729",
+  "preprocessing": "RNA_LOG1P_TOP2000_ZSCORE;ADT_PHASE3C_CLR_ZSCORE;MOFA_ATAC_LOG1P_TOP2000_ZSCORE;SCOT_ATAC_PHASE3C_LSI30",
+  "rna_features": 2000,
+  "second_modality": "ATAC",
+  "seed": 1729,
+  "series": "PHASE_3D_S1",
+  "source_semantics": "SOURCE_PROVIDED_PROCESSED_X_COUNTS_UNKNOWN",
+  "start_commit": "951a61ca15239a7f644b60ec56dd1a463cd5570f",
+  "timeout_seconds": 3600,
+  "train_options": {
+    "convergence_mode": "fast",
+    "dropR2": null,
+    "freqDrop": 1,
+    "freqELBO": 5,
+    "gpu_mode": false,
+    "iter": 1000,
+    "nostop": false,
+    "quiet": false,
+    "save_interrupted": false,
+    "startDrop": 1,
+    "startELBO": 1,
+    "startSparsity": 50,
+    "verbose": false,
+    "weight_views": false
+  }
+}

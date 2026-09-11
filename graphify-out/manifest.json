@@ -168,10 +168,10 @@
     "semantic_hash": "d6789d1bef67606ad1f589f38b72e138"
   },
   "code/benchmarks/common/config.py": {
-    "mtime": 1789153205.548804,
-    "seen": 1789153232.583002,
-    "ast_hash": "5d6d1d3b1e851b66bb27aca818030cdf",
-    "semantic_hash": "5d6d1d3b1e851b66bb27aca818030cdf"
+    "mtime": 1789156133.42929,
+    "seen": 1789156860.635312,
+    "ast_hash": "5ec2f4bd3f12661465eb640547d61f31",
+    "semantic_hash": "5ec2f4bd3f12661465eb640547d61f31"
   },
   "code/benchmarks/common/io.py": {
     "mtime": 1789152483.3811345,
@@ -180,10 +180,10 @@
     "semantic_hash": "f9ad50052f20b7a6a45bebafbadebe88"
   },
   "code/benchmarks/common/provenance.py": {
-    "mtime": 1789152483.2138085,
-    "seen": 1789153232.5830028,
-    "ast_hash": "7f0359ded42f397d162e0fda9d3b3360",
-    "semantic_hash": "7f0359ded42f397d162e0fda9d3b3360"
+    "mtime": 1789156235.5609837,
+    "seen": 1789156860.635448,
+    "ast_hash": "d8c5848d8d2898be3d447ef5423cbde0",
+    "semantic_hash": "d8c5848d8d2898be3d447ef5423cbde0"
   },
   "code/benchmarks/common/seeds.py": {
     "mtime": 1789152483.2700229,
@@ -204,10 +204,10 @@
     "semantic_hash": "511cb359e38a98ed416600afe7fa92cd"
   },
   "code/benchmarks/tests/test_infrastructure.py": {
-    "mtime": 1789153205.618011,
-    "seen": 1789153232.583005,
-    "ast_hash": "82d0a6c3bbc99ea9a69587b63f45343c",
-    "semantic_hash": "82d0a6c3bbc99ea9a69587b63f45343c"
+    "mtime": 1789156235.6228845,
+    "seen": 1789156860.635642,
+    "ast_hash": "2f3b90868a3884906e0f1761e28c0788",
+    "semantic_hash": "2f3b90868a3884906e0f1761e28c0788"
   },
   "08_experiments/PHASE_3C_FIRST_GATE_POSTCHECK.json": {
     "mtime": 1789154600.5382671,
@@ -310,5 +310,245 @@
     "seen": 1789155359.87603,
     "ast_hash": "5b9b20ed77dd3f41dde0e504b880ae4c",
     "semantic_hash": "5b9b20ed77dd3f41dde0e504b880ae4c"
+  },
+  "07_models/01_reproduction_environment/schemas/provenance-v2.schema.json": {
+    "mtime": 1789156077.0789099,
+    "seen": 1789156860.635071,
+    "ast_hash": "6281c20245665824ddbb2b3eb504b440",
+    "semantic_hash": "6281c20245665824ddbb2b3eb504b440"
+  },
+  "07_models/01_reproduction_environment/schemas/run-config-v2.schema.json": {
+    "mtime": 1789156077.0141683,
+    "seen": 1789156860.6350982,
+    "ast_hash": "7c70f893672ad24ce8b669d29fa06039",
+    "semantic_hash": "7c70f893672ad24ce8b669d29fa06039"
+  },
+  "07_models/02_classical_integration/CONFIG_CHECKSUMS.json": {
+    "mtime": 1789157711.8744392,
+    "seen": 1789158415.213687,
+    "ast_hash": "7b96634e96f99da22dbc335aaa420c60",
+    "semantic_hash": "7b96634e96f99da22dbc335aaa420c60"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-A1-MOFAPLUS-KMEANS-S1729.json": {
+    "mtime": 1789157711.8693755,
+    "seen": 1789158415.213687,
+    "ast_hash": "9f585e797d14a3d2a43a8a63e2716b73",
+    "semantic_hash": "9f585e797d14a3d2a43a8a63e2716b73"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-A1-MOFAPLUS-KMEANS-S2718.json": {
+    "mtime": 1789157711.8695226,
+    "seen": 1789158415.2136881,
+    "ast_hash": "99facca23768f3d01210da0c33073e83",
+    "semantic_hash": "99facca23768f3d01210da0c33073e83"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-A1-MOFAPLUS-KMEANS-S31415.json": {
+    "mtime": 1789157711.8696375,
+    "seen": 1789158415.2136881,
+    "ast_hash": "2fde0b1990c6ced6a44abef39ed27a9a",
+    "semantic_hash": "2fde0b1990c6ced6a44abef39ed27a9a"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-A1-SCOT-KMEANS-S1729.json": {
+    "mtime": 1789157711.871143,
+    "seen": 1789158415.213689,
+    "ast_hash": "5e3bf0fc3596ce82b2aec1334212c957",
+    "semantic_hash": "5e3bf0fc3596ce82b2aec1334212c957"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-A1-SCOT-KMEANS-S2718.json": {
+    "mtime": 1789157711.8712535,
+    "seen": 1789158415.21369,
+    "ast_hash": "be90c446e3d915df49cc4697d1a3c7c1",
+    "semantic_hash": "be90c446e3d915df49cc4697d1a3c7c1"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-A1-SCOT-KMEANS-S31415.json": {
+    "mtime": 1789157711.8713634,
+    "seen": 1789158415.21369,
+    "ast_hash": "7040e90e67394479e6328f5b244762df",
+    "semantic_hash": "7040e90e67394479e6328f5b244762df"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-D1-MOFAPLUS-KMEANS-S1729.json": {
+    "mtime": 1789157711.869755,
+    "seen": 1789158415.213691,
+    "ast_hash": "01dd02fd670f2665ca271a3be1bd963e",
+    "semantic_hash": "01dd02fd670f2665ca271a3be1bd963e"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-D1-MOFAPLUS-KMEANS-S2718.json": {
+    "mtime": 1789157711.869876,
+    "seen": 1789158415.213691,
+    "ast_hash": "22f188eb9a2f2175ba7cb21a346e2d18",
+    "semantic_hash": "22f188eb9a2f2175ba7cb21a346e2d18"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-D1-MOFAPLUS-KMEANS-S31415.json": {
+    "mtime": 1789157711.8699863,
+    "seen": 1789158415.213692,
+    "ast_hash": "907571d19f682408fa25df4abc74a65a",
+    "semantic_hash": "907571d19f682408fa25df4abc74a65a"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-D1-SCOT-KMEANS-S1729.json": {
+    "mtime": 1789157711.871459,
+    "seen": 1789158415.213692,
+    "ast_hash": "ec80c7e75d26070d4e6470b343bd12cf",
+    "semantic_hash": "ec80c7e75d26070d4e6470b343bd12cf"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-D1-SCOT-KMEANS-S2718.json": {
+    "mtime": 1789157711.8715584,
+    "seen": 1789158415.213693,
+    "ast_hash": "a5f133cecb994c6612537cd3e8a407c1",
+    "semantic_hash": "a5f133cecb994c6612537cd3e8a407c1"
+  },
+  "07_models/02_classical_integration/configs/EXP-LN-D1-SCOT-KMEANS-S31415.json": {
+    "mtime": 1789157711.8716588,
+    "seen": 1789158415.213693,
+    "ast_hash": "327c468b3d4e1c39e5afb98d8c7be258",
+    "semantic_hash": "327c468b3d4e1c39e5afb98d8c7be258"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E11-MOFAPLUS-KMEANS-S1729.json": {
+    "mtime": 1789157711.870098,
+    "seen": 1789158415.213693,
+    "ast_hash": "6681fa612c9ff20a79eb09f4a5819de4",
+    "semantic_hash": "6681fa612c9ff20a79eb09f4a5819de4"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E11-MOFAPLUS-KMEANS-S2718.json": {
+    "mtime": 1789157711.8702145,
+    "seen": 1789158415.2136939,
+    "ast_hash": "08027205fd9563c25ad4b960386eba19",
+    "semantic_hash": "08027205fd9563c25ad4b960386eba19"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E11-MOFAPLUS-KMEANS-S31415.json": {
+    "mtime": 1789157711.8703127,
+    "seen": 1789158415.2136939,
+    "ast_hash": "4b1c8ca298eea2b7be4fb8f576277188",
+    "semantic_hash": "4b1c8ca298eea2b7be4fb8f576277188"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E11-SCOT-KMEANS-S1729.json": {
+    "mtime": 1789157711.8718877,
+    "seen": 1789158415.213695,
+    "ast_hash": "8bb9f0b02fd13c7ffeb525d20162720a",
+    "semantic_hash": "8bb9f0b02fd13c7ffeb525d20162720a"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E11-SCOT-KMEANS-S2718.json": {
+    "mtime": 1789157711.8719923,
+    "seen": 1789158415.213695,
+    "ast_hash": "eb1f86d7baf4497c3c6521ffb40adf5e",
+    "semantic_hash": "eb1f86d7baf4497c3c6521ffb40adf5e"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E11-SCOT-KMEANS-S31415.json": {
+    "mtime": 1789157711.8720987,
+    "seen": 1789158415.213696,
+    "ast_hash": "e51c49a7a8c0518b71c75f808b9853a8",
+    "semantic_hash": "e51c49a7a8c0518b71c75f808b9853a8"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E13-MOFAPLUS-KMEANS-S1729.json": {
+    "mtime": 1789157711.870414,
+    "seen": 1789158415.213696,
+    "ast_hash": "83c7533d7c2ab4df2c94d22428f06ff0",
+    "semantic_hash": "83c7533d7c2ab4df2c94d22428f06ff0"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E13-MOFAPLUS-KMEANS-S2718.json": {
+    "mtime": 1789157711.8705335,
+    "seen": 1789158415.213697,
+    "ast_hash": "ce159593d96f21f01c77e640f3c33bb9",
+    "semantic_hash": "ce159593d96f21f01c77e640f3c33bb9"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E13-MOFAPLUS-KMEANS-S31415.json": {
+    "mtime": 1789157711.8706498,
+    "seen": 1789158415.213697,
+    "ast_hash": "deab4ee88c4c1740042a39096033ecd2",
+    "semantic_hash": "deab4ee88c4c1740042a39096033ecd2"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E13-SCOT-KMEANS-S1729.json": {
+    "mtime": 1789157711.8724167,
+    "seen": 1789158415.213697,
+    "ast_hash": "60060357516b5e4df8dfa1de5da6a02e",
+    "semantic_hash": "60060357516b5e4df8dfa1de5da6a02e"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E13-SCOT-KMEANS-S2718.json": {
+    "mtime": 1789157711.873631,
+    "seen": 1789158415.2136981,
+    "ast_hash": "a69508b936ccf4a24cb3dc8837926458",
+    "semantic_hash": "a69508b936ccf4a24cb3dc8837926458"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E13-SCOT-KMEANS-S31415.json": {
+    "mtime": 1789157711.8738005,
+    "seen": 1789158415.2136981,
+    "ast_hash": "6f1b98eeab11eda78aa6f6fa8efe16f0",
+    "semantic_hash": "6f1b98eeab11eda78aa6f6fa8efe16f0"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E15-MOFAPLUS-KMEANS-S1729.json": {
+    "mtime": 1789157711.8707483,
+    "seen": 1789158415.213699,
+    "ast_hash": "d85aeccd847226eeb067de2852c62f9f",
+    "semantic_hash": "d85aeccd847226eeb067de2852c62f9f"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E15-MOFAPLUS-KMEANS-S2718.json": {
+    "mtime": 1789157711.8708982,
+    "seen": 1789158415.213699,
+    "ast_hash": "a0ab56516795e04612cda50df1272f36",
+    "semantic_hash": "a0ab56516795e04612cda50df1272f36"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E15-MOFAPLUS-KMEANS-S31415.json": {
+    "mtime": 1789157711.8710206,
+    "seen": 1789158415.2137,
+    "ast_hash": "1b78490866e83b1bebb210a20476344c",
+    "semantic_hash": "1b78490866e83b1bebb210a20476344c"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E15-SCOT-KMEANS-S1729.json": {
+    "mtime": 1789157711.8740633,
+    "seen": 1789158415.2137,
+    "ast_hash": "a3ce07d9e83ccb717202a65e950917da",
+    "semantic_hash": "a3ce07d9e83ccb717202a65e950917da"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E15-SCOT-KMEANS-S2718.json": {
+    "mtime": 1789157711.8741767,
+    "seen": 1789158415.213701,
+    "ast_hash": "9ddafc7172bff78b2b52b6f0a85a6c4b",
+    "semantic_hash": "9ddafc7172bff78b2b52b6f0a85a6c4b"
+  },
+  "07_models/02_classical_integration/configs/EXP-MB-E15-SCOT-KMEANS-S31415.json": {
+    "mtime": 1789157711.8742878,
+    "seen": 1789158415.213701,
+    "ast_hash": "b78636a99d6613f4b3fec4fe98f5de96",
+    "semantic_hash": "b78636a99d6613f4b3fec4fe98f5de96"
+  },
+  "07_models/02_classical_integration/engineering/scot_r1.json": {
+    "mtime": 1789157847.6027315,
+    "seen": 1789158415.213702,
+    "ast_hash": "578b6e511138a54b5239647dd33f4c8e",
+    "semantic_hash": "578b6e511138a54b5239647dd33f4c8e"
+  },
+  "07_models/02_classical_integration/engineering/scot_r2.json": {
+    "mtime": 1789157848.6990075,
+    "seen": 1789158415.213703,
+    "ast_hash": "c7d8d40c526b37fca840e82d0078b1fd",
+    "semantic_hash": "c7d8d40c526b37fca840e82d0078b1fd"
+  },
+  "code/benchmarks/methods/mofaplus/__init__.py": {
+    "mtime": 1789158398.6729486,
+    "seen": 1789158415.214128,
+    "ast_hash": "12f411f1e7bf543cb028e490970770be",
+    "semantic_hash": "12f411f1e7bf543cb028e490970770be"
+  },
+  "code/benchmarks/methods/scot/__init__.py": {
+    "mtime": 1789157422.3271887,
+    "seen": 1789158415.214129,
+    "ast_hash": "5df4912aabefaee8d67897a60083dd8d",
+    "semantic_hash": "5df4912aabefaee8d67897a60083dd8d"
+  },
+  "code/benchmarks/phase3d_protocol.py": {
+    "mtime": 1789158198.2743697,
+    "seen": 1789158415.214153,
+    "ast_hash": "8c5a7a3714c1094b0a45c5ce96745444",
+    "semantic_hash": "8c5a7a3714c1094b0a45c5ce96745444"
+  },
+  "code/benchmarks/run_phase3d.py": {
+    "mtime": 1789158184.634344,
+    "seen": 1789158415.214174,
+    "ast_hash": "7a1a89fa5ad2cc6f07d5ed530039b256",
+    "semantic_hash": "7a1a89fa5ad2cc6f07d5ed530039b256"
+  },
+  "code/benchmarks/tests/test_phase3d.py": {
+    "mtime": 1789158350.20361,
+    "seen": 1789158415.214269,
+    "ast_hash": "59682ca25c356406d7a53aa401770ee7",
+    "semantic_hash": "59682ca25c356406d7a53aa401770ee7"
   }
 }

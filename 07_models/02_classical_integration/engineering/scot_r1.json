@@ -1,0 +1,15 @@
+{
+  "source": "external/SCOT/src/scotv1.py",
+  "class": "SCOT",
+  "shape_X": [
+    10,
+    4
+  ],
+  "shape_Y": [
+    10,
+    4
+  ],
+  "marginal_X_sum": 1.0,
+  "marginal_Y_sum": 1.0,
+  "status": "R1_IMPORT_AND_INITIALIZATION_PASS"
+}
