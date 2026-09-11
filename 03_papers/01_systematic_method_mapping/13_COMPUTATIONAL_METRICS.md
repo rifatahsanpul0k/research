@@ -1,0 +1,11 @@
+# Computational metrics
+
+Phase 3A · 2026-09-12 · proposed design; no local performance results.
+
+Candidate metrics include ARI/NMI, silhouette/ASW, neighborhood preservation, graph connectivity, modality mixing, reconstruction error and retrieval measures. Each requires a reference, scale and split. ARI/NMI measure agreement with supplied labels; silhouette measures metric-dependent separation. None establishes biological correctness. Metric definitions and limitations are recorded before experiments.
+
+## Evidence class and boundary
+
+**FACT:** project dimensions, availability and source identities are taken from the targeted registries and source ledger. **INTERPRETATION:** compatibility and planning statements apply the recorded input contracts. **PROPOSED:** benchmark policies are prospective and have not been executed. No model was trained, no benchmark was run, and no novelty claim is made.
+
+See [SOURCES.md](SOURCES.md), [METHOD_DATASET_MATRIX.csv](METHOD_DATASET_MATRIX.csv), [METHOD_PIPELINES.csv](METHOD_PIPELINES.csv), and [BENCHMARK_SHORTLIST.csv](BENCHMARK_SHORTLIST.csv).

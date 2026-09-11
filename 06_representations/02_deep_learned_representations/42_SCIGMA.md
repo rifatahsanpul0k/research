@@ -4,7 +4,7 @@ Phase 2C · method study · studied_not_fitted · not_reproduced.
 
 ## Definition and mechanism
 
-Recent preprint describes uncertainty-aware contrastive graph integration; peer-review and code status UNKNOWN.
+SCIGMA is a peer-reviewed Nature Genetics article published 3 September 2026; official code is available, but reproduction is untested. See the dated [Phase 3A verification](../../03_papers/01_systematic_method_mapping/04_RECENT_METHOD_VERIFICATION.md).
 
 ## Numerical and computational representation
 
@@ -20,8 +20,8 @@ Architecture, training objective, biological prior, downstream model, and evalua
 
 ## Misconceptions and limitations
 
-Recent preprint describes uncertainty-aware contrastive graph integration; peer-review and code status UNKNOWN. Latent dimensions and learned weights are not direct measurements.
+SCIGMA is a peer-reviewed Nature Genetics article published 3 September 2026; official code is available, but reproduction is untested. See the dated [Phase 3A verification](../../03_papers/01_systematic_method_mapping/04_RECENT_METHOD_VERIFICATION.md). Latent dimensions and learned weights are not direct measurements.
 
 ## Evidence
 
-SCIGMA bioRxiv preprint (2026), qualified. See `SOURCES.md`; no project dataset was fitted.
+SCIGMA Nature Genetics (2026), DOI 10.1038/s41588-026-02706-8; Phase 3A correction supersedes the earlier preprint-only status. See `SOURCES.md`; no project dataset was fitted.

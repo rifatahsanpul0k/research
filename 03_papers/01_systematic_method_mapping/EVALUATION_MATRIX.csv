@@ -1,0 +1,16 @@
+metric,task,requires_labels,requires_pairing,requires_spatial,computational_or_biological,interpretation,known_limitation
+ARI,cluster agreement,YES,NO,NO,computational,agreement with reference partition; higher means more agreement,reference labels may be incomplete or hierarchical
+NMI,cluster agreement,YES,NO,NO,computational,normalized information agreement; higher means more agreement,depends on normalization and reference labels
+Silhouette,representation structure,NO,NO,NO,computational,within-cluster versus nearest-cluster separation; higher means more separation,metric-dependent and can favor compact technical groups
+ASW_batch,batch mixing,NO,NO,NO,computational,average silhouette for batch labels; lower suggests less batch separation,removing batch signal can remove biology when confounded
+Neighborhood preservation,representation structure,NO,NO,OPTIONAL,computational,retention of input neighbors in Z; higher means more retention,depends on k and input metric
+Graph connectivity,spatial/domain structure,YES,NO,YES,computational,connectivity of reference-label subgraphs; higher means more connected,can reward over-smoothing
+Modality mixing,alignment,NO,YES,NO,computational,local mixing of modality labels; higher mixing is not always better,may penalize real modality-specific biology
+Reconstruction error,representation/translation,NO,OPTIONAL,NO,computational,fit to observed features; lower means closer reconstruction,can reward technical noise and is not biological validity
+Recall@k,cross-modal alignment,NO,YES,NO,computational,paired target retrieved among k neighbors; higher means better retrieval,requires verified pairing and candidate pool
+Median rank,cross-modal alignment,NO,YES,NO,computational,rank of paired target; lower is better,rank ties and pool definition matter
+FOSCTTM,cross-modal alignment,NO,YES,NO,computational,fraction of samples closer to another than paired target; lower is better,requires paired observations and comparable latent spaces
+Marker consistency,biological validation,YES,NO,OPTIONAL,biological,agreement with versioned marker evidence,markers are context-dependent and not deterministic
+Pathway consistency,biological validation,YES,NO,OPTIONAL,biological,agreement with curated gene-set evidence,prior coverage and enrichment choices affect result
+Spatial coherence,biological validation,YES,NO,YES,biological,neighborhood agreement under verified coordinates,smoothness can merge distinct adjacent regions
+Developmental plausibility,biological validation,YES,NO,OPTIONAL,biological,consistency with stage-specific evidence,stage is not a lineage proof

@@ -200,3 +200,16 @@ Mathematical notation and the representation-neutral inventory are defined in [B
 |Shared/private latent|Intended cross-view/view-specific factors; not proven compartments.|
 |Collapse/oversmoothing/oversquashing|Constant embeddings / homogenized neighborhoods / bottlenecked long-range messages.|
 |Foundation model|Pretrained reusable model; no guarantee of biological understanding.|
+
+## Phase 3A benchmark-design terms — 2026-09-12
+
+| Term | Working definition and caution |
+|---|---|
+| Candidate / shortlist tier | Method meeting stated planning criteria / Core, Extended or Reference-only planning category; neither is a performance ranking. |
+| Directly compatible / conditional | Input contract currently matches verified data / requires a documented preprocessing, feature, pairing or resource decision. |
+| Method-native preprocessing | Input transformations required or recommended by a method's paper or implementation; do not silently replace them. |
+| Pipeline decomposition | Input → preprocessing → initial structure → model → learned representation → downstream task. |
+| Biological conservation / technical mixing | Preservation of referenced biology / reduction of batch or domain separation; optimizing one can damage the other. |
+| Literature-reported result | Number reported by an external paper under its own data and pipeline; never a project result. |
+| Ground-truth limitation | Annotation or label incompleteness, hierarchy, mixture or derivation that constrains interpretation. |
+| Compatibility status | Explicit input-contract judgment with a reason; not evidence that a method has run successfully. |

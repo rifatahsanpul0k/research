@@ -2,16 +2,16 @@
 
 1. Eraslan et al., Nature Communications 2019, DCA, https://doi.org/10.1038/s41467-018-07931-2; https://github.com/theislab/dca
 2. Lopez et al., Nature Methods 2018, scVI, https://doi.org/10.1038/s41592-018-0229-2
-3. Gayoso et al., Nature Biotechnology 2021, totalVI, https://doi.org/10.1038/s41587-021-01166-9
+3. Gayoso et al., Nature Methods 2021, Joint probabilistic modeling of single-cell multi-omic data with totalVI, https://doi.org/10.1038/s41592-020-01050-x
 4. Ashuach et al., Nature Methods 2023, MultiVI, https://doi.org/10.1038/s41592-023-01909-9
 5. Gong et al., Genome Biology 2021, Cobolt, https://doi.org/10.1186/s13059-021-02556-z
 6. Wu et al., PNAS 2021, BABEL, https://doi.org/10.1073/pnas.2023070118; https://github.com/wukevin/babel
 7. Cao & Gao, Nature Biotechnology 2022, scGLUE, https://doi.org/10.1038/s41587-022-01284-4; https://github.com/gao-lab/GLUE
 8. Long et al., Nature Methods 2024, SpatialGlue, https://doi.org/10.1038/s41592-024-02316-4
 9. Gao et al., PLOS Computational Biology 2025, SpaMI, https://doi.org/10.1371/journal.pcbi.1013546; https://github.com/Gaocongqiang/SpaMI
-10. Garfield, Briefings in Bioinformatics 2026, direct code/version verification pending.
-11. SCIGMA bioRxiv 2026 preprint, https://www.biorxiv.org/content/10.64898/2026.04.19.718223v1.full; status qualified.
-12. ARISE, Bioinformatics 2026 primary record, https://pmc.ncbi.nlm.nih.gov/articles/PMC13360277/; code status UNKNOWN.
+10. Garfield, Briefings in Bioinformatics 2026, https://doi.org/10.1093/bib/bbag432; official code https://github.com/zhou-1314/Garfield; not reproduced.
+11. SCIGMA, Nature Genetics 2026, https://doi.org/10.1038/s41588-026-02706-8; version of record published 3 September 2026; official code https://github.com/YMa-lab/SCIGMA; not reproduced.
+12. ARISE, Bioinformatics 2026, https://doi.org/10.1093/bioinformatics/btag465; official code https://github.com/XiangxiangWang-code/ARISE; packaging/license remain qualified.
 13. Kingma & Welling, AEVB, ICLR 2014, https://arxiv.org/abs/1312.6114
 14. van den Oord et al., CPC/InfoNCE 2018, https://arxiv.org/abs/1807.03748
 15. Vaswani et al., attention, NeurIPS 2017, https://arxiv.org/abs/1706.03762
