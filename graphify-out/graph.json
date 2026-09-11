@@ -312,11 +312,22 @@
       "source_location": "L5"
     },
     {
+      "id": "06_representations_01_classical_representation_families_verify_toy_equal",
+      "label": "equal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "equal()",
+      "source_file": "06_representations/01_classical_representation_families/verify_toy.py",
+      "source_location": "L7"
+    },
+    {
       "id": "code_data_inspection_inspect_coordinates_main",
       "label": "main()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "code/data_inspection/inspect_coordinates.py",
@@ -423,10 +434,30 @@
       "source_location": "L1"
     },
     {
+      "id": "06_representations_01_classical_representation_families_verify_toy",
+      "label": "verify_toy.py",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "verify_toy.py",
+      "source_file": "06_representations/01_classical_representation_families/verify_toy.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "06_representations_01_classical_representation_families_verify_toy_rationale_1",
+      "label": "Fixed synthetic arithmetic validation only; no project-data input or model\u2026",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "fixed synthetic arithmetic validation only; no project-data input or model...",
+      "source_file": "06_representations/01_classical_representation_families/verify_toy.py",
+      "source_location": "L1"
+    },
+    {
       "id": "code_data_inspection_inspect_coordinates",
       "label": "inspect_coordinates.py",
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "file_type": "code",
       "norm_label": "inspect_coordinates.py",
       "source_file": "code/data_inspection/inspect_coordinates.py",
@@ -436,7 +467,7 @@
       "id": "code_data_inspection_inspect_coordinates_rationale_1",
       "label": "Read-only summary of AnnData obsm coordinate arrays.",
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "file_type": "rationale",
       "norm_label": "read-only summary of anndata obsm coordinate arrays.",
       "source_file": "code/data_inspection/inspect_coordinates.py",
@@ -805,6 +836,17 @@
       "weight": 1.0
     },
     {
+      "source": "06_representations_01_classical_representation_families_verify_toy",
+      "target": "06_representations_01_classical_representation_families_verify_toy_equal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "06_representations/01_classical_representation_families/verify_toy.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "code_data_inspection_check_phase2a_toys",
       "target": "code_data_inspection_check_phase2a_toys_check",
       "relation": "contains",
@@ -1124,6 +1166,17 @@
       "weight": 1.0
     },
     {
+      "source": "06_representations_01_classical_representation_families_verify_toy_rationale_1",
+      "target": "06_representations_01_classical_representation_families_verify_toy",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "06_representations/01_classical_representation_families/verify_toy.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "code_data_inspection_check_phase2a_toys_rationale_1",
       "target": "code_data_inspection_check_phase2a_toys",
       "relation": "rationale_for",
@@ -1191,5 +1244,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c79f2f9e878aa7d361c8654baae2f1918460898d"
+  "built_at_commit": "062b9be62be47bc5c2242ea72bef320f0765fa4b"
 }

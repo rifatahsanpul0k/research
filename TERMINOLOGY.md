@@ -172,3 +172,17 @@ Mathematical notation and the representation-neutral inventory are defined in [B
 | p-value; confidence interval; effect size; FDR | Null-tail probability; repeated-sampling interval; magnitude; expected false-discovery proportion | [Testing](05_methods/01_mathematical_foundations/31_STATISTICAL_TESTING.md) |
 | Accuracy; precision; recall; specificity; F1 | Different summaries of a reference-based confusion table | [Evaluation](05_methods/01_mathematical_foundations/32_EVALUATION_FOUNDATIONS.md) |
 | ARI; NMI; silhouette | Chance-adjusted pair agreement; normalized information agreement; metric-dependent cluster separation | [Evaluation limits](05_methods/01_mathematical_foundations/36_BIOLOGICAL_VS_COMPUTATIONAL_EVALUATION.md) |
+
+## Phase 2B representation terms
+
+| Term | Working definition | Required caution |
+|---|---|---|
+| Representation | (R=f(X)), an explicitly defined computational object derived from observations and optional metadata | It can be a matrix, relation, set, graph, tensor, coupling or distribution; it need not be a latent vector. |
+| Score / loading | Observation coordinates / feature coefficients in a factor or projection model | Names and signs are convention-dependent; a score is not directly measured biology. |
+| Distance / similarity / kernel | Pairwise dissimilarity / relation value / PSD Gram function | Distance is not biological dissimilarity; similarity is not equivalence; a similarity is not automatically a kernel. |
+| Neighborhood / graph | Selected neighbor IDs / vertices and explicitly typed edges | A neighborhood set is not automatically a graph; an edge's meaning requires provenance. |
+| Coupling | Nonnegative transport plan with declared marginals | A coupling is not an embedding, lineage record or measured correspondence. |
+| Shared factor | A latent coordinate used across declared views or datasets | Shared mathematical usage does not prove shared biological cause or equal modality relevance. |
+| Pathway / regulon score | Method-dependent aggregate over a gene set or regulator-target program | A prior-derived score is not measured activity or biological truth. |
+| Pseudotime | Inferred scalar or branch position in a computational trajectory | It is not clock time, embryonic day or ancestry without independent evidence. |
+| Studied-not-fitted | Family/method reviewed with sources and assumptions recorded | It does not mean an instance was trained, benchmarked or applied to project data. |

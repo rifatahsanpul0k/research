@@ -1,6 +1,6 @@
 # Representation taxonomy
 
-Status: unranked planning scaffold. No relevant papers have been collected or verified. Mathematical forms below are notation conventions for organizing later study, not assertions that every method in a family uses the same formulation. Biological interpretations are questions to validate; advantages, disadvantages, suitable inputs/models, assumptions, and failure modes are **candidate assessment prompts**, not established comparative findings. None is a recommendation for the six uninspected datasets.
+Status: unranked taxonomy. Phase 2B's source-backed classical-family review is in [06_representations/01_classical_representation_families](06_representations/01_classical_representation_families/README.md); deep representation families remain deferred to Phase 2C. Mathematical forms below are notation conventions for organizing study, not assertions that every method in a family uses the same formulation. Biological interpretations are questions to validate; advantages, disadvantages, suitable inputs/models, assumptions, and failure modes remain conditional assessment fields. None is a recommendation for the six datasets.
 
 Notation: n = observations; p = features; d = latent dimensions; m indexes a view where applicable. Shapes, units, constraints, and observation identities must be restated in each actual method record. Families overlap and may appear at different pipeline stages.
 

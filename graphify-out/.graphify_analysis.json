@@ -49,6 +49,11 @@
       "code_data_inspection_summarize_annotations_summarize"
     ],
     "5": [
+      "06_representations_01_classical_representation_families_verify_toy",
+      "06_representations_01_classical_representation_families_verify_toy_equal",
+      "06_representations_01_classical_representation_families_verify_toy_rationale_1"
+    ],
+    "6": [
       "code_data_inspection_inspect_coordinates",
       "code_data_inspection_inspect_coordinates_main",
       "code_data_inspection_inspect_coordinates_rationale_1"
@@ -60,7 +65,8 @@
     "2": 0.4444444444444444,
     "3": 0.5333333333333333,
     "4": 0.6666666666666666,
-    "5": 0.6666666666666666
+    "5": 0.6666666666666666,
+    "6": 0.6666666666666666
   },
   "gods": [
     {
