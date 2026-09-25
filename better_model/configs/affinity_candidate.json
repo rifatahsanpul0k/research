@@ -1,0 +1,57 @@
+{
+  "compute_class": "COLAB_GPU",
+  "seeds": [
+    42,
+    1234,
+    2024
+  ],
+  "baselines": true,
+  "model": {
+    "graph_weights": "affinity",
+    "guard_partitions": true,
+    "min_cluster_size": 2,
+    "max_cluster_fraction": 0.95
+  },
+  "datasets": [
+    {
+      "name": "10x_human_lymph_node_A1",
+      "n_clusters": 10,
+      "cluster_count_provenance": "reference annotation cardinality; reference-assisted K, not label-free K selection",
+      "annotation_file": "annotation.csv",
+      "annotation_column": "manual-anno",
+      "excluded_labels": [],
+      "preprocess": {
+        "rna_input": "counts",
+        "aux_modality": "ADT",
+        "hvg_flavor": "seurat_v3",
+        "n_hvg": 3000,
+        "min_cells": 10
+      },
+      "expected_sha256": {
+        "rna": "d9eab0cdf8cdefe6ed60943e178bf38ce43b0b09dade6e5da268be2db0308360",
+        "aux": "396aaf1466f522bfbe8dd14308aeb6033990252b77749e48977d3127c0c23af5",
+        "annotations": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f"
+      }
+    },
+    {
+      "name": "10x_human_lymph_node_D1",
+      "n_clusters": 11,
+      "cluster_count_provenance": "reference annotation cardinality; reference-assisted K, not label-free K selection",
+      "annotation_file": "annotation.csv",
+      "annotation_column": "manual-anno",
+      "excluded_labels": [],
+      "preprocess": {
+        "rna_input": "counts",
+        "aux_modality": "ADT",
+        "hvg_flavor": "seurat_v3",
+        "n_hvg": 3000,
+        "min_cells": 10
+      },
+      "expected_sha256": {
+        "rna": "e827f5cdbbd968f8c8d22567a9246cae02c3562af066c81dd6a0cac02513dd5d",
+        "aux": "be02c9812c903232c3c8bfc0eb24c9e393497d03c64b6b4a5ee6fb66ab3b9bc7",
+        "annotations": "8924979bd3bf00231c8f55a55efb2230c49e8464f140691e13f423db2e0a3707"
+      }
+    }
+  ]
+}

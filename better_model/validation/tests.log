@@ -1,0 +1,30 @@
+/Users/rifatahasan/Documents/ChatGPT/multiomics-research/07_models/01_reproduction_environment/.venv-baselines/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+test_affinity_candidate_trains_both_stages (test_astra.AstraTests.test_affinity_candidate_trains_both_stages) ... /Users/rifatahasan/Documents/ChatGPT/multiomics-research/better_model/graphs.py:75: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /Users/runner/work/pytorch/pytorch/aten/src/ATen/Context.cpp:855.)
+  adjacency = torch.sparse_coo_tensor(edges, torch.ones(edges.shape[1], device=edges.device), (n, n)).coalesce()
+ok
+test_affinity_handles_duplicates_small_n_and_nonpositive_cosine (test_astra.AstraTests.test_affinity_handles_duplicates_small_n_and_nonpositive_cosine) ... ok
+test_alignment_is_by_barcode_and_preserves_inputs (test_astra.AstraTests.test_alignment_is_by_barcode_and_preserves_inputs) ... ok
+test_architecture_forward_and_total_loss_match_user_reference (test_astra.AstraTests.test_architecture_forward_and_total_loss_match_user_reference) ... ok
+test_atac_preprocessing_uses_sparse_pca_with_valid_dimensions (test_astra.AstraTests.test_atac_preprocessing_uses_sparse_pca_with_valid_dimensions) ... ok
+test_empty_consensus_graph_runs (test_astra.AstraTests.test_empty_consensus_graph_runs) ... ok
+test_every_seed_saved_and_overwrite_refused (test_astra.AstraTests.test_every_seed_saved_and_overwrite_refused) ... SYNTHETIC_SMOKE seed=42 epoch=1 stage=1 loss=107.5652
+Saved /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/tmpybs1q2k2/run/SYNTHETIC_SMOKE/seed_42; ARI=1.0, selected epoch=5
+SYNTHETIC_SMOKE seed=1234 epoch=1 stage=1 loss=108.5331
+Saved /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/tmpybs1q2k2/run/SYNTHETIC_SMOKE/seed_1234; ARI=1.0, selected epoch=5
+ok
+test_missing_annotations_are_not_string_classes (test_astra.AstraTests.test_missing_annotations_are_not_string_classes) ... ok
+test_partition_guards_reject_collapse_without_labels (test_astra.AstraTests.test_partition_guards_reject_collapse_without_labels) ... ok
+test_reference_graph_matches_dense_notebook_graph (test_astra.AstraTests.test_reference_graph_matches_dense_notebook_graph) ... ok
+test_rna_adt_preprocessing_matches_reference (test_astra.AstraTests.test_rna_adt_preprocessing_matches_reference) ... /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py:909: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
+ok
+test_sparse_target_matches_reference_and_is_probability (test_astra.AstraTests.test_sparse_target_matches_reference_and_is_probability) ... ok
+test_spatial_loss_matches_reference_value_and_gradient (test_astra.AstraTests.test_spatial_loss_matches_reference_value_and_gradient) ... ok
+test_two_stage_selection_matches_original_training_loop (test_astra.AstraTests.test_two_stage_selection_matches_original_training_loop) ... ok
+test_two_stage_training_repeatability_and_checkpoint_reload (test_astra.AstraTests.test_two_stage_training_repeatability_and_checkpoint_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.212s
+
+OK

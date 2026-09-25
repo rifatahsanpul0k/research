@@ -1,0 +1,10 @@
+{
+  "notebook": "ASTRA_working_model.ipynb",
+  "all_code_cells_compiled": true,
+  "portable_embedded_source_executed": true,
+  "synthetic_smoke_completed": true,
+  "plot_code_executed_with_Agg": true,
+  "run_directory": "/var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b/better_model/outputs/EXP-20260925-121524-741772-reference",
+  "bundle_sha256": "87a7fb9f8f2b4673bf2a114afa5d19f99dacccab9f13f5ea900d397b2aa168bd",
+  "full_gpu_benchmark_run": false
+}

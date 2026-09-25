@@ -1,0 +1,155 @@
+{
+  "compute_class": "LOCAL_LIGHT",
+  "kind": "input and preprocessing checks; small subset engineering smoke, not a benchmark",
+  "datasets": [
+    {
+      "dataset": "10x_human_lymph_node_A1",
+      "rna_shape": [
+        3484,
+        18085
+      ],
+      "aux_shape": [
+        3484,
+        31
+      ],
+      "inputs": {
+        "paths": {
+          "rna": "/Users/rifatahasan/Documents/ChatGPT/multiomics-research/04_datasets/10x_human_lymph_node_A1/raw/adata_RNA.h5ad",
+          "aux": "/Users/rifatahasan/Documents/ChatGPT/multiomics-research/04_datasets/10x_human_lymph_node_A1/raw/adata_ADT.h5ad",
+          "annotations": "/Users/rifatahasan/Documents/ChatGPT/multiomics-research/04_datasets/10x_human_lymph_node_A1/raw/annotation.csv"
+        },
+        "sha256": {
+          "rna": "d9eab0cdf8cdefe6ed60943e178bf38ce43b0b09dade6e5da268be2db0308360",
+          "aux": "396aaf1466f522bfbe8dd14308aeb6033990252b77749e48977d3127c0c23af5",
+          "annotations": "0c9473b95cd15af20cf45cbc380e5d7d315b687bd18681ab93f0e41973560b5f"
+        }
+      },
+      "preprocess": {
+        "config": {
+          "rna_input": "counts",
+          "aux_modality": "ADT",
+          "hvg_flavor": "seurat_v3",
+          "n_hvg": 3000,
+          "min_cells": 10,
+          "atac_components": 50,
+          "preprocessing_seed": 42
+        },
+        "fit_scope": "all paired spots; transductive",
+        "zero_input_rows": {
+          "rna": 0,
+          "aux": 1
+        },
+        "aux_recipe": "per-spot CLR, sample-standard-deviation scaling",
+        "rna_shape": [
+          3484,
+          3000
+        ],
+        "aux_shape": [
+          3484,
+          31
+        ]
+      },
+      "reference_graph": {
+        "weight_policy": "reference",
+        "n_neighbors_effective": 15,
+        "sim_edges": 88520,
+        "spatial_edges": 58444,
+        "common_edges": 2388,
+        "negative_cosine_edges_before_policy": 0,
+        "common_isolated_spots": 2488,
+        "spatial_bandwidth": null,
+        "self_loop_policy": "GCNConv adds unit self-loops"
+      },
+      "subset_smoke": {
+        "spots": 96,
+        "rna_features": 128,
+        "epochs": 5,
+        "config": {
+          "n_clusters": 3,
+          "hidden_dim": 16,
+          "latent_dim": 8,
+          "dropout": 0.0,
+          "beta": 25.0,
+          "gamma": 10.0,
+          "delta": 1.0,
+          "lambda_dec": 1.0,
+          "lambda_spatial": 0.15,
+          "pretrain_epochs": 3,
+          "finetune_epochs": 2,
+          "learning_rate": 0.001,
+          "target_update_interval": 5,
+          "evaluate_every": 1,
+          "silhouette_sample_size": null,
+          "pair_block_size": 32,
+          "n_neighbors": 5,
+          "graph_weights": "reference",
+          "guard_partitions": false,
+          "min_cluster_size": 2,
+          "max_cluster_fraction": 0.95
+        },
+        "finite_embedding": true,
+        "selected_epoch": 1,
+        "ari": "not evaluated; engineering subset only"
+      }
+    },
+    {
+      "dataset": "10x_human_lymph_node_D1",
+      "rna_shape": [
+        3359,
+        18085
+      ],
+      "aux_shape": [
+        3359,
+        31
+      ],
+      "inputs": {
+        "paths": {
+          "rna": "/Users/rifatahasan/Documents/ChatGPT/multiomics-research/04_datasets/10x_human_lymph_node_D1/raw/adata_RNA.h5ad",
+          "aux": "/Users/rifatahasan/Documents/ChatGPT/multiomics-research/04_datasets/10x_human_lymph_node_D1/raw/adata_ADT.h5ad",
+          "annotations": "/Users/rifatahasan/Documents/ChatGPT/multiomics-research/04_datasets/10x_human_lymph_node_D1/raw/annotation.csv"
+        },
+        "sha256": {
+          "rna": "e827f5cdbbd968f8c8d22567a9246cae02c3562af066c81dd6a0cac02513dd5d",
+          "aux": "be02c9812c903232c3c8bfc0eb24c9e393497d03c64b6b4a5ee6fb66ab3b9bc7",
+          "annotations": "8924979bd3bf00231c8f55a55efb2230c49e8464f140691e13f423db2e0a3707"
+        }
+      },
+      "preprocess": {
+        "config": {
+          "rna_input": "counts",
+          "aux_modality": "ADT",
+          "hvg_flavor": "seurat_v3",
+          "n_hvg": 3000,
+          "min_cells": 10,
+          "atac_components": 50,
+          "preprocessing_seed": 42
+        },
+        "fit_scope": "all paired spots; transductive",
+        "zero_input_rows": {
+          "rna": 0,
+          "aux": 0
+        },
+        "aux_recipe": "per-spot CLR, sample-standard-deviation scaling",
+        "rna_shape": [
+          3359,
+          3000
+        ],
+        "aux_shape": [
+          3359,
+          31
+        ]
+      },
+      "reference_graph": {
+        "weight_policy": "reference",
+        "n_neighbors_effective": 15,
+        "sim_edges": 70328,
+        "spatial_edges": 56304,
+        "common_edges": 1538,
+        "negative_cosine_edges_before_policy": 0,
+        "common_isolated_spots": 2523,
+        "spatial_bandwidth": null,
+        "self_loop_policy": "GCNConv adds unit self-loops"
+      }
+    }
+  ]
+}

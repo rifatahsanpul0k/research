@@ -1,0 +1,46 @@
+/Users/rifatahasan/Documents/ChatGPT/multiomics-research/07_models/01_reproduction_environment/.venv-baselines/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b/better_model/graphs.py:75: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /Users/runner/work/pytorch/pytorch/aten/src/ATen/Context.cpp:855.)
+  adjacency = torch.sparse_coo_tensor(edges, torch.ones(edges.shape[1], device=edges.device), (n, n)).coalesce()
+Source: /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b
+PyTorch: 2.14.0 CUDA: False
+Data: /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b/04_datasets Outputs: /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b/better_model/outputs
+{
+  "compute_class": "LOCAL_LIGHT",
+  "seeds": [
+    42
+  ],
+  "baselines": true,
+  "datasets": [
+    {
+      "name": "SYNTHETIC_SMOKE",
+      "n_clusters": 3,
+      "preprocess": {
+        "aux_modality": "ADT",
+        "hvg_flavor": "seurat",
+        "n_hvg": 30,
+        "min_cells": 1
+      }
+    }
+  ],
+  "model": {
+    "hidden_dim": 16,
+    "latent_dim": 8,
+    "pretrain_epochs": 3,
+    "finetune_epochs": 2,
+    "n_neighbors": 4,
+    "pair_block_size": 16
+  }
+}
+SYNTHETIC_SMOKE seed=42 epoch=1 stage=1 loss=107.5652
+Saved /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b/better_model/outputs/EXP-20260925-121524-741772-reference/SYNTHETIC_SMOKE/seed_42; ARI=1.0, selected epoch=5
+notebook cell 9:24: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+notebook cell 9:27: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+Completed: /var/folders/n3/2n5_hbj15j5d_wjkzlgttwv80000gn/T/astra-87a7fb9f8f2b/better_model/outputs/EXP-20260925-121524-741772-reference
+           dataset  seed        method  ...  homogeneity  v_measure       fmi
+0  SYNTHETIC_SMOKE    42         ASTRA  ...     1.000000   1.000000  1.000000
+1  SYNTHETIC_SMOKE    42       RNA_PCA  ... 
+                                   ari      ... max_cluster_fraction    
+                                  mean std  ...                 mean std
+dataset         method                      ...       
+PORTABLE NOTEBOOK SMOKE PASSED
