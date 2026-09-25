@@ -1,6 +1,154 @@
 {
   "communities": {
     "0": [
+      "code_benchmarks_annotate_phase3c_runtime",
+      "code_benchmarks_annotate_phase3c_runtime_main",
+      "code_benchmarks_annotate_phase3c_runtime_py_path",
+      "code_benchmarks_annotate_phase3c_runtime_rationale_1",
+      "code_benchmarks_annotate_phase3c_runtime_rewrite_csv",
+      "code_benchmarks_common_evaluation",
+      "code_benchmarks_common_evaluation_cluster_and_evaluate",
+      "code_benchmarks_common_evaluation_py_ndarray",
+      "code_benchmarks_common_evaluation_rationale_1",
+      "code_benchmarks_common_h5ad_sha256",
+      "code_benchmarks_common_io",
+      "code_benchmarks_common_io_load_json",
+      "code_benchmarks_common_io_py_any",
+      "code_benchmarks_common_io_py_path",
+      "code_benchmarks_common_io_rationale_1",
+      "code_benchmarks_common_io_write_json_atomic",
+      "code_benchmarks_run_phase3c",
+      "code_benchmarks_run_phase3c_append_registry",
+      "code_benchmarks_run_phase3c_append_result",
+      "code_benchmarks_run_phase3c_datasetspec",
+      "code_benchmarks_run_phase3c_environment_record",
+      "code_benchmarks_run_phase3c_execute_one",
+      "code_benchmarks_run_phase3c_expected_checksums",
+      "code_benchmarks_run_phase3c_experiment_id",
+      "code_benchmarks_run_phase3c_git_dirty",
+      "code_benchmarks_run_phase3c_git_head",
+      "code_benchmarks_run_phase3c_intended_ids",
+      "code_benchmarks_run_phase3c_load_dataset",
+      "code_benchmarks_run_phase3c_main",
+      "code_benchmarks_run_phase3c_method_id",
+      "code_benchmarks_run_phase3c_py_baseexception",
+      "code_benchmarks_run_phase3c_py_ndarray",
+      "code_benchmarks_run_phase3c_py_path",
+      "code_benchmarks_run_phase3c_rationale_1",
+      "code_benchmarks_run_phase3c_record_failure",
+      "code_benchmarks_run_phase3c_registry_rows",
+      "code_benchmarks_run_phase3c_relative",
+      "code_benchmarks_run_phase3c_run",
+      "code_benchmarks_run_phase3c_save_embedding",
+      "code_benchmarks_run_phase3c_utc",
+      "code_benchmarks_run_phase3c_verify_all_sources",
+      "code_benchmarks_run_phase3c_write_csv",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_experiment_ids_are_unique_and_mapped",
+      "code_benchmarks_validate_phase3c",
+      "code_benchmarks_validate_phase3c_csv_rows",
+      "code_benchmarks_validate_phase3c_main",
+      "code_benchmarks_validate_phase3c_py_path",
+      "code_benchmarks_validate_phase3c_rationale_1",
+      "code_benchmarks_verify_phase3c_repeatability",
+      "code_benchmarks_verify_phase3c_repeatability_main",
+      "code_benchmarks_verify_phase3c_repeatability_rationale_1"
+    ],
+    "1": [
+      "code_benchmarks_common_failures",
+      "code_benchmarks_common_failures_py_baseexception",
+      "code_benchmarks_common_failures_py_path",
+      "code_benchmarks_common_failures_rationale_1",
+      "code_benchmarks_common_failures_write_failure_artifacts",
+      "code_benchmarks_common_h5ad",
+      "code_benchmarks_common_h5ad_decode",
+      "code_benchmarks_common_h5ad_h5adview",
+      "code_benchmarks_common_h5ad_identifiers_sha256",
+      "code_benchmarks_common_h5ad_index",
+      "code_benchmarks_common_h5ad_load_h5ad",
+      "code_benchmarks_common_h5ad_load_labels",
+      "code_benchmarks_common_h5ad_matrix",
+      "code_benchmarks_common_h5ad_py_csr_matrix",
+      "code_benchmarks_common_h5ad_py_ndarray",
+      "code_benchmarks_common_h5ad_py_path",
+      "code_benchmarks_common_h5ad_rationale_1",
+      "code_benchmarks_common_preprocessing",
+      "code_benchmarks_common_preprocessing_adt_representation",
+      "code_benchmarks_common_preprocessing_atac_representation",
+      "code_benchmarks_common_preprocessing_concatenate_equal_blocks",
+      "code_benchmarks_common_preprocessing_coordinate_representation",
+      "code_benchmarks_common_preprocessing_pca_representation",
+      "code_benchmarks_common_preprocessing_py_csr_matrix",
+      "code_benchmarks_common_preprocessing_py_ndarray",
+      "code_benchmarks_common_preprocessing_rationale_1",
+      "code_benchmarks_common_preprocessing_rna_representation",
+      "code_benchmarks_common_preprocessing_row_diagnostics",
+      "code_benchmarks_common_preprocessing_validate_nonnegative_finite",
+      "code_benchmarks_common_preprocessing_zscore_columns",
+      "code_benchmarks_methods_transparent",
+      "code_benchmarks_methods_transparent_build_representations",
+      "code_benchmarks_methods_transparent_rationale_1",
+      "code_benchmarks_methods_transparent_representation",
+      "code_benchmarks_run_phase3d_mofa_atac",
+      "code_benchmarks_run_phase3d_prepare_views",
+      "code_benchmarks_tests_test_phase3c",
+      "code_benchmarks_tests_test_phase3c_phase3ctests",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_annotation_identifier_join",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_atac_pipeline_drops_first_lsi_component",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_failed_run_logging",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_metric_serialization",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_preprocessing_shapes_and_finite_values",
+      "code_benchmarks_tests_test_phase3c_phase3ctests_test_read_only_h5ad_and_feature_identity",
+      "code_benchmarks_tests_test_phase3c_py_path",
+      "code_benchmarks_tests_test_phase3c_write_fixture",
+      "csr_matrix",
+      "dataset",
+      "group",
+      "ndarray",
+      "spmatrix"
+    ],
+    "2": [
+      "code_benchmarks_common_provenance_sha256",
+      "code_benchmarks_common_validation",
+      "code_benchmarks_common_validation_rationale_1",
+      "code_benchmarks_common_validation_validate_embedding",
+      "code_benchmarks_common_validation_validate_row_mapping",
+      "code_benchmarks_common_validation_validate_unique_ids",
+      "code_benchmarks_methods_mofaplus_init",
+      "code_benchmarks_methods_mofaplus_init_fit",
+      "code_benchmarks_methods_mofaplus_init_rationale_1",
+      "code_benchmarks_methods_scot_init",
+      "code_benchmarks_methods_scot_init_fit",
+      "code_benchmarks_methods_scot_init_load_official",
+      "code_benchmarks_methods_scot_init_rationale_1",
+      "code_benchmarks_methods_scot_init_validate_coupling",
+      "code_benchmarks_phase3d_protocol",
+      "code_benchmarks_phase3d_protocol_configs",
+      "code_benchmarks_phase3d_protocol_rationale_1",
+      "code_benchmarks_phase3d_protocol_validate_config",
+      "code_benchmarks_run_phase3d",
+      "code_benchmarks_run_phase3d_append_registry",
+      "code_benchmarks_run_phase3d_environment_record",
+      "code_benchmarks_run_phase3d_expected_checksums",
+      "code_benchmarks_run_phase3d_git_head",
+      "code_benchmarks_run_phase3d_package_versions",
+      "code_benchmarks_run_phase3d_rationale_1",
+      "code_benchmarks_run_phase3d_rel",
+      "code_benchmarks_run_phase3d_run",
+      "code_benchmarks_run_phase3d_utc",
+      "code_benchmarks_run_phase3d_verify_sources",
+      "code_benchmarks_run_phase3d_write_csv",
+      "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_json_and_checksum",
+      "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_row_identity_and_embedding",
+      "code_benchmarks_tests_test_phase3d",
+      "code_benchmarks_tests_test_phase3d_phase3dtests",
+      "code_benchmarks_tests_test_phase3d_phase3dtests_test_frozen_matrix_and_ids",
+      "code_benchmarks_tests_test_phase3d_phase3dtests_test_mofa_feature_contract",
+      "code_benchmarks_tests_test_phase3d_phase3dtests_test_runner_requires_verified_colab",
+      "code_benchmarks_tests_test_phase3d_phase3dtests_test_scot_coupling_marginals",
+      "h5adview",
+      "path"
+    ],
+    "3": [
       "07_models_01_reproduction_environment_schemas_run_config_schema_coordinates_type",
       "07_models_01_reproduction_environment_schemas_run_config_schema_counts_or_processed_type",
       "07_models_01_reproduction_environment_schemas_run_config_schema_feature_ids_type",
@@ -41,48 +189,7 @@
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_observation_ids",
       "ref_string"
     ],
-    "1": [
-      "code_benchmarks_common_evaluation",
-      "code_benchmarks_common_evaluation_cluster_and_evaluate",
-      "code_benchmarks_common_evaluation_py_ndarray",
-      "code_benchmarks_common_evaluation_rationale_1",
-      "code_benchmarks_common_validation",
-      "code_benchmarks_common_validation_rationale_1",
-      "code_benchmarks_common_validation_validate_embedding",
-      "code_benchmarks_common_validation_validate_row_mapping",
-      "code_benchmarks_common_validation_validate_unique_ids",
-      "code_benchmarks_run_phase3c",
-      "code_benchmarks_run_phase3c_append_registry",
-      "code_benchmarks_run_phase3c_append_result",
-      "code_benchmarks_run_phase3c_datasetspec",
-      "code_benchmarks_run_phase3c_environment_record",
-      "code_benchmarks_run_phase3c_execute_one",
-      "code_benchmarks_run_phase3c_expected_checksums",
-      "code_benchmarks_run_phase3c_experiment_id",
-      "code_benchmarks_run_phase3c_git_dirty",
-      "code_benchmarks_run_phase3c_git_head",
-      "code_benchmarks_run_phase3c_intended_ids",
-      "code_benchmarks_run_phase3c_load_dataset",
-      "code_benchmarks_run_phase3c_main",
-      "code_benchmarks_run_phase3c_method_id",
-      "code_benchmarks_run_phase3c_py_baseexception",
-      "code_benchmarks_run_phase3c_py_ndarray",
-      "code_benchmarks_run_phase3c_py_path",
-      "code_benchmarks_run_phase3c_rationale_1",
-      "code_benchmarks_run_phase3c_record_failure",
-      "code_benchmarks_run_phase3c_registry_rows",
-      "code_benchmarks_run_phase3c_relative",
-      "code_benchmarks_run_phase3c_run",
-      "code_benchmarks_run_phase3c_save_embedding",
-      "code_benchmarks_run_phase3c_utc",
-      "code_benchmarks_run_phase3c_verify_all_sources",
-      "code_benchmarks_run_phase3c_write_csv",
-      "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_row_identity_and_embedding",
-      "code_benchmarks_verify_phase3c_repeatability",
-      "code_benchmarks_verify_phase3c_repeatability_main",
-      "code_benchmarks_verify_phase3c_repeatability_rationale_1"
-    ],
-    "2": [
+    "4": [
       "07_models_01_reproduction_environment_schemas_provenance_schema",
       "07_models_01_reproduction_environment_schemas_provenance_schema_additionalproperties",
       "07_models_01_reproduction_environment_schemas_provenance_schema_code_commit_type",
@@ -120,7 +227,45 @@
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_runtime_seconds_type",
       "ref_number"
     ],
-    "3": [
+    "5": [
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_compute_classification_enum",
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_colab_cpu",
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_colab_gpu",
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_colab_high_memory",
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_local_light",
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_unresolved",
+      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties_compute_classification",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_additionalproperties",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_allof",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_clustering_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_compute_classification_enum",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_example_only_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_experiment_id_pattern",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_experiment_id_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_method_minlength",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_method_parameters_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_method_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_output_directory_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_preprocessing_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_clustering",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_compute_classification",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_dataset",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_example_only",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_experiment_id",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_method",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_method_parameters",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_output_directory",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_preprocessing",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_seed",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_schema",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_seed_minimum",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_seed_type",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_title",
+      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_type"
+    ],
+    "6": [
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_dataset",
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_experiment_id",
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_method",
@@ -134,15 +279,9 @@
       "07_models_01_reproduction_environment_schemas_run_config_schema_json_ref_dataset",
       "07_models_01_reproduction_environment_schemas_run_config_schema_json_ref_seed",
       "07_models_01_reproduction_environment_schemas_run_config_schema_required",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_additionalproperties",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_allof",
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_json_ref_dataset",
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_json_ref_seed",
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_required",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_schema",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_title",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_type",
       "ref_clustering",
       "ref_code_commit",
       "ref_environment",
@@ -157,112 +296,6 @@
       "ref_runtime_seconds",
       "ref_status",
       "ref_timestamp_utc"
-    ],
-    "4": [
-      "code_benchmarks_annotate_phase3c_runtime",
-      "code_benchmarks_annotate_phase3c_runtime_main",
-      "code_benchmarks_annotate_phase3c_runtime_py_path",
-      "code_benchmarks_annotate_phase3c_runtime_rationale_1",
-      "code_benchmarks_annotate_phase3c_runtime_rewrite_csv",
-      "code_benchmarks_common_failures",
-      "code_benchmarks_common_failures_rationale_1",
-      "code_benchmarks_common_h5ad",
-      "code_benchmarks_common_h5ad_decode",
-      "code_benchmarks_common_h5ad_h5adview",
-      "code_benchmarks_common_h5ad_identifiers_sha256",
-      "code_benchmarks_common_h5ad_index",
-      "code_benchmarks_common_h5ad_load_h5ad",
-      "code_benchmarks_common_h5ad_load_labels",
-      "code_benchmarks_common_h5ad_matrix",
-      "code_benchmarks_common_h5ad_py_csr_matrix",
-      "code_benchmarks_common_h5ad_py_ndarray",
-      "code_benchmarks_common_h5ad_py_path",
-      "code_benchmarks_common_h5ad_rationale_1",
-      "code_benchmarks_common_h5ad_sha256",
-      "code_benchmarks_common_io",
-      "code_benchmarks_common_io_load_json",
-      "code_benchmarks_common_io_py_any",
-      "code_benchmarks_common_io_py_path",
-      "code_benchmarks_common_io_rationale_1",
-      "code_benchmarks_common_io_write_json_atomic",
-      "code_benchmarks_run_phase3d_verify_sources",
-      "code_benchmarks_validate_phase3c",
-      "code_benchmarks_validate_phase3c_csv_rows",
-      "code_benchmarks_validate_phase3c_main",
-      "code_benchmarks_validate_phase3c_py_path",
-      "code_benchmarks_validate_phase3c_rationale_1",
-      "dataset",
-      "group"
-    ],
-    "5": [
-      "code_benchmarks_methods_mofaplus_init",
-      "code_benchmarks_methods_mofaplus_init_fit",
-      "code_benchmarks_methods_mofaplus_init_rationale_1",
-      "code_benchmarks_methods_scot_init",
-      "code_benchmarks_methods_scot_init_fit",
-      "code_benchmarks_methods_scot_init_load_official",
-      "code_benchmarks_methods_scot_init_rationale_1",
-      "code_benchmarks_methods_scot_init_validate_coupling",
-      "code_benchmarks_phase3d_protocol",
-      "code_benchmarks_phase3d_protocol_configs",
-      "code_benchmarks_phase3d_protocol_rationale_1",
-      "code_benchmarks_phase3d_protocol_validate_config",
-      "code_benchmarks_run_phase3d",
-      "code_benchmarks_run_phase3d_append_registry",
-      "code_benchmarks_run_phase3d_environment_record",
-      "code_benchmarks_run_phase3d_expected_checksums",
-      "code_benchmarks_run_phase3d_git_head",
-      "code_benchmarks_run_phase3d_mofa_atac",
-      "code_benchmarks_run_phase3d_package_versions",
-      "code_benchmarks_run_phase3d_prepare_views",
-      "code_benchmarks_run_phase3d_rationale_1",
-      "code_benchmarks_run_phase3d_rel",
-      "code_benchmarks_run_phase3d_run",
-      "code_benchmarks_run_phase3d_utc",
-      "code_benchmarks_run_phase3d_write_csv",
-      "code_benchmarks_tests_test_phase3d",
-      "code_benchmarks_tests_test_phase3d_phase3dtests",
-      "code_benchmarks_tests_test_phase3d_phase3dtests_test_frozen_matrix_and_ids",
-      "code_benchmarks_tests_test_phase3d_phase3dtests_test_mofa_feature_contract",
-      "code_benchmarks_tests_test_phase3d_phase3dtests_test_runner_requires_verified_colab",
-      "code_benchmarks_tests_test_phase3d_phase3dtests_test_scot_coupling_marginals",
-      "csr_matrix",
-      "h5adview",
-      "ndarray"
-    ],
-    "6": [
-      "code_benchmarks_common_failures_py_baseexception",
-      "code_benchmarks_common_failures_py_path",
-      "code_benchmarks_common_failures_write_failure_artifacts",
-      "code_benchmarks_common_preprocessing",
-      "code_benchmarks_common_preprocessing_adt_representation",
-      "code_benchmarks_common_preprocessing_atac_representation",
-      "code_benchmarks_common_preprocessing_concatenate_equal_blocks",
-      "code_benchmarks_common_preprocessing_coordinate_representation",
-      "code_benchmarks_common_preprocessing_pca_representation",
-      "code_benchmarks_common_preprocessing_py_csr_matrix",
-      "code_benchmarks_common_preprocessing_py_ndarray",
-      "code_benchmarks_common_preprocessing_rationale_1",
-      "code_benchmarks_common_preprocessing_rna_representation",
-      "code_benchmarks_common_preprocessing_row_diagnostics",
-      "code_benchmarks_common_preprocessing_validate_nonnegative_finite",
-      "code_benchmarks_common_preprocessing_zscore_columns",
-      "code_benchmarks_methods_transparent",
-      "code_benchmarks_methods_transparent_build_representations",
-      "code_benchmarks_methods_transparent_rationale_1",
-      "code_benchmarks_methods_transparent_representation",
-      "code_benchmarks_tests_test_phase3c",
-      "code_benchmarks_tests_test_phase3c_phase3ctests",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_annotation_identifier_join",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_atac_pipeline_drops_first_lsi_component",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_experiment_ids_are_unique_and_mapped",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_failed_run_logging",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_metric_serialization",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_preprocessing_shapes_and_finite_values",
-      "code_benchmarks_tests_test_phase3c_phase3ctests_test_read_only_h5ad_and_feature_identity",
-      "code_benchmarks_tests_test_phase3c_py_path",
-      "code_benchmarks_tests_test_phase3c_write_fixture",
-      "spmatrix"
     ],
     "7": [
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema",
@@ -280,7 +313,6 @@
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_preprocessing_type",
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties",
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties_code_commit",
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties_compute_classification",
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties_environment",
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties_experiment_id",
       "07_models_01_reproduction_environment_schemas_provenance_v2_schema_properties_hardware",
@@ -311,7 +343,6 @@
       "code_benchmarks_common_provenance_local_environment",
       "code_benchmarks_common_provenance_py_any",
       "code_benchmarks_common_provenance_rationale_1",
-      "code_benchmarks_common_provenance_sha256",
       "code_benchmarks_common_provenance_utc_timestamp",
       "code_benchmarks_common_provenance_validate_provenance",
       "code_benchmarks_common_provenance_write_json",
@@ -324,44 +355,11 @@
       "code_benchmarks_tests_test_infrastructure_infrastructuretests",
       "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_compute_classification_gate",
       "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_config_and_dataset_identity",
-      "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_json_and_checksum",
       "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_provenance_gate",
       "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_seed_plan",
-      "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_unresolved_provenance_cannot_run",
-      "path"
+      "code_benchmarks_tests_test_infrastructure_infrastructuretests_test_unresolved_provenance_cannot_run"
     ],
     "9": [
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_compute_classification_enum",
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_colab_cpu",
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_colab_gpu",
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_colab_high_memory",
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_local_light",
-      "07_models_01_reproduction_environment_schemas_provenance_v2_schema_json_ref_unresolved",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_clustering_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_compute_classification_enum",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_example_only_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_experiment_id_pattern",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_experiment_id_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_method_minlength",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_method_parameters_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_method_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_output_directory_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_preprocessing_type",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_clustering",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_compute_classification",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_dataset",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_example_only",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_experiment_id",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_method",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_method_parameters",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_output_directory",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_preprocessing",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_seed",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_seed_minimum",
-      "07_models_01_reproduction_environment_schemas_run_config_v2_schema_seed_type"
-    ],
-    "10": [
       "07_models_01_reproduction_environment_schemas_run_config_schema",
       "07_models_01_reproduction_environment_schemas_run_config_schema_additionalproperties",
       "07_models_01_reproduction_environment_schemas_run_config_schema_clustering_type",
@@ -390,7 +388,7 @@
       "07_models_01_reproduction_environment_schemas_run_config_schema_title",
       "07_models_01_reproduction_environment_schemas_run_config_schema_type"
     ],
-    "11": [
+    "10": [
       "07_models_01_reproduction_environment_schemas_provenance_schema_dataset_enum",
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_ln_a1",
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_ln_d1",
@@ -415,7 +413,7 @@
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_json_ref_ln_d1",
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_json_ref_mb_e11"
     ],
-    "12": [
+    "11": [
       "07_models_01_reproduction_environment_schemas_provenance_schema_exit_status_enum",
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_blocked",
       "07_models_01_reproduction_environment_schemas_provenance_schema_json_ref_failed",
@@ -437,7 +435,7 @@
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_properties_status",
       "07_models_01_reproduction_environment_schemas_run_config_v2_schema_status_enum"
     ],
-    "13": [
+    "12": [
       "07_models_01_reproduction_environment_schemas_run_config_schema_inputs_items",
       "07_models_01_reproduction_environment_schemas_run_config_schema_inputs_minitems",
       "07_models_01_reproduction_environment_schemas_run_config_schema_inputs_type",
@@ -459,7 +457,7 @@
       "ref_modality",
       "ref_observation_ids"
     ],
-    "14": [
+    "13": [
       "code_data_inspection_check_phase2a_toys",
       "code_data_inspection_check_phase2a_toys_ari",
       "code_data_inspection_check_phase2a_toys_check",
@@ -470,6 +468,17 @@
       "code_data_inspection_check_phase2a_toys_main",
       "code_data_inspection_check_phase2a_toys_rationale_1",
       "code_data_inspection_check_phase2a_toys_silhouette"
+    ],
+    "14": [
+      "08_experiments_phase_3c_baseline_report_scientific_baseline_run",
+      "08_experiments_phase_3c_config_freeze_base_concat",
+      "08_experiments_phase_3c_config_freeze_base_rna",
+      "08_experiments_phase_3c_config_freeze_base_second_adt",
+      "08_experiments_phase_3c_config_freeze_base_second_atac",
+      "08_experiments_phase_3c_config_freeze_base_space",
+      "08_experiments_phase_3c_config_freeze_pca_classical",
+      "08_experiments_phase_3d_config_freeze_mofaplus",
+      "08_experiments_phase_3d_config_freeze_scot"
     ],
     "15": [
       "code_data_inspection_inspect_h5ad",
@@ -494,6 +503,32 @@
       "code_data_inspection_summarize_matrices_values"
     ],
     "17": [
+      "06_representations_02_deep_learned_representations_01_neural_representation_foundations_mlp",
+      "06_representations_02_deep_learned_representations_02_autoencoders_ae",
+      "06_representations_02_deep_learned_representations_03_denoising_autoencoders_dca",
+      "06_representations_02_deep_learned_representations_05_variational_autoencoders_vae",
+      "06_representations_02_deep_learned_representations_07_scvi_scvi",
+      "06_representations_02_deep_learned_representations_08_totalvi_totalvi",
+      "06_representations_02_deep_learned_representations_09_multivi_multivi",
+      "06_representations_02_deep_learned_representations_13_cross_modal_translation_babel"
+    ],
+    "18": [
+      "02_omics_02_preprocessing_qc_statistics_01_preprocessing_principles",
+      "02_omics_02_preprocessing_qc_statistics_09_adt_preprocessing",
+      "s01",
+      "s06",
+      "s08",
+      "s22"
+    ],
+    "19": [
+      "astra_operating_rules_astra_operating_rules",
+      "project_brief_project_brief",
+      "readme_readme",
+      "research_master_research_master",
+      "research_questions_research_questions",
+      "source_policy_source_policy"
+    ],
+    "20": [
       "code_data_inspection_compare_features",
       "code_data_inspection_compare_features_compare",
       "code_data_inspection_compare_features_decode",
@@ -501,82 +536,366 @@
       "code_data_inspection_compare_features_main",
       "code_data_inspection_compare_features_rationale_1"
     ],
-    "18": [
+    "21": [
+      "scratch_run_full_discordance_audit",
+      "scratch_run_full_discordance_audit_analyze_dataset",
+      "scratch_run_full_discordance_audit_gearys_c",
+      "scratch_run_full_discordance_audit_get_spatial_weights",
+      "scratch_run_full_discordance_audit_load_dataset",
+      "scratch_run_full_discordance_audit_morans_i"
+    ],
+    "22": [
+      "01_biology_02_gene_regulation_06_chromatin_chromatin",
+      "01_biology_02_gene_regulation_06_chromatin_nucleosome",
+      "01_biology_02_gene_regulation_07_chromatin_accessibility_accessibility",
+      "02_omics_01_measurement_and_data_generation_08_scatac_seq_scatac_seq",
+      "02_omics_01_measurement_and_data_generation_20_primary_dataset_reconnaissance_dataset_e11_e18"
+    ],
+    "23": [
       "code_benchmarks_summarize_phase3c",
       "code_benchmarks_summarize_phase3c_main",
       "code_benchmarks_summarize_phase3c_py_path",
       "code_benchmarks_summarize_phase3c_rationale_1",
       "code_benchmarks_summarize_phase3c_write_csv"
     ],
-    "19": [
+    "24": [
+      "scratch_fast_atac_interval_audit",
+      "scratch_fast_atac_interval_audit_build_chrom_index",
+      "scratch_fast_atac_interval_audit_fast_overlap",
+      "scratch_fast_atac_interval_audit_get_bins",
+      "scratch_fast_atac_interval_audit_parse_peaks"
+    ],
+    "25": [
+      "06_representations_02_deep_learned_representations_20_attention_scaled_dot_product",
+      "06_representations_02_deep_learned_representations_21_transformers_transformer_block",
+      "06_representations_02_deep_learned_representations_23_single_cell_transformers_geneformer",
+      "06_representations_02_deep_learned_representations_23_single_cell_transformers_scgpt"
+    ],
+    "26": [
       "code_data_inspection_summarize_annotations",
       "code_data_inspection_summarize_annotations_main",
       "code_data_inspection_summarize_annotations_rationale_1",
       "code_data_inspection_summarize_annotations_summarize"
     ],
-    "20": [
+    "27": [
+      "scratch_atac_interval_overlap_audit",
+      "scratch_atac_interval_overlap_audit_compute_interval_overlap",
+      "scratch_atac_interval_overlap_audit_get_binned_features",
+      "scratch_atac_interval_overlap_audit_parse_peaks"
+    ],
+    "28": [
+      "01_biology_02_gene_regulation_02_promoters",
+      "01_biology_02_gene_regulation_03_enhancers",
+      "01_biology_02_gene_regulation_05_transcription_factors"
+    ],
+    "29": [
+      "01_biology_02_gene_regulation_08_epigenetics_epigenetics",
+      "01_biology_02_gene_regulation_09_dna_methylation_methylation",
+      "01_biology_02_gene_regulation_10_histone_modifications_histone_marks"
+    ],
+    "30": [
+      "01_biology_03_cellular_tissue_biology_01_cell_identity_cell_identity",
+      "01_biology_03_cellular_tissue_biology_04_cell_lineage_lineage",
+      "02_omics_01_measurement_and_data_generation_04_scrna_seq_scrna_seq"
+    ],
+    "31": [
+      "02_omics_01_measurement_and_data_generation_biology_to_data",
+      "02_omics_01_measurement_and_data_generation_concept_map",
+      "05_methods_01_mathematical_foundations_01_data_as_mathematical_objects"
+    ],
+    "32": [
+      "05_methods_01_mathematical_foundations_15_svd",
+      "05_methods_01_mathematical_foundations_16_low_rank_approximation",
+      "06_representations_01_classical_representation_families_04_pca"
+    ],
+    "33": [
+      "05_methods_01_mathematical_foundations_26_information_theory_mutual_information",
+      "06_representations_01_classical_representation_families_27_entropic_ot_sinkhorn",
+      "06_representations_01_classical_representation_families_42_pathway_representations_gsva"
+    ],
+    "34": [
+      "06_representations_01_classical_representation_families_01_representation_principles",
+      "06_representations_01_classical_representation_families_14_multiview_fusion",
+      "06_representations_01_classical_representation_families_46_information_loss"
+    ],
+    "35": [
       "06_representations_01_classical_representation_families_verify_toy",
       "06_representations_01_classical_representation_families_verify_toy_equal",
       "06_representations_01_classical_representation_families_verify_toy_rationale_1"
     ],
-    "21": [
+    "36": [
+      "06_representations_02_deep_learned_representations_11_midas_midas",
+      "06_representations_02_deep_learned_representations_14_contrastive_learning_simclr",
+      "06_representations_02_deep_learned_representations_15_infonce_infonce"
+    ],
+    "37": [
+      "06_representations_02_deep_learned_representations_25_gnn_foundations_message_passing",
+      "06_representations_02_deep_learned_representations_38_scglue_scglue",
+      "06_representations_02_deep_learned_representations_39_spatialglue_spatialglue"
+    ],
+    "38": [
       "code_data_inspection_inspect_coordinates",
       "code_data_inspection_inspect_coordinates_main",
       "code_data_inspection_inspect_coordinates_rationale_1"
     ],
-    "22": [
+    "39": [
+      "01_biology_01_molecular_biology_01_dna",
+      "biology_curriculum_biology_curriculum"
+    ],
+    "40": [
+      "01_biology_02_gene_regulation_01_gene_regulation_overview",
+      "terminology_terminology"
+    ],
+    "41": [
+      "01_biology_02_gene_regulation_11_enhancer_promoter_interactions_ep_interaction",
+      "01_biology_02_gene_regulation_12_gene_regulatory_networks_grn"
+    ],
+    "42": [
+      "02_omics_01_measurement_and_data_generation_09_spatial_transcriptomics_spatial_transcriptomics",
+      "02_omics_01_measurement_and_data_generation_20_primary_dataset_reconnaissance_dataset_a1"
+    ],
+    "43": [
+      "02_omics_02_preprocessing_qc_statistics_04_rna_normalization",
+      "s37"
+    ],
+    "44": [
+      "02_omics_02_preprocessing_qc_statistics_14_lsi_foundations",
+      "s44"
+    ],
+    "45": [
+      "03_papers_01_systematic_method_mapping_02_master_method_inventory",
+      "03_papers_01_systematic_method_mapping_11_baseline_hierarchy"
+    ],
+    "46": [
+      "05_methods_01_mathematical_foundations_04_distance",
+      "05_methods_01_mathematical_foundations_05_similarity"
+    ],
+    "47": [
+      "05_methods_01_mathematical_foundations_09_distributions",
+      "05_methods_01_mathematical_foundations_10_likelihood"
+    ],
+    "48": [
+      "05_methods_01_mathematical_foundations_14_eigenvalues_eigenvectors_eigenbasis",
+      "06_representations_01_classical_representation_families_04_pca_pca"
+    ],
+    "49": [
+      "05_methods_01_mathematical_foundations_17_optimization_objective_function",
+      "06_representations_01_classical_representation_families_07_nmf_nmf"
+    ],
+    "50": [
+      "05_methods_01_mathematical_foundations_20_regularization_l1_l2",
+      "06_representations_01_classical_representation_families_05_sparse_pca_sparse_pca"
+    ],
+    "51": [
+      "05_methods_01_mathematical_foundations_25_kernels_rbf_kernel",
+      "06_representations_01_classical_representation_families_19_kpca_kernel_pca"
+    ],
+    "52": [
+      "05_methods_01_mathematical_foundations_28_latent_variables",
+      "06_representations_01_classical_representation_families_10_mofa"
+    ],
+    "53": [
+      "06_representations_01_classical_representation_families_26_optimal_transport",
+      "06_representations_01_classical_representation_families_28_gromov_wasserstein"
+    ],
+    "54": [
       "code_benchmarks_common_init",
       "code_benchmarks_common_init_rationale_1"
     ],
-    "23": [
+    "55": [
       "code_benchmarks_init",
       "code_benchmarks_init_rationale_1"
     ],
-    "24": [
+    "56": [
       "code_benchmarks_methods_init",
       "code_benchmarks_methods_init_rationale_1"
     ],
-    "25": [
+    "57": [
       "code_benchmarks_tests_init",
       "code_benchmarks_tests_init_rationale_1"
     ],
-    "26": [
+    "58": [
       "code_init",
       "code_init_rationale_1"
     ],
-    "27": [
+    "59": [
+      "research_log_research_log",
+      "workspace_inventory_workspace_inventory"
+    ],
+    "60": [
+      "01_biology_02_gene_regulation_04_other_regulatory_elements"
+    ],
+    "61": [
+      "05_methods_01_mathematical_foundations_11_bayesian_foundations"
+    ],
+    "62": [
+      "05_methods_01_mathematical_foundations_12_linear_transformations_affine_map"
+    ],
+    "63": [
+      "05_methods_01_mathematical_foundations_13_rank_and_basis_rank"
+    ],
+    "64": [
+      "05_methods_01_mathematical_foundations_19_gradient_descent_learning_rate"
+    ],
+    "65": [
+      "05_methods_01_mathematical_foundations_33_ari_adjusted_rand_index"
+    ],
+    "66": [
+      "05_methods_01_mathematical_foundations_35_silhouette_silhouette_score"
+    ],
+    "67": [
+      "06_representations_01_classical_representation_families_06_ica_ica"
+    ],
+    "68": [
+      "06_representations_01_classical_representation_families_08_inmf"
+    ],
+    "69": [
+      "06_representations_01_classical_representation_families_11_cca_cca"
+    ],
+    "70": [
+      "06_representations_01_classical_representation_families_20_diffusion_representations"
+    ],
+    "71": [
+      "06_representations_01_classical_representation_families_22_tsne"
+    ],
+    "72": [
+      "06_representations_01_classical_representation_families_23_umap"
+    ],
+    "73": [
+      "06_representations_01_classical_representation_families_35_higher_order_representations_abstract_simplicial_complex"
+    ],
+    "74": [
+      "06_representations_01_classical_representation_families_35_higher_order_representations_hypergraph"
+    ],
+    "75": [
+      "06_representations_01_classical_representation_families_36_tensors"
+    ],
+    "76": [
+      "06_representations_01_classical_representation_families_43_regulatory_activity"
+    ],
+    "77": [
+      "06_representations_01_classical_representation_families_44_developmental_time"
+    ],
+    "78": [
+      "06_representations_02_deep_learned_representations_10_cobolt_cobolt"
+    ],
+    "79": [
+      "06_representations_02_deep_learned_representations_19_deep_clustering_dec"
+    ],
+    "80": [
+      "07_models_reproduction_manifests_totalvi_totalvi_neural"
+    ],
+    "81": [
+      "bootstrap_report_bootstrap_report"
+    ],
+    "82": [
       "code_benchmarks_common_provenance_py_path"
+    ],
+    "83": [
+      "dataset_schema_dataset_schema"
+    ],
+    "84": [
+      "experiment_protocol_experiment_protocol"
+    ],
+    "85": [
+      "method_taxonomy_method_taxonomy"
+    ],
+    "86": [
+      "paper_schema_paper_schema"
+    ],
+    "87": [
+      "representation_taxonomy_representation_taxonomy"
     ]
   },
   "cohesion": {
-    "0": 0.05668016194331984,
-    "1": 0.12550607287449392,
-    "2": 0.05555555555555555,
-    "3": 0.08888888888888889,
-    "4": 0.09803921568627451,
-    "5": 0.10695187165775401,
-    "6": 0.15524193548387097,
-    "7": 0.06451612903225806,
-    "8": 0.10967741935483871,
-    "9": 0.07881773399014778,
-    "10": 0.07407407407407407,
-    "11": 0.15019762845849802,
-    "12": 0.1631578947368421,
-    "13": 0.12631578947368421,
-    "14": 0.4,
+    "0": 0.09490196078431372,
+    "1": 0.09019607843137255,
+    "2": 0.09871794871794871,
+    "3": 0.05668016194331984,
+    "4": 0.05555555555555555,
+    "5": 0.06190476190476191,
+    "6": 0.11494252873563218,
+    "7": 0.06666666666666667,
+    "8": 0.1111111111111111,
+    "9": 0.07407407407407407,
+    "10": 0.15019762845849802,
+    "11": 0.1631578947368421,
+    "12": 0.12631578947368421,
+    "13": 0.4,
+    "14": 0.25,
     "15": 0.4722222222222222,
     "16": 0.4444444444444444,
-    "17": 0.5333333333333333,
-    "18": 0.5,
-    "19": 0.6666666666666666,
-    "20": 0.6666666666666666,
-    "21": 0.6666666666666666,
-    "22": 1.0,
-    "23": 1.0,
-    "24": 1.0,
-    "25": 1.0,
-    "26": 1.0,
-    "27": 1.0
+    "17": 0.25,
+    "18": 0.3333333333333333,
+    "19": 0.4,
+    "20": 0.5333333333333333,
+    "21": 0.4666666666666667,
+    "22": 0.4,
+    "23": 0.5,
+    "24": 0.4,
+    "25": 0.5,
+    "26": 0.6666666666666666,
+    "27": 0.5,
+    "28": 0.6666666666666666,
+    "29": 0.6666666666666666,
+    "30": 0.6666666666666666,
+    "31": 0.6666666666666666,
+    "32": 0.6666666666666666,
+    "33": 0.6666666666666666,
+    "34": 0.6666666666666666,
+    "35": 0.6666666666666666,
+    "36": 0.6666666666666666,
+    "37": 0.6666666666666666,
+    "38": 0.6666666666666666,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0
   },
   "gods": [
     {
@@ -610,13 +929,13 @@
       "degree": 13
     },
     {
-      "id": "code_benchmarks_run_phase3c_load_dataset",
-      "label": "load_dataset()",
+      "id": "code_benchmarks_common_h5ad_load_h5ad",
+      "label": "load_h5ad()",
       "degree": 12
     },
     {
-      "id": "code_benchmarks_common_h5ad_load_h5ad",
-      "label": "load_h5ad()",
+      "id": "code_benchmarks_run_phase3c_load_dataset",
+      "label": "load_dataset()",
       "degree": 12
     },
     {
@@ -625,70 +944,70 @@
       "degree": 12
     },
     {
-      "id": "code_benchmarks_run_phase3c_run",
-      "label": "run()",
+      "id": "code_benchmarks_common_io_write_json_atomic",
+      "label": "write_json_atomic()",
       "degree": 11
     }
   ],
   "surprises": [
     {
-      "source": "build_representations()",
-      "target": "H5ADView",
+      "source": "scRNA-seq",
+      "target": "Cell Identity",
       "source_files": [
-        "code/benchmarks/methods/transparent.py",
-        "code/benchmarks/common/h5ad.py"
+        "02_omics/01_measurement_and_data_generation/04_SCRNA_SEQ.md",
+        "01_biology/03_cellular_tissue_biology/01_CELL_IDENTITY.md"
       ],
       "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     },
     {
-      "source": "load_dataset()",
-      "target": "H5ADView",
+      "source": "Principal Component Analysis",
+      "target": "Low-Rank Approximation",
       "source_files": [
-        "code/benchmarks/run_phase3c.py",
-        "code/benchmarks/common/h5ad.py"
+        "06_representations/01_classical_representation_families/04_PCA.md",
+        "05_methods/01_mathematical_foundations/16_LOW_RANK_APPROXIMATION.md"
       ],
       "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     },
     {
-      "source": "execute_one()",
-      "target": "Representation",
+      "source": "Gene Regulation Overview",
+      "target": "Component Terminology",
       "source_files": [
-        "code/benchmarks/run_phase3c.py",
-        "code/benchmarks/methods/transparent.py"
+        "01_biology/02_gene_regulation/01_GENE_REGULATION_OVERVIEW.md",
+        "TERMINOLOGY.md"
       ],
       "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     },
     {
-      "source": "InfrastructureTests",
-      "target": "DatasetInput",
+      "source": "MOFA and MOFA+",
+      "target": "Latent Variables",
       "source_files": [
-        "code/benchmarks/tests/test_infrastructure.py",
-        "code/benchmarks/common/config.py"
+        "06_representations/01_classical_representation_families/10_MOFA.md",
+        "05_methods/01_mathematical_foundations/28_LATENT_VARIABLES.md"
       ],
       "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source"
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     },
     {
-      "source": "InfrastructureTests",
-      "target": "RunConfig",
+      "source": "Data as Mathematical Objects",
+      "target": "Biology to Data",
       "source_files": [
-        "code/benchmarks/tests/test_infrastructure.py",
-        "code/benchmarks/common/config.py"
+        "05_methods/01_mathematical_foundations/01_DATA_AS_MATHEMATICAL_OBJECTS.md",
+        "02_omics/01_measurement_and_data_generation/BIOLOGY_TO_DATA.md"
       ],
       "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source"
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
     }
   ],
   "tokens": {
-    "input": 0,
-    "output": 0
+    "input": 213654,
+    "output": 9396
   }
 }

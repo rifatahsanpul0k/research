@@ -259,3 +259,82 @@ Chronological decision record. Dates use Asia/Dhaka unless another timezone is e
 - **Artifacts:** Generated 30 frozen JSON configs and checksums under `07_models/02_classical_integration/`, added thin method adapters, a config-driven R3 runner, the Colab controller notebook, and the Phase 3D report/results/QC/failure/validation records. No row was added to `experiments.csv`; R3 project-data execution remains pending the reproducible Colab controller path.
 - **Synchronization gate:** The exact starting commit does not contain the currently uncommitted Phase 3D configs and runner. A fresh Colab checkout must therefore wait for a reviewed commit or use an explicitly checksummed working-tree sync; the controller must not silently mix snapshots.
 - **Boundary:** No totalVI, MultiVI, SpatialGlue, Garfield, SCIGMA, ARISE, graph-neural, VAE, disease or novelty work occurred. No label-based tuning or biological factor interpretation occurred.
+
+## 2026-09-13 - 28: Phase 4A diagnostic screening experiment
+
+- **Authorization & Objective:** Following the novelty audit and research reset, executed the minimal Stage A empirical screening experiment for *Failure-Mode-Aware Evaluation of Spatial Multi-Omics Representations*. The core scientific question: *Can conventional evaluation metrics make spatial multi-omics representations look successful even when the representation exhibits identifiable failure modes?*
+- **Scope & Governance:** Absolutely no new model architecture was designed. Restricted to two datasets (`10x_human_lymph_node_A1` [RNA+ADT] and `Mouse_Brain_E13_S1` [RNA+ATAC]), five representation families (`SPACE`, `PCA`, `M2`, `CONCAT`, `SpatialGlue`), and three predeclared seeds (`1729`, `2718`, `31415`). Reused frozen Phase 3C artifacts; historical records were not modified. User-owned `hello.ipynb` remains strictly untouched.
+- **Environment & Implementation:** Ran via `.venv-baselines` (PyTorch 2.14.0, Scanpy 1.11.5, scikit-learn 1.9.1, NumPy 1.26.4). Cloned official SpatialGlue repository at exact commit `7c976d811d27ace51ce47ae0ad94a068a7d222fa`. Separated representation training randomness from downstream KMeans clustering.
+- **Empirical Findings Across 4 Diagnostic Hypotheses:**
+  - **H1 (Cluster Degeneracy): SUPPORTED.** On `MB_E13`, chromatin accessibility (ATAC LSI) obtains a near-perfect Euclidean silhouette of $0.9496 \pm 0.0008$, while ARI is $0.0030$ and NMI is $0.0188$. Continuous diagnostics reveal extreme collapse: $f_{\max} = 0.9938$ ($99.4\%$ of observations in cluster 0), $H_{\text{norm}} = 0.0211$, and $11$ of $12$ clusters are singletons. Conventional geometric metrics actively reward degenerate partitions.
+  - **H2 (Spatial Baseline Dominance): SUPPORTED.** On `MB_E13`, pure 2D coordinates (`SPACE` + KMeans) achieve $\text{ARI} = 0.1453$ and $\text{NMI} = 0.3366$, outperforming unimodal RNA PCA ($\text{ARI} = 0.0580$, $\Delta = -0.0874$) and multimodal CONCAT ($\text{ARI} = 0.0562$, $\Delta = -0.0891$) by $2.5\times$ to $2.6\times$. SpatialGlue achieves $\text{NMI} = 0.2850$, which is $0.0516$ below pure coordinates. Controls on SpatialGlue confirm: true space provides $+0.1065$ ARI over permuted coordinates (Control C ARI $= 0.0779$), while randomizing molecular features destroys clustering (Control B ARI $= -0.0033$).
+  - **H3 (Modality Contribution): SUPPORTED.** On `LN_A1`, integrating RNA + ADT yields negative gains: CONCAT ($\text{ARI} = 0.2209$) and SpatialGlue ($\text{ARI} = 0.2228$) perform worse than unimodal ADT ($\text{ARI} = 0.2341$) and unimodal RNA ($\text{ARI} = 0.2319$). On `MB_E13`, permuting ATAC across spots in CONCAT produces zero meaningful change in ARI ($0.0567$ to $0.0563$), demonstrating that naive concatenation completely ignores ATAC pairing.
+  - **H4 (Seed Stability): SUPPORTED.** While static baselines are deterministic, SpatialGlue exhibits severe neighborhood instability across seeds: mean $k$-NN Jaccard similarity ($k=15$) between seeds is only $0.2464$ on `LN_A1` (over $75\%$ neighborhood turnover) and $0.4249$ on `MB_E13`. Pairwise cluster AMI across seeds drops to $0.6288$ on `LN_A1` and $0.7383$ on `MB_E13`.
+- **Falsified Failure Modes:** None in Stage A screening; all four proposed failure modes were empirically confirmed.
+- **Decision Gate Classification:** **SURVIVES** (4/4 failure modes demonstrated).
+- **Artifacts & Visualizations:** Stored under `08_experiments/phase4a_diagnostics/`: `PHASE_4A_PROTOCOL.md`, `PHASE_4A_RUNS.csv`, `PHASE_4A_DIAGNOSTICS.csv`, `PHASE_4A_SUMMARY.md`, six publication-quality figures, and artifact subdirectories for cluster sizes, permutations, and neighborhood stability.
+- **Next Steps:** Awaiting user review of Stage A evidence before any consideration of Stage B benchmark expansion.
+
+## 2026-09-13 - 29: Phase 4B corrected confirmation benchmark
+
+- **Objective:** Execute the confirmation benchmark to rigorously test whether the four diagnostic failure modes screened in Phase 4A generalize across datasets, modality combinations, and representative integration families under frozen execution contracts.
+- **Governing Protocol:** `08_experiments/phase4b_diagnostics/PHASE_4B_PROTOCOL.md` (v2.1.0). Preflight assertions 100% passed (`assert_phase4b_contracts.py`). Explicit smoke reports passed for `LN_A1` (`SMOKE_A_REPORT.md`) and `MB_E13` (`SMOKE_B_REPORT.md`).
+- **Invalidated Initial Attempts:** Two pre-contract runs were invalidated and immutably preserved in `08_experiments/phase4b_diagnostics/_precontract_invalid_run/` and `_pre_final_patch_run/`. Documented in `PRECONTRACT_INVALIDATION_NOTE.md` and `PRE_FINAL_PATCH_NOTE.md`.
+- **Corrected Contracts Frozen:**
+  - D1 `Exclude` label: 10 non-anatomical spots excluded from primary biological evaluation ($N=3,349, K=10$); sensitivity analysis preserved ($N=3,359, K=11$). Audited in `D1_EXCLUDE_AUDIT.md`.
+  - A1 Annotation: Verified numerical experiment used $K=10$ ($N=3,484$). Documented in `PHASE_4A_CORRECTION_NOTE.md`.
+  - ADT Dimensionality: Verified exact $D_{\text{ADT}} = 31$ antibodies loaded locally.
+  - KMeans contract: Restored `n_init = 20` across all clustering executions.
+  - Permutation semantics: Helper `permute_measurements_keep_obs` preserved barcodes identically and permuted only `.X` and count layers, keeping coordinates intact. Audited in `artifacts/permutations/permutation_semantics_audit.csv`.
+  - Latent distance: Replaced unidentifiable raw coordinate distances with invariant kNN Jaccard, distance Spearman, and Procrustes discrepancy.
+  - Zero-sized clusters: Preserved via `np.bincount(eval_preds, minlength=K)` with $0 \log 0 = 0$ entropy.
+  - Separation of performance: Primary metrics strictly isolated to primary seed (`model_seed=1729, clustering_seed=1729`), separating model-seed variance (Exp R) and KMeans clustering variance (Exp C).
+- **Datasets (5):** `10x_human_lymph_node_A1`, `10x_human_lymph_node_D1`, `Mouse_Brain_E11_S1`, `Mouse_Brain_E13_S1`, `Mouse_Brain_E15_S1`.
+- **Methods (4 Families):**
+  - Transparent: `SPACE`, `RNA` (PCA 30), `M2` (ADT PCA 30 / ATAC LSI 30), `CONCAT` (60)
+  - Classical Multimodal: `MOFA+` (10 factors)
+  - Deep Non-Spatial: `totalVI` (15 latent, A1/D1) and `MultiVI` (15 latent, E11/E13/E15)
+  - Deep Spatial: `SpatialGlue` (64 latent; $k=3, 600$ epochs on A1/D1; $k=6, 1600$ epochs on mouse brain)
+- **Seeds:** Model training seeds: `1729, 2718, 31415`; Clustering seeds: `1729, 2718, 31415`; Silhouette sample seed: `1729`; Permutation seed: `1729`.
+- **Direct Results:**
+  - **Diagnostic 1 (Partition Degeneracy): SUPPORTED.** ATAC LSI obtains Silhouette scores of 0.9271 (E11), 0.9463 (E13), and 0.9326 (E15)—the highest geometric scores in the benchmark—yet $>99.3\%$ of spots collapse into a single cluster ($H_{\text{norm}} \approx 0.02, \text{ARI} \approx 0.00$).
+  - **Diagnostic 2 (Spatial Baseline Dominance): SUPPORTED.** `SPACE` achieves ARI = 0.1491, NMI = 0.3427 on E13, outperforming unimodal RNA (ARI 0.0513), unimodal ATAC (0.0030), CONCAT (0.0585), MultiVI (0.0888), and MOFA+ (0.1434). On SpatialGlue, permuting coordinates collapses ARI from 0.1900 to 0.0738 ($\Delta_{\text{space}} = 0.1163$, 61% loss).
+  - **Diagnostic 3 (Modality Added-Value & Pairing Dependence): SUPPORTED.** In RNA+ADT, joint integration routinely degrades performance relative to unimodal baselines: totalVI and SpatialGlue achieve lower ARI than RNA alone and ADT alone on A1; on D1, ADT alone achieves ARI = 0.2445, but CONCAT (0.1538), MOFA+ (0.2233), totalVI (0.1726), and SpatialGlue (0.1419) all suffer severe degradation ($\Delta_{\text{RNA}} < 0$). In pairing permutations, MOFA+ on A1 is immune to ADT pairing destruction ($\Delta \text{ARI} = -0.0004$), totalVI retains 90% performance without ADT pairing ($\Delta \text{ARI} = -0.0181$), and SpatialGlue on E13 is immune to ATAC pairing destruction ($\Delta \text{ARI} = -0.0043, \rho = 0.9827$).
+  - **Diagnostic 4 (Representation Instability): SUPPORTED.** Deep models exhibit massive latent neighborhood turnover across training seeds with fixed clustering: `totalVI` mean 15-NN Jaccard is 0.048–0.067 (distance Spearman 0.45–0.55); `MultiVI` Jaccard is 0.105–0.301; `SpatialGlue` Jaccard is 0.269–0.492. In contrast, classical `MOFA+` is rock-solid (Jaccard $>0.975$, Spearman $>0.99999$).
+- **Hard Decision Gate Evaluation:** All 7 strict gate conditions passed. Final verdict: **SURVIVES_STRONGLY**.
+- **Deliverables:** Complete tables (`PHASE_4B_RUNS.csv`, `PHASE_4B_DIAGNOSTICS.csv`, `PHASE_4B_STABILITY.csv`, `PHASE_4B_CLUSTERING_STABILITY.csv`, `PHASE_4B_PERMUTATIONS.csv`), publication figures 1 to 9, feature files, embeddings, cluster size distributions, and summary documentation (`PHASE_4B_SUMMARY.md`).
+
+## 2026-09-14 - 30: SMART vs. ARISE exact incremental component ablation study
+
+- **Objective:** Dissect the architectural differences between SMART (`smart.ipynb`) and ARISE (`bailyroad.ipynb`) to determine which exact component drives performance differences on human lymph node spatial RNA + ADT datasets (`10x_human_lymph_node_A1` and `10x_human_lymph_node_D1`).
+- **Scope & Protocol:** Executed exactly 30 runs ($5 \text{ variants} \times 3 \text{ seeds} \times 2 \text{ datasets}$).
+  - Datasets: `LN_A1` ($N=3,484, K=10$) and `LN_D1` ($N=3,359, K=11$).
+  - Seeds: `[1234, 42, 2024]`.
+  - Variants:
+    - `E0_SMART_EXACT`: Original SMART model and training loop (SageConv autoencoder + triplet margin loss).
+    - `E1_ARISE_GRAPH_ONLY`: SMART model using ARISE graphs (`dist_edge_index` for RNA, `common_edge_index` for ADT).
+    - `E2_ARISE_DUAL_RNA`: Dual RNA encoders (similarity on `sim_edge_index` + spatial on `dist_edge_index`), ADT on `common_edge_index`, single flat concatenation $z = \text{FC}(h_{\text{sim}} \parallel h_{\text{dist}} \parallel h_{\text{adt}})$.
+    - `E3_ARISE_HIERARCHICAL_FUSION`: Same dual RNA + ADT encoders as E2, with hierarchical fusion matching ARISE `DualGCN`: $z_{\text{RNA}} = \text{fusion}_1(h_{\text{sim}} \parallel h_{\text{dist}})$, then $z_{\text{final}} = \text{fusion}_2(z_{\text{RNA}} \parallel h_{\text{adt}})$.
+    - `ARISE_EXACT`: Original ARISE model (`Dual` GCN autoencoder + self-supervised cluster loss + silhouette checkpointing).
+- **Empirical Results (Mean $\pm$ SD across seeds):**
+  - **`LN_A1`:**
+    - `E0_SMART_EXACT`: $\text{ARI} = 0.2253 \pm 0.0118$ ($\text{NMI} = 0.3804$, $\text{Sil} = 0.1005$)
+    - `E1_ARISE_GRAPH_ONLY`: $\text{ARI} = 0.2308 \pm 0.0126$ ($\text{NMI} = 0.3805$, $\text{Sil} = 0.1088$)
+    - `E2_ARISE_DUAL_RNA`: $\text{ARI} = 0.2230 \pm 0.0050$ ($\text{NMI} = 0.3730$, $\text{Sil} = 0.1026$)
+    - `E3_ARISE_HIERARCHICAL_FUSION`: $\text{ARI} = 0.2240 \pm 0.0111$ ($\text{NMI} = 0.3732$, $\text{Sil} = 0.1059$)
+    - `ARISE_EXACT`: $\text{ARI} = 0.2555 \pm 0.0097$ ($\text{NMI} = 0.3782$, $\text{Sil} = 0.2334$)
+  - **`LN_D1`:**
+    - `E0_SMART_EXACT`: $\text{ARI} = 0.1648 \pm 0.0106$ ($\text{NMI} = 0.3256$, $\text{Sil} = 0.0897$)
+    - `E1_ARISE_GRAPH_ONLY`: $\text{ARI} = 0.1751 \pm 0.0104$ ($\text{NMI} = 0.3293$, $\text{Sil} = 0.0858$)
+    - `E2_ARISE_DUAL_RNA`: $\text{ARI} = 0.1887 \pm 0.0049$ ($\text{NMI} = 0.3384$, $\text{Sil} = 0.0890$)
+    - `E3_ARISE_HIERARCHICAL_FUSION`: $\text{ARI} = 0.1644 \pm 0.0042$ ($\text{NMI} = 0.3262$, $\text{Sil} = 0.0923$)
+    - `ARISE_EXACT`: $\text{ARI} = 0.2575 \pm 0.0103$ ($\text{NMI} = 0.3420$, $\text{Sil} = 0.2042$)
+- **Component Deltas & Findings:**
+  1. $\Delta_{\text{graph}} (E1 - E0)$: Unconditionally beneficial across all seeds ($+0.0055 \pm 0.0015$ on A1; $+0.0103 \pm 0.0033$ on D1). Replacing simple Euclidean KNN with ARISE's combined similarity/spatial common graph consistently improves SMART.
+  2. $\Delta_{\text{dualRNA}} (E2 - E1)$: Substantially beneficial on D1 ($+0.0136 \pm 0.0054$), pushing SMART to 0.1887; neutral-to-negative on A1 ($-0.0078 \pm 0.0176$).
+  3. $\Delta_{\text{hierarchical}} (E3 - E2)$: Consistently detrimental or neutral under the SMART objective ($-0.0243 \pm 0.0090$ on D1; $+0.0011 \pm 0.0118$ on A1). Forcing an intermediate bottleneck $z_{\text{RNA}}$ before combining with ADT impairs representation learning compared to flat concatenation.
+  4. $\Delta_{\text{full}} (E3 - E0)$: Net architectural change under SMART objective is zero ($-0.0012$ on A1; $-0.0004$ on D1).
+  5. The remaining large ARISE advantage ($\text{ARISE\_EXACT} - \text{SMART} = +0.0302$ on A1; $+0.0927$ on D1) is driven entirely by ARISE's self-supervised training loss, multi-target GCN reconstruction, and Silhouette-based checkpointing rather than the hierarchical encoder topology.
+- **Sensitivity on D1:** Filtering the 10 `Exclude` spots changes metrics by $<0.0007$ ARI and preserves all relative rankings and delta conclusions identically.
+- **Artifacts:** Standalone notebook `SMART_ARISE_EXACT_INCREMENTAL_A1_D1.ipynb` and results in `results_smart_arise_exact_A1_D1/` (`all_runs_results.csv`, `component_ablation_summary.csv`, `d1_sensitivity_results.csv`).
+

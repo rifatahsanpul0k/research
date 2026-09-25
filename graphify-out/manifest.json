@@ -540,8 +540,8 @@
     "semantic_hash": "8c5a7a3714c1094b0a45c5ce96745444"
   },
   "code/benchmarks/run_phase3d.py": {
-    "mtime": 1789158184.634344,
-    "seen": 1789158415.214174,
+    "mtime": 1789203465.5252728,
+    "seen": 1789240334.8996532,
     "ast_hash": "7a1a89fa5ad2cc6f07d5ed530039b256",
     "semantic_hash": "7a1a89fa5ad2cc6f07d5ed530039b256"
   },
@@ -550,5 +550,749 @@
     "seen": 1789158415.214269,
     "ast_hash": "59682ca25c356406d7a53aa401770ee7",
     "semantic_hash": "59682ca25c356406d7a53aa401770ee7"
+  },
+  "scratch/atac_fast_summary.json": {
+    "mtime": 1789289825.4159997,
+    "seen": 1789290247.7564359,
+    "ast_hash": "eaf991569a2a92bd9693c217078d594c",
+    "semantic_hash": "eaf991569a2a92bd9693c217078d594c"
+  },
+  "scratch/atac_interval_overlap_audit.py": {
+    "mtime": 1789289781.630816,
+    "seen": 1789290247.756437,
+    "ast_hash": "55b500dcb106bfa863e4d73c30c5eb9d",
+    "semantic_hash": "55b500dcb106bfa863e4d73c30c5eb9d"
+  },
+  "scratch/fast_atac_interval_audit.py": {
+    "mtime": 1789289815.6571672,
+    "seen": 1789290247.756438,
+    "ast_hash": "a22f6940cd31c246e6056fbe86654c62",
+    "semantic_hash": "a22f6940cd31c246e6056fbe86654c62"
+  },
+  "scratch/results_A1.json": {
+    "mtime": 1789289698.4903958,
+    "seen": 1789290247.756438,
+    "ast_hash": "7b06333be668878064a70dd74cb01777",
+    "semantic_hash": "7b06333be668878064a70dd74cb01777"
+  },
+  "scratch/results_D1.json": {
+    "mtime": 1789289698.4966016,
+    "seen": 1789290247.756439,
+    "ast_hash": "05375bbbb731184b72e6ef9d10b38657",
+    "semantic_hash": "05375bbbb731184b72e6ef9d10b38657"
+  },
+  "scratch/run_full_discordance_audit.py": {
+    "mtime": 1789289664.5617664,
+    "seen": 1789290247.756439,
+    "ast_hash": "da3a8f512c34d19cb1ee860e03fe3f34",
+    "semantic_hash": "da3a8f512c34d19cb1ee860e03fe3f34"
+  },
+  "01_biology/01_molecular_biology/01_DNA.md": {
+    "mtime": 1789120196.2877955,
+    "seen": 1789290247.7564402,
+    "ast_hash": "9b18a70a78df9efca63d6eed42f3b01c",
+    "semantic_hash": "9b18a70a78df9efca63d6eed42f3b01c"
+  },
+  "01_biology/02_gene_regulation/01_GENE_REGULATION_OVERVIEW.md": {
+    "mtime": 1789122038.5164883,
+    "seen": 1789290247.7564402,
+    "ast_hash": "4b4957038e87ed7b46fb7b362c089eea",
+    "semantic_hash": "4b4957038e87ed7b46fb7b362c089eea"
+  },
+  "01_biology/02_gene_regulation/02_PROMOTERS.md": {
+    "mtime": 1789121694.0219765,
+    "seen": 1789290247.756441,
+    "ast_hash": "bb680c8c1d31c6c2f90a26485ffd8dd3",
+    "semantic_hash": "bb680c8c1d31c6c2f90a26485ffd8dd3"
+  },
+  "01_biology/02_gene_regulation/03_ENHANCERS.md": {
+    "mtime": 1789121124.235822,
+    "seen": 1789290247.756441,
+    "ast_hash": "9eea0e4dbc32e6571a9dbd314737bba5",
+    "semantic_hash": "9eea0e4dbc32e6571a9dbd314737bba5"
+  },
+  "01_biology/02_gene_regulation/04_OTHER_REGULATORY_ELEMENTS.md": {
+    "mtime": 1789121694.0206676,
+    "seen": 1789290247.756442,
+    "ast_hash": "d25dd75398c8e477fcff8845a6497115",
+    "semantic_hash": "d25dd75398c8e477fcff8845a6497115"
+  },
+  "01_biology/02_gene_regulation/05_TRANSCRIPTION_FACTORS.md": {
+    "mtime": 1789121124.4220185,
+    "seen": 1789290247.756442,
+    "ast_hash": "f86935da6494e7826cabd84a578dc260",
+    "semantic_hash": "f86935da6494e7826cabd84a578dc260"
+  },
+  "01_biology/02_gene_regulation/06_CHROMATIN.md": {
+    "mtime": 1789121265.7705016,
+    "seen": 1789290247.7564428,
+    "ast_hash": "40eb5d0d2fba84e8641686db6e85aa12",
+    "semantic_hash": "40eb5d0d2fba84e8641686db6e85aa12"
+  },
+  "01_biology/02_gene_regulation/07_CHROMATIN_ACCESSIBILITY.md": {
+    "mtime": 1789121265.8525121,
+    "seen": 1789290247.7564428,
+    "ast_hash": "a56ddeb2bdabe19f2234989cbbf699c0",
+    "semantic_hash": "a56ddeb2bdabe19f2234989cbbf699c0"
+  },
+  "01_biology/02_gene_regulation/08_EPIGENETICS.md": {
+    "mtime": 1789121265.9358366,
+    "seen": 1789290247.756444,
+    "ast_hash": "26b34abeb391e421c288414bfcee0975",
+    "semantic_hash": "26b34abeb391e421c288414bfcee0975"
+  },
+  "01_biology/02_gene_regulation/09_DNA_METHYLATION.md": {
+    "mtime": 1789121694.0213447,
+    "seen": 1789290247.756444,
+    "ast_hash": "bbf48bc3cbe7876734771e69f0b3e16c",
+    "semantic_hash": "bbf48bc3cbe7876734771e69f0b3e16c"
+  },
+  "01_biology/02_gene_regulation/10_HISTONE_MODIFICATIONS.md": {
+    "mtime": 1789121694.0216575,
+    "seen": 1789290247.756445,
+    "ast_hash": "a875fe5b5704118e830a652465c7656b",
+    "semantic_hash": "a875fe5b5704118e830a652465c7656b"
+  },
+  "01_biology/02_gene_regulation/11_ENHANCER_PROMOTER_INTERACTIONS.md": {
+    "mtime": 1789121369.5600252,
+    "seen": 1789290247.756445,
+    "ast_hash": "bd012dc598a14de7f8a64aaf63a44202",
+    "semantic_hash": "bd012dc598a14de7f8a64aaf63a44202"
+  },
+  "01_biology/02_gene_regulation/12_GENE_REGULATORY_NETWORKS.md": {
+    "mtime": 1789121369.7720363,
+    "seen": 1789290247.756446,
+    "ast_hash": "7bbbbdea28a0e79cb07581b4bd3bbf16",
+    "semantic_hash": "7bbbbdea28a0e79cb07581b4bd3bbf16"
+  },
+  "01_biology/02_gene_regulation/CONCEPT_MAP.md": {
+    "mtime": 1789121505.1339738,
+    "seen": 1789290247.756446,
+    "ast_hash": "376f2a97b8218ab45d5ef87ebaf2e5b6",
+    "semantic_hash": "376f2a97b8218ab45d5ef87ebaf2e5b6"
+  },
+  "01_biology/03_cellular_tissue_biology/01_CELL_IDENTITY.md": {
+    "mtime": 1789123915.8944557,
+    "seen": 1789290247.756447,
+    "ast_hash": "3a347edf64497b207c3ade3bbfcbf5eb",
+    "semantic_hash": "3a347edf64497b207c3ade3bbfcbf5eb"
+  },
+  "01_biology/03_cellular_tissue_biology/04_CELL_LINEAGE.md": {
+    "mtime": 1789123773.9603877,
+    "seen": 1789290247.756447,
+    "ast_hash": "96c98bd04f684d6a7e052cc3e498af24",
+    "semantic_hash": "96c98bd04f684d6a7e052cc3e498af24"
+  },
+  "02_omics/01_measurement_and_data_generation/04_SCRNA_SEQ.md": {
+    "mtime": 1789125706.5823448,
+    "seen": 1789290247.756448,
+    "ast_hash": "de09a1c56b6d52057469e4f597d85227",
+    "semantic_hash": "de09a1c56b6d52057469e4f597d85227"
+  },
+  "02_omics/01_measurement_and_data_generation/08_SCATAC_SEQ.md": {
+    "mtime": 1789125706.8351603,
+    "seen": 1789290247.756448,
+    "ast_hash": "bdc0a44f966191aa2ebca45a82a3db42",
+    "semantic_hash": "bdc0a44f966191aa2ebca45a82a3db42"
+  },
+  "02_omics/01_measurement_and_data_generation/09_SPATIAL_TRANSCRIPTOMICS.md": {
+    "mtime": 1789125706.8932157,
+    "seen": 1789290247.756449,
+    "ast_hash": "82a7e3d1fc17dc4c6bc09944f0cd84e3",
+    "semantic_hash": "82a7e3d1fc17dc4c6bc09944f0cd84e3"
+  },
+  "02_omics/01_measurement_and_data_generation/20_PRIMARY_DATASET_RECONNAISSANCE.md": {
+    "mtime": 1789126014.6551716,
+    "seen": 1789290247.756449,
+    "ast_hash": "9a97f81312d7735911816381c8fbebf5",
+    "semantic_hash": "9a97f81312d7735911816381c8fbebf5"
+  },
+  "05_methods/01_mathematical_foundations/11_BAYESIAN_FOUNDATIONS.md": {
+    "mtime": 1789135907.9166112,
+    "seen": 1789290247.75645,
+    "ast_hash": "2a1bbe10753a5d1005760128a3bcfbb3",
+    "semantic_hash": "2a1bbe10753a5d1005760128a3bcfbb3"
+  },
+  "05_methods/01_mathematical_foundations/15_SVD.md": {
+    "mtime": 1789136082.4223816,
+    "seen": 1789290247.75645,
+    "ast_hash": "1d782780bbb9bd2508c1f9577969487e",
+    "semantic_hash": "1d782780bbb9bd2508c1f9577969487e"
+  },
+  "05_methods/01_mathematical_foundations/16_LOW_RANK_APPROXIMATION.md": {
+    "mtime": 1789137269.9478176,
+    "seen": 1789290247.7564511,
+    "ast_hash": "0fd89ed5881cd983baf2775b956b2df2",
+    "semantic_hash": "0fd89ed5881cd983baf2775b956b2df2"
+  },
+  "05_methods/01_mathematical_foundations/28_LATENT_VARIABLES.md": {
+    "mtime": 1789136289.5676758,
+    "seen": 1789290247.7564511,
+    "ast_hash": "543ca0904081f579a381bd803d30f691",
+    "semantic_hash": "543ca0904081f579a381bd803d30f691"
+  },
+  "06_representations/01_classical_representation_families/01_REPRESENTATION_PRINCIPLES.md": {
+    "mtime": 1789140537.2729506,
+    "seen": 1789290247.756452,
+    "ast_hash": "2c84cb5d27bbef6f2e6ebeade9534cdf",
+    "semantic_hash": "2c84cb5d27bbef6f2e6ebeade9534cdf"
+  },
+  "06_representations/01_classical_representation_families/04_PCA.md": {
+    "mtime": 1789140537.273583,
+    "seen": 1789290247.756452,
+    "ast_hash": "569471508c8a15589e88e0d22076cb09",
+    "semantic_hash": "569471508c8a15589e88e0d22076cb09"
+  },
+  "06_representations/01_classical_representation_families/08_INMF.md": {
+    "mtime": 1789140537.2738814,
+    "seen": 1789290247.756453,
+    "ast_hash": "2414e0e224f3eb6d699a1260e8661d04",
+    "semantic_hash": "2414e0e224f3eb6d699a1260e8661d04"
+  },
+  "06_representations/01_classical_representation_families/10_MOFA.md": {
+    "mtime": 1789140537.2741115,
+    "seen": 1789290247.756453,
+    "ast_hash": "04efcb1064a36cccedb965f7bd9d48c0",
+    "semantic_hash": "04efcb1064a36cccedb965f7bd9d48c0"
+  },
+  "06_representations/01_classical_representation_families/14_MULTIVIEW_FUSION.md": {
+    "mtime": 1789140537.274398,
+    "seen": 1789290247.756454,
+    "ast_hash": "23cafe1894b0dc752ecd52446a2be7ec",
+    "semantic_hash": "23cafe1894b0dc752ecd52446a2be7ec"
+  },
+  "06_representations/01_classical_representation_families/20_DIFFUSION_REPRESENTATIONS.md": {
+    "mtime": 1789140537.2777455,
+    "seen": 1789290247.756454,
+    "ast_hash": "190606e8c038cdc3583d745c26c51d1b",
+    "semantic_hash": "190606e8c038cdc3583d745c26c51d1b"
+  },
+  "06_representations/01_classical_representation_families/21_MANIFOLD_LEARNING.md": {
+    "mtime": 1789140537.2750413,
+    "seen": 1789290247.756455,
+    "ast_hash": "1d9aea11845979c746c7ad48b3bc5d09",
+    "semantic_hash": "1d9aea11845979c746c7ad48b3bc5d09"
+  },
+  "06_representations/01_classical_representation_families/22_TSNE.md": {
+    "mtime": 1789140537.2751043,
+    "seen": 1789290247.756455,
+    "ast_hash": "d4c1a0c28fe1614c84c31c4a956b2199",
+    "semantic_hash": "d4c1a0c28fe1614c84c31c4a956b2199"
+  },
+  "06_representations/01_classical_representation_families/23_UMAP.md": {
+    "mtime": 1789140537.2751653,
+    "seen": 1789290247.756456,
+    "ast_hash": "9ab46c082f950165ea86225022e5b79e",
+    "semantic_hash": "9ab46c082f950165ea86225022e5b79e"
+  },
+  "06_representations/01_classical_representation_families/26_OPTIMAL_TRANSPORT.md": {
+    "mtime": 1789140537.2753532,
+    "seen": 1789290247.756456,
+    "ast_hash": "8a0aed179c3d6621c5063ea8d7f0d1e9",
+    "semantic_hash": "8a0aed179c3d6621c5063ea8d7f0d1e9"
+  },
+  "06_representations/01_classical_representation_families/28_GROMOV_WASSERSTEIN.md": {
+    "mtime": 1789140537.2756052,
+    "seen": 1789290247.756456,
+    "ast_hash": "6b12387b396cf097876c646618e9631b",
+    "semantic_hash": "6b12387b396cf097876c646618e9631b"
+  },
+  "06_representations/01_classical_representation_families/36_TENSORS.md": {
+    "mtime": 1789140537.2762299,
+    "seen": 1789290247.7564569,
+    "ast_hash": "7c752c13010c3c41cd7dbdbf521134b9",
+    "semantic_hash": "7c752c13010c3c41cd7dbdbf521134b9"
+  },
+  "06_representations/01_classical_representation_families/43_REGULATORY_ACTIVITY.md": {
+    "mtime": 1789140537.2768688,
+    "seen": 1789290247.7564569,
+    "ast_hash": "c4d9462296493f061ae2166ce053f3ed",
+    "semantic_hash": "c4d9462296493f061ae2166ce053f3ed"
+  },
+  "06_representations/01_classical_representation_families/44_DEVELOPMENTAL_TIME.md": {
+    "mtime": 1789140537.2769537,
+    "seen": 1789290247.756458,
+    "ast_hash": "688020085b2f21a442a7fe5e15efd694",
+    "semantic_hash": "688020085b2f21a442a7fe5e15efd694"
+  },
+  "06_representations/01_classical_representation_families/46_INFORMATION_LOSS.md": {
+    "mtime": 1789140537.277125,
+    "seen": 1789290247.756458,
+    "ast_hash": "de94fa118edae5a23926110c41b38674",
+    "semantic_hash": "de94fa118edae5a23926110c41b38674"
+  },
+  "06_representations/01_classical_representation_families/README.md": {
+    "mtime": 1789141455.4247532,
+    "seen": 1789290247.756459,
+    "ast_hash": "3dab3120360504c82d51f5cf29641e4a",
+    "semantic_hash": "3dab3120360504c82d51f5cf29641e4a"
+  },
+  "07_models/reproduction_manifests/totalVI.yaml": {
+    "mtime": 1789156100.4263897,
+    "seen": 1789290247.756459,
+    "ast_hash": "15c119e486f0ff897e4eda846b88eeb4",
+    "semantic_hash": "15c119e486f0ff897e4eda846b88eeb4"
+  },
+  "08_experiments/PHASE_3C_BASELINE_REPORT.md": {
+    "mtime": 1789155201.518095,
+    "seen": 1789290247.75646,
+    "ast_hash": "7091a9cc2226faa468187d1c98588432",
+    "semantic_hash": "7091a9cc2226faa468187d1c98588432"
+  },
+  "08_experiments/PHASE_3C_CONFIG_FREEZE.md": {
+    "mtime": 1789154590.6850338,
+    "seen": 1789290247.75646,
+    "ast_hash": "d45ce73e4b7533c54cd07986ea3a9871",
+    "semantic_hash": "d45ce73e4b7533c54cd07986ea3a9871"
+  },
+  "08_experiments/PHASE_3D_CONFIG_FREEZE.md": {
+    "mtime": 1789157695.8457181,
+    "seen": 1789290247.7564611,
+    "ast_hash": "bcf0ac1d04382efc84910cb0b03d2a9d",
+    "semantic_hash": "bcf0ac1d04382efc84910cb0b03d2a9d"
+  },
+  "ASTRA_OPERATING_RULES.md": {
+    "mtime": 1789156235.3002963,
+    "seen": 1789290247.7564611,
+    "ast_hash": "0e02b17ddd9a1b9e614f317ef11e8ae4",
+    "semantic_hash": "0e02b17ddd9a1b9e614f317ef11e8ae4"
+  },
+  "BIOLOGY_CURRICULUM.md": {
+    "mtime": 1789134518.014871,
+    "seen": 1789290247.756462,
+    "ast_hash": "8d176f13b57252a154acf946d0a18aa0",
+    "semantic_hash": "8d176f13b57252a154acf946d0a18aa0"
+  },
+  "BOOTSTRAP_REPORT.md": {
+    "mtime": 1789119781.7200503,
+    "seen": 1789290247.756462,
+    "ast_hash": "9499a85538044644e9de56c1bfc23065",
+    "semantic_hash": "9499a85538044644e9de56c1bfc23065"
+  },
+  "DATASET_SCHEMA.md": {
+    "mtime": 1789119451.7480228,
+    "seen": 1789290247.756463,
+    "ast_hash": "b6c4cfe8d21755bbc4f1dd74f4a42b00",
+    "semantic_hash": "b6c4cfe8d21755bbc4f1dd74f4a42b00"
+  },
+  "EXPERIMENT_PROTOCOL.md": {
+    "mtime": 1789119451.8066068,
+    "seen": 1789290247.756463,
+    "ast_hash": "e0fde808410ae151501325985bd6672f",
+    "semantic_hash": "e0fde808410ae151501325985bd6672f"
+  },
+  "METHOD_TAXONOMY.md": {
+    "mtime": 1789119451.687364,
+    "seen": 1789290247.7564642,
+    "ast_hash": "59d22b8a498228d275ee34392682a875",
+    "semantic_hash": "59d22b8a498228d275ee34392682a875"
+  },
+  "PAPER_SCHEMA.md": {
+    "mtime": 1789119341.4359872,
+    "seen": 1789290247.7564642,
+    "ast_hash": "2dd02f100b27ec9a175fd955962f326b",
+    "semantic_hash": "2dd02f100b27ec9a175fd955962f326b"
+  },
+  "PROJECT_BRIEF.md": {
+    "mtime": 1789119499.147021,
+    "seen": 1789290247.756465,
+    "ast_hash": "92027d0cbe6f3d78950cbcfec341ae80",
+    "semantic_hash": "92027d0cbe6f3d78950cbcfec341ae80"
+  },
+  "README.md": {
+    "mtime": 1789119729.1642635,
+    "seen": 1789290247.756465,
+    "ast_hash": "3c57f3c2d1940676e863fb363bc332c8",
+    "semantic_hash": "3c57f3c2d1940676e863fb363bc332c8"
+  },
+  "REPRESENTATION_TAXONOMY.md": {
+    "mtime": 1789141449.2153423,
+    "seen": 1789290247.756466,
+    "ast_hash": "237061e9f63c151582974fce7bb6678b",
+    "semantic_hash": "237061e9f63c151582974fce7bb6678b"
+  },
+  "RESEARCH_LOG.md": {
+    "mtime": 1789203465.524515,
+    "seen": 1789290247.756466,
+    "ast_hash": "d609599f8be73a5b7da8b31a9eacc642",
+    "semantic_hash": "d609599f8be73a5b7da8b31a9eacc642"
+  },
+  "RESEARCH_MASTER.md": {
+    "mtime": 1789119341.1660705,
+    "seen": 1789290247.756466,
+    "ast_hash": "f418b7348d69f51bca2f51802f742f3d",
+    "semantic_hash": "f418b7348d69f51bca2f51802f742f3d"
+  },
+  "RESEARCH_QUESTIONS.md": {
+    "mtime": 1789119341.2310505,
+    "seen": 1789290247.7564669,
+    "ast_hash": "b162ad3bcc3d4f145f7670af31fde8f9",
+    "semantic_hash": "b162ad3bcc3d4f145f7670af31fde8f9"
+  },
+  "TERMINOLOGY.md": {
+    "mtime": 1789156133.5467074,
+    "seen": 1789290247.7564669,
+    "ast_hash": "cb0eebff72f3183e5db4f701249c1dce",
+    "semantic_hash": "cb0eebff72f3183e5db4f701249c1dce"
+  },
+  "WORKSPACE_INVENTORY.md": {
+    "mtime": 1789119729.2246852,
+    "seen": 1789290247.756468,
+    "ast_hash": "484c12ff483511e47b243a8844cc5fc1",
+    "semantic_hash": "484c12ff483511e47b243a8844cc5fc1"
+  },
+  "code/data_inspection/README.md": {
+    "mtime": 1789137270.1952434,
+    "seen": 1789290247.756469,
+    "ast_hash": "f9d6bb77fe73690d0d593d284e250e6e",
+    "semantic_hash": "f9d6bb77fe73690d0d593d284e250e6e"
+  },
+  "SOURCE_POLICY.md": {
+    "mtime": 1789119341.3008583,
+    "seen": 1789290247.756469,
+    "ast_hash": "c1577b2004b3bcb9f4ade07513cf70f2",
+    "semantic_hash": "c1577b2004b3bcb9f4ade07513cf70f2"
+  },
+  "02_omics/01_measurement_and_data_generation/BIOLOGY_TO_DATA.md": {
+    "mtime": 1789125707.8108253,
+    "seen": 1789290288.516026,
+    "ast_hash": "3947c574349ebcd18094f9f72307c0b6",
+    "semantic_hash": "3947c574349ebcd18094f9f72307c0b6"
+  },
+  "02_omics/01_measurement_and_data_generation/CONCEPT_MAP.md": {
+    "mtime": 1789125707.7021797,
+    "seen": 1789290288.516027,
+    "ast_hash": "0ac02df18eb6fa3155ad0a75fe4062d6",
+    "semantic_hash": "0ac02df18eb6fa3155ad0a75fe4062d6"
+  },
+  "02_omics/01_measurement_and_data_generation/SOURCES.md": {
+    "mtime": 1789126155.351821,
+    "seen": 1789290288.516028,
+    "ast_hash": "3b5faa5488c41208f3acbe2ddab39080",
+    "semantic_hash": "3b5faa5488c41208f3acbe2ddab39080"
+  },
+  "02_omics/02_preprocessing_qc_statistics/01_PREPROCESSING_PRINCIPLES.md": {
+    "mtime": 1789134370.607955,
+    "seen": 1789290288.516028,
+    "ast_hash": "0e7a43abd5e7b916eb9ebe3d11df5067",
+    "semantic_hash": "0e7a43abd5e7b916eb9ebe3d11df5067"
+  },
+  "02_omics/02_preprocessing_qc_statistics/04_RNA_NORMALIZATION.md": {
+    "mtime": 1789134370.798154,
+    "seen": 1789290288.516029,
+    "ast_hash": "8dc44616f5e99c55df2809e0dbdd328d",
+    "semantic_hash": "8dc44616f5e99c55df2809e0dbdd328d"
+  },
+  "02_omics/02_preprocessing_qc_statistics/09_ADT_PREPROCESSING.md": {
+    "mtime": 1789134371.099501,
+    "seen": 1789290288.516029,
+    "ast_hash": "18bfd26c8b98c92a7b1f7ef17ef9ded9",
+    "semantic_hash": "18bfd26c8b98c92a7b1f7ef17ef9ded9"
+  },
+  "02_omics/02_preprocessing_qc_statistics/14_LSI_FOUNDATIONS.md": {
+    "mtime": 1789134371.4324505,
+    "seen": 1789290288.5160298,
+    "ast_hash": "eeb15fa910eab70174abb2d3c9a94405",
+    "semantic_hash": "eeb15fa910eab70174abb2d3c9a94405"
+  },
+  "02_omics/02_preprocessing_qc_statistics/SOURCES.md": {
+    "mtime": 1789134372.6155763,
+    "seen": 1789290288.5160298,
+    "ast_hash": "95f9181fc10b419c1eee7c67f43dc008",
+    "semantic_hash": "95f9181fc10b419c1eee7c67f43dc008"
+  },
+  "03_papers/01_systematic_method_mapping/02_MASTER_METHOD_INVENTORY.md": {
+    "mtime": 1789150966.9041853,
+    "seen": 1789290288.516031,
+    "ast_hash": "da494213e352a06b45e5ae3e8a0f25e0",
+    "semantic_hash": "da494213e352a06b45e5ae3e8a0f25e0"
+  },
+  "03_papers/01_systematic_method_mapping/11_BASELINE_HIERARCHY.md": {
+    "mtime": 1789151227.7339544,
+    "seen": 1789290288.516032,
+    "ast_hash": "c9f8cd9df61dfaf78c3c92b2b66ace30",
+    "semantic_hash": "c9f8cd9df61dfaf78c3c92b2b66ace30"
+  },
+  "05_methods/01_mathematical_foundations/01_DATA_AS_MATHEMATICAL_OBJECTS.md": {
+    "mtime": 1789135907.3425677,
+    "seen": 1789290288.516032,
+    "ast_hash": "e8397d394d44924b0cd7690fc676c03e",
+    "semantic_hash": "e8397d394d44924b0cd7690fc676c03e"
+  },
+  "05_methods/01_mathematical_foundations/04_DISTANCE.md": {
+    "mtime": 1789135907.5245795,
+    "seen": 1789290288.516033,
+    "ast_hash": "bda36fa2f2b3d125863eab3191bc8615",
+    "semantic_hash": "bda36fa2f2b3d125863eab3191bc8615"
+  },
+  "05_methods/01_mathematical_foundations/05_SIMILARITY.md": {
+    "mtime": 1789135907.580178,
+    "seen": 1789290288.5160341,
+    "ast_hash": "0ec30968e8607caa07d5c05fb3baf7cc",
+    "semantic_hash": "0ec30968e8607caa07d5c05fb3baf7cc"
+  },
+  "05_methods/01_mathematical_foundations/09_DISTRIBUTIONS.md": {
+    "mtime": 1789135907.8057945,
+    "seen": 1789290288.516035,
+    "ast_hash": "c36e6cf3cf82e7ef18232044999e38da",
+    "semantic_hash": "c36e6cf3cf82e7ef18232044999e38da"
+  },
+  "05_methods/01_mathematical_foundations/10_LIKELIHOOD.md": {
+    "mtime": 1789135907.8606544,
+    "seen": 1789290288.516035,
+    "ast_hash": "336714640491f4114de47158670f981e",
+    "semantic_hash": "336714640491f4114de47158670f981e"
+  },
+  "05_methods/01_mathematical_foundations/12_LINEAR_TRANSFORMATIONS.md": {
+    "mtime": 1789135907.9726782,
+    "seen": 1789290288.516036,
+    "ast_hash": "6e8c6b479754bc710ca8762e8f457752",
+    "semantic_hash": "6e8c6b479754bc710ca8762e8f457752"
+  },
+  "05_methods/01_mathematical_foundations/13_RANK_AND_BASIS.md": {
+    "mtime": 1789136082.31096,
+    "seen": 1789290288.516036,
+    "ast_hash": "dcb81230973df7a0dd4800c26418b723",
+    "semantic_hash": "dcb81230973df7a0dd4800c26418b723"
+  },
+  "05_methods/01_mathematical_foundations/14_EIGENVALUES_EIGENVECTORS.md": {
+    "mtime": 1789136082.3675632,
+    "seen": 1789290288.5160372,
+    "ast_hash": "d1a8a92cd420631ec01600b6bf5157a9",
+    "semantic_hash": "d1a8a92cd420631ec01600b6bf5157a9"
+  },
+  "05_methods/01_mathematical_foundations/17_OPTIMIZATION.md": {
+    "mtime": 1789136082.5319424,
+    "seen": 1789290288.5160372,
+    "ast_hash": "8ceb1c51255dc1e1ba1dada7cd812d1b",
+    "semantic_hash": "8ceb1c51255dc1e1ba1dada7cd812d1b"
+  },
+  "05_methods/01_mathematical_foundations/19_GRADIENT_DESCENT.md": {
+    "mtime": 1789136082.6423283,
+    "seen": 1789290288.516038,
+    "ast_hash": "c1fe942f7e52aeed87c12febe662bff1",
+    "semantic_hash": "c1fe942f7e52aeed87c12febe662bff1"
+  },
+  "05_methods/01_mathematical_foundations/20_REGULARIZATION.md": {
+    "mtime": 1789136082.6986914,
+    "seen": 1789290288.516038,
+    "ast_hash": "5bbe61e30ce3b138f64d921fd82a334e",
+    "semantic_hash": "5bbe61e30ce3b138f64d921fd82a334e"
+  },
+  "05_methods/01_mathematical_foundations/25_KERNELS.md": {
+    "mtime": 1789138046.6458485,
+    "seen": 1789290288.516039,
+    "ast_hash": "8f3129f5b8d0ed7dfe9b594d62fe565a",
+    "semantic_hash": "8f3129f5b8d0ed7dfe9b594d62fe565a"
+  },
+  "05_methods/01_mathematical_foundations/26_INFORMATION_THEORY.md": {
+    "mtime": 1789136289.4465508,
+    "seen": 1789290288.516039,
+    "ast_hash": "d90db78cc38e5a0006c8f2f947ca36f3",
+    "semantic_hash": "d90db78cc38e5a0006c8f2f947ca36f3"
+  },
+  "05_methods/01_mathematical_foundations/33_ARI.md": {
+    "mtime": 1789136289.8725986,
+    "seen": 1789290288.5160398,
+    "ast_hash": "d914ff4c6a1a2cc95c3391b69366dcb9",
+    "semantic_hash": "d914ff4c6a1a2cc95c3391b69366dcb9"
+  },
+  "05_methods/01_mathematical_foundations/35_SILHOUETTE.md": {
+    "mtime": 1789136290.00165,
+    "seen": 1789290288.5160398,
+    "ast_hash": "772b2224639a623d0c215c4390269a88",
+    "semantic_hash": "772b2224639a623d0c215c4390269a88"
+  },
+  "05_methods/01_mathematical_foundations/36_BIOLOGICAL_VS_COMPUTATIONAL_EVALUATION.md": {
+    "mtime": 1789136290.063309,
+    "seen": 1789290288.516041,
+    "ast_hash": "edcea5fef4ff95ee34b2ac563b96615e",
+    "semantic_hash": "edcea5fef4ff95ee34b2ac563b96615e"
+  },
+  "06_representations/01_classical_representation_families/05_SPARSE_PCA.md": {
+    "mtime": 1789140537.2736614,
+    "seen": 1789290288.516041,
+    "ast_hash": "a645583019172451533cd952213d2184",
+    "semantic_hash": "a645583019172451533cd952213d2184"
+  },
+  "06_representations/01_classical_representation_families/06_ICA.md": {
+    "mtime": 1789140537.273734,
+    "seen": 1789290288.516041,
+    "ast_hash": "dcdfe670d7b77810c798df1d98c77c0d",
+    "semantic_hash": "dcdfe670d7b77810c798df1d98c77c0d"
+  },
+  "06_representations/01_classical_representation_families/07_NMF.md": {
+    "mtime": 1789140537.273805,
+    "seen": 1789290288.516042,
+    "ast_hash": "5282756e2469b14eb2fe6d0a92dcdf68",
+    "semantic_hash": "5282756e2469b14eb2fe6d0a92dcdf68"
+  },
+  "06_representations/01_classical_representation_families/11_CCA.md": {
+    "mtime": 1789140537.2741792,
+    "seen": 1789290288.516042,
+    "ast_hash": "ebb7ed660069ecdbda501d202e74e5a3",
+    "semantic_hash": "ebb7ed660069ecdbda501d202e74e5a3"
+  },
+  "06_representations/01_classical_representation_families/19_KERNEL_PCA.md": {
+    "mtime": 1789140537.2748249,
+    "seen": 1789290288.516043,
+    "ast_hash": "ddc99df7a299e4cac2c6c484aad77e2f",
+    "semantic_hash": "ddc99df7a299e4cac2c6c484aad77e2f"
+  },
+  "06_representations/01_classical_representation_families/27_ENTROPIC_OT.md": {
+    "mtime": 1789140537.2754972,
+    "seen": 1789290288.516043,
+    "ast_hash": "11733ebca1be74a6a77c56594b768838",
+    "semantic_hash": "11733ebca1be74a6a77c56594b768838"
+  },
+  "06_representations/01_classical_representation_families/42_PATHWAY_REPRESENTATIONS.md": {
+    "mtime": 1789140537.276767,
+    "seen": 1789290288.5160441,
+    "ast_hash": "15476246e66aa4b55cd4820c8e0b60a0",
+    "semantic_hash": "15476246e66aa4b55cd4820c8e0b60a0"
+  },
+  "06_representations/01_classical_representation_families/CONCEPT_MAP.md": {
+    "mtime": 1789141127.216388,
+    "seen": 1789290288.5160441,
+    "ast_hash": "fc5a13c456de7209d549c82f9075e5e4",
+    "semantic_hash": "fc5a13c456de7209d549c82f9075e5e4"
+  },
+  "06_representations/01_classical_representation_families/REPRESENTATION_COMPARISON_FRAMEWORK.md": {
+    "mtime": 1789141127.2982728,
+    "seen": 1789290288.516045,
+    "ast_hash": "f97e6290e9ade03642034d23fec48625",
+    "semantic_hash": "f97e6290e9ade03642034d23fec48625"
+  },
+  "06_representations/01_classical_representation_families/TOY_REPRESENTATIONS.md": {
+    "mtime": 1789140792.4559333,
+    "seen": 1789290288.516045,
+    "ast_hash": "bd0960d57849435a3b76c7798692794b",
+    "semantic_hash": "bd0960d57849435a3b76c7798692794b"
+  },
+  "06_representations/02_deep_learned_representations/01_NEURAL_REPRESENTATION_FOUNDATIONS.md": {
+    "mtime": 1789142362.4213068,
+    "seen": 1789290288.516046,
+    "ast_hash": "6a31bcf8a3f5a978725e63c8af016a5d",
+    "semantic_hash": "6a31bcf8a3f5a978725e63c8af016a5d"
+  },
+  "06_representations/02_deep_learned_representations/02_AUTOENCODERS.md": {
+    "mtime": 1789142362.5316243,
+    "seen": 1789290288.516046,
+    "ast_hash": "c337666ed5ddaa3aaa71f6393d0fe0b2",
+    "semantic_hash": "c337666ed5ddaa3aaa71f6393d0fe0b2"
+  },
+  "06_representations/02_deep_learned_representations/03_DENOISING_AUTOENCODERS.md": {
+    "mtime": 1789142362.6445072,
+    "seen": 1789290288.516047,
+    "ast_hash": "b0cefbf1b9550e56fb7e3f9b4c7e1439",
+    "semantic_hash": "b0cefbf1b9550e56fb7e3f9b4c7e1439"
+  },
+  "06_representations/02_deep_learned_representations/05_VARIATIONAL_AUTOENCODERS.md": {
+    "mtime": 1789142362.8414795,
+    "seen": 1789290288.516047,
+    "ast_hash": "9f393e3b6428bcb76cb8fc09d718ca47",
+    "semantic_hash": "9f393e3b6428bcb76cb8fc09d718ca47"
+  },
+  "06_representations/02_deep_learned_representations/07_SCVI.md": {
+    "mtime": 1789142592.3264606,
+    "seen": 1789290288.516047,
+    "ast_hash": "22eeee154fb99d3547012961b6aec39e",
+    "semantic_hash": "22eeee154fb99d3547012961b6aec39e"
+  },
+  "06_representations/02_deep_learned_representations/08_TOTALVI.md": {
+    "mtime": 1789142592.4405575,
+    "seen": 1789290288.516048,
+    "ast_hash": "fa393268a92112deb81c93afad968f42",
+    "semantic_hash": "fa393268a92112deb81c93afad968f42"
+  },
+  "06_representations/02_deep_learned_representations/09_MULTIVI.md": {
+    "mtime": 1789142592.5453734,
+    "seen": 1789290288.516048,
+    "ast_hash": "fd325d08a9d400268825c56c7a0c0202",
+    "semantic_hash": "fd325d08a9d400268825c56c7a0c0202"
+  },
+  "06_representations/02_deep_learned_representations/10_COBOLT.md": {
+    "mtime": 1789142592.644537,
+    "seen": 1789290288.516049,
+    "ast_hash": "1245a711d19a4e90a4195cf6b3a8532e",
+    "semantic_hash": "1245a711d19a4e90a4195cf6b3a8532e"
+  },
+  "06_representations/02_deep_learned_representations/11_MIDAS.md": {
+    "mtime": 1789142592.7500212,
+    "seen": 1789290288.516049,
+    "ast_hash": "3494d85fd181bb89064544b8a6585bb5",
+    "semantic_hash": "3494d85fd181bb89064544b8a6585bb5"
+  },
+  "06_representations/02_deep_learned_representations/13_CROSS_MODAL_TRANSLATION.md": {
+    "mtime": 1789142592.94349,
+    "seen": 1789290288.5160499,
+    "ast_hash": "3594e4ac9c898ffb601934daaa06a518",
+    "semantic_hash": "3594e4ac9c898ffb601934daaa06a518"
+  },
+  "06_representations/02_deep_learned_representations/14_CONTRASTIVE_LEARNING.md": {
+    "mtime": 1789142784.7205594,
+    "seen": 1789290288.5160499,
+    "ast_hash": "0a440bd8311447e592e81ddc478e13d4",
+    "semantic_hash": "0a440bd8311447e592e81ddc478e13d4"
+  },
+  "06_representations/02_deep_learned_representations/15_INFONCE.md": {
+    "mtime": 1789142784.8498726,
+    "seen": 1789290288.516051,
+    "ast_hash": "257c38716f30773574bfa9055c00bb45",
+    "semantic_hash": "257c38716f30773574bfa9055c00bb45"
+  },
+  "06_representations/02_deep_learned_representations/19_DEEP_CLUSTERING.md": {
+    "mtime": 1789142785.31104,
+    "seen": 1789290288.516051,
+    "ast_hash": "d3aa3986ce76c94407206f7b81551f21",
+    "semantic_hash": "d3aa3986ce76c94407206f7b81551f21"
+  },
+  "06_representations/02_deep_learned_representations/20_ATTENTION.md": {
+    "mtime": 1789142785.4057734,
+    "seen": 1789290288.516051,
+    "ast_hash": "5efca19a37a3108fec1e58194e72c2f9",
+    "semantic_hash": "5efca19a37a3108fec1e58194e72c2f9"
+  },
+  "06_representations/02_deep_learned_representations/21_TRANSFORMERS.md": {
+    "mtime": 1789142785.5131571,
+    "seen": 1789290288.516052,
+    "ast_hash": "072b1462f6cf58a96cb6242e95385ab6",
+    "semantic_hash": "072b1462f6cf58a96cb6242e95385ab6"
+  },
+  "06_representations/02_deep_learned_representations/23_SINGLE_CELL_TRANSFORMERS.md": {
+    "mtime": 1789142785.7095723,
+    "seen": 1789290288.516052,
+    "ast_hash": "81748c9c752c74c003ff0efb08053042",
+    "semantic_hash": "81748c9c752c74c003ff0efb08053042"
+  },
+  "06_representations/02_deep_learned_representations/25_GNN_FOUNDATIONS.md": {
+    "mtime": 1789143450.3372943,
+    "seen": 1789290288.516053,
+    "ast_hash": "a8c1b247cbad7c5f74b8a688db8e565f",
+    "semantic_hash": "a8c1b247cbad7c5f74b8a688db8e565f"
+  },
+  "06_representations/02_deep_learned_representations/38_SCGLUE.md": {
+    "mtime": 1789143450.3393831,
+    "seen": 1789290288.516053,
+    "ast_hash": "bed6858359545dcc5cdc0fa71a595b6a",
+    "semantic_hash": "bed6858359545dcc5cdc0fa71a595b6a"
+  },
+  "06_representations/02_deep_learned_representations/39_SPATIALGLUE.md": {
+    "mtime": 1789143450.3395123,
+    "seen": 1789290288.516054,
+    "ast_hash": "affee99fd167cb4e1c92cf443997c158",
+    "semantic_hash": "affee99fd167cb4e1c92cf443997c158"
+  },
+  "06_representations/02_deep_learned_representations/REPRESENTATIVE_METHODS.md": {
+    "mtime": 1789143450.3433576,
+    "seen": 1789290288.516054,
+    "ast_hash": "ceb02aa6257616a2b0bd911de7e46bef",
+    "semantic_hash": "ceb02aa6257616a2b0bd911de7e46bef"
+  },
+  "06_representations/01_classical_representation_families/35_HIGHER_ORDER_REPRESENTATIONS.md": {
+    "mtime": 1789140537.2761617,
+    "seen": 1789290288.516076,
+    "ast_hash": "039c3597c092901e8d620ca5c7706823",
+    "semantic_hash": "039c3597c092901e8d620ca5c7706823"
   }
 }
